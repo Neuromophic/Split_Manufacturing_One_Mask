@@ -99,20 +99,9 @@ class PNNHiddenLayer(PNNLayer):
         self.theta_common_ = super_theta
         
         # individual surrogate theta
-        self.theta_individual_ = torch.nn.Parameter(torch.rand([n_in+2, n_out]), requires_grad=True)
+        self.theta_individual_ = torch.nn.Parameter(torch.rand([n_in+2, n_out])/10., requires_grad=True)
         
         self.theta_ = self.theta_common_ + self.theta_individual_
-        
-    @property
-    def theta(self):
-        '''
-        straight throgh for suitable theta range
-        '''
-        theta_temp = self.theta_.clone()
-        theta_temp[theta_temp.abs()<0.01] = 0.
-        theta_temp[theta_temp>1] = 1.
-        theta_temp[theta_temp<-1] = -1.
-        return theta_temp.detach() + self.theta_ - self.theta_.detach()
     
 
 class PNNNet(torch.nn.Module):
@@ -154,7 +143,7 @@ class PNNSupernet(torch.nn.Module):
         # creat commen hidden theta 
         self.hidden_theta_commen_ = []
         for l in range(len(topology_hiddens)-1):
-            theta_temp = torch.rand(topology_hiddens[l]+2, topology_hiddens[l+1])
+            theta_temp = torch.rand([topology_hiddens[l]+2, topology_hiddens[l+1]])
             theta_temp[-1,:] = theta_temp[-1,:] + 20.
             theta_temp[-2,:] = 0.1788/(1-0.1788)*(torch.sum(torch.abs(theta_temp[:-3,:]), dim=0)
                                                                    +torch.abs(theta_temp[-1,:]))
