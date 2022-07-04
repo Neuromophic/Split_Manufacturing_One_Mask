@@ -10,25 +10,32 @@ datasets.sort()
 current_dataset = 5
 
 # learning-rate
-lr = 0.01
+lr = 0.005
 
 # random seed for data-split
 data_split_seed = 0
 
 # architecture for pNN
-N_Hidden = 3
+hidden_topology = [5,5]
+
+# hyperparameter
+alpha = 0.01
 
 # measuring-aware hyperparameter
 m = 0.3
 T = 0.1
 
-# training-related hyperparameter
-M_train = 50
-K_train = 10
-M_valid = 20
-K_valid = 10
-M_test = 500
-K_test = 50
+# printing technology
+gmin = 0.01
+gmax = 10.
 
-# extension to topology
-Topology = 12
+# circuit
+ACT_eta1 = 0.134
+ACT_eta2 = 0.962
+ACT_eta3 = 0.183
+ACT_eta4 = 24.10
+
+NEG_eta1 = 0.104
+NEG_eta2 = 0.899
+NEG_eta3 = 0.056
+NEG_eta4 = 3.858
