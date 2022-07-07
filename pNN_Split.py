@@ -149,11 +149,10 @@ class pHiddenLayer(pLayer):
         # keep theta_individual positive
         theta_individual_pos = self.theta_individual_.abs()
         
-        # clamp theta_individual_sp inside [0,1]
-#         theta_individual_pos.data.clamp_(0.,1.)
+        theta_individual_pos.data.clamp_(0, config.gmax)
         # modify values inside [0, gmin]
         theta_temp = theta_individual_pos.clone()
-#         theta_temp[theta_temp < 0.01] = 0.
+        theta_temp[theta_temp < config.gmin] = 0.
         
         return theta_temp.detach() + theta_individual_pos - theta_individual_pos.detach()
     
@@ -289,11 +288,11 @@ def LossFunction(prediction, label, m=0.3, T=0.1):
     fny = fny.scatter_(1, label, -10 ** 10)
     fnym = torch.max(fny, axis=1).values.reshape(-1, 1)
     l = torch.max(m + T - fy, torch.tensor(0)) + torch.max(m + fnym, torch.tensor(0))
-    L = torch.sum(l)
+    L = torch.mean(l)
     return L
 
 
-def LOSSFUNCTION(predictions, labels):
+def LOSSFUNCTION(predictions, labels, factors):
     '''
     Hardware-aware loss function for list
     :param predictions: a list of outputs from different pNNs
@@ -301,6 +300,6 @@ def LOSSFUNCTION(predictions, labels):
     :return: sum loss on all tasks
     '''
     L = 0
-    for prediction, label in zip(predictions, labels):
-        L = L + LossFunction(prediction, label)
+    for prediction, label, factor in zip(predictions, labels, factors):
+        L = L + LossFunction(prediction, label) / (factor+torch.tensor(0.01))
     return L

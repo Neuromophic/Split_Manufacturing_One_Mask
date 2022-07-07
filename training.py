@@ -28,10 +28,12 @@ def train_nn(nn, train_loader, valid_loader, optimizer, lossfunction, device):
     # to count the epoch without any improvement, for early stop
     patience = 0
     
+    # timer
+    start_time = time.process_time()
+    
     # training
     for epoch in range(10**10):
-        # timer
-        start_time = time.process_time()
+        
         
         # some temp variables to calculate the loss and acc from mini-batch to batch
         num_of_mini_batch  = []
@@ -106,22 +108,27 @@ def train_nn(nn, train_loader, valid_loader, optimizer, lossfunction, device):
         # if not, that means in this epoch, the model is not improved.
         else:
             patience += 1
-            if patience > 500:
+            if patience > config.patience:
                 print('Early stop.')
                 break
         
-        # timer
-        end_time = time.process_time()
+        
         
         # print information about current epoch
         if epoch % 100 == 0:
-            print(f'| epoch: {epoch:-4d} | train acc: {train_acc*100:-.2f} | loss: {train_loss:-.2e} | valid acc: {valid_acc*100:-.2f} | loss: {valid_loss:-.2e} | time: {end_time-start_time:-.2e} |')
+            # timer
+            end_time = time.process_time()
+            
+            print(f'| epoch: {epoch:-4d} | train acc: {train_acc*100:-.2f} | loss: {train_loss:-.3e} | valid acc: {valid_acc*100:-.2f} | loss: {valid_loss:-.3e} | time: {end_time-start_time:-.2e} |')
+            
+            # timer
+            start_time = time.process_time()
             
     print('Finished.')
     
     return torch.load(f'./temp/NN_temp_{training_ID}'), train_losses, valid_losses, train_accs, valid_accs
 
-def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunction):
+def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunction, train_factor, valid_factor, acc_factor, alpha):
     # dir for save temporary files
     if not os.path.exists('./temp'):
         os.mkdir('./temp')
@@ -142,18 +149,19 @@ def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunc
     # to count the epoch without any improvement, for early stop
     patience = 0
     
+    # timer
+    start_time = time.process_time()
+        
     # training
     for epoch in range(10**10):
-        # timer
-        start_time = time.process_time()
 
         # forward propagation
         prediction_trains = spnn(X_trains)
 
         # calculate loss
-        train_loss = lossfunction(prediction_trains, y_trains)
+        train_loss = lossfunction(prediction_trains, y_trains,train_factor) + alpha*spnn.GetNorm()
         # calculate accuracy of prediction
-        train_acc = E.ACC(prediction_trains, y_trains)
+        train_acc = E.ACC(prediction_trains, y_trains, acc_factor)
 
         # update parameters in model
         optimizer.zero_grad()
@@ -167,8 +175,8 @@ def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunc
         # similar as training, calculate loss and accuracy on valid data
         with torch.no_grad():
             prediction_valids = spnn(X_valids) 
-            valid_loss = lossfunction(prediction_valids, y_valids).data
-            valid_acc = E.ACC(prediction_valids, y_valids)
+            valid_loss = lossfunction(prediction_valids, y_valids,valid_factor).data + alpha*spnn.GetNorm()
+            valid_acc = E.ACC(prediction_valids, y_valids, acc_factor)
 
         valid_losses.append(valid_loss)
         valid_accs.append(valid_acc)
@@ -183,7 +191,7 @@ def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunc
         # if not, that means in this epoch, the model is not improved.
         else:
             patience += 1
-            if patience > 500:
+            if patience > config.patience:
                 print('Early stop.')
                 break
         
@@ -192,7 +200,13 @@ def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunc
         
         # print information about current epoch
         if epoch % 100 == 0:
-            print(f'| epoch: {epoch:-4d} | train acc: {train_acc*100:-.1f} | loss: {train_loss:-.2e} | valid acc: {valid_acc*100:-.1f} | loss: {valid_loss:-.2e} | time: {end_time-start_time:-.2e} |')
+            # timer
+            end_time = time.process_time()
+        
+            print(f'| epoch: {epoch:-4d} | TA: {train_acc*100:-.2f} | TL: {train_loss:-.3e} | VA: {valid_acc*100:-.2f} | VL: {valid_loss:-.3e} | Norm: {spnn.GetNorm():-.2e} | time: {end_time-start_time:-.2e} |')
+            
+            # timer
+            start_time = time.process_time()
             
     print('Finished.')
     

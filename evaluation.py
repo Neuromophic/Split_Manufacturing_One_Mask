@@ -6,11 +6,16 @@ def Acc(prediction, y):
     corrects = (y.view(-1) == idx)
     return corrects.float().sum().item() / y.numel()
 
-def ACC(predictions, Ys):
+def ACC(predictions, Ys, factors=0):
     accs = []
-    for p, y in zip(predictions, Ys):
-        acc = Acc(p, y)
-        accs.append(acc)
+    if factors==0:
+        for p, y in zip(predictions, Ys):
+            acc = Acc(p, y)
+            accs.append(acc)
+    else:
+        for p, y, factor in zip(predictions, Ys, factors):
+            acc = Acc(p, y)/factor
+            accs.append(acc)
     return np.mean(accs)
 
 def BASIC(nn, x, y, *args, **kwargs):
