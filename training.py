@@ -111,9 +111,7 @@ def train_nn(nn, train_loader, valid_loader, optimizer, lossfunction, device='cp
             if patience > config.patience:
                 print('Early stop.')
                 break
-        
-        
-        
+
         # print information about current epoch
         if epoch % 100 == 0:
             # timer

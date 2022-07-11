@@ -10,7 +10,7 @@ device = 'cpu'
 
 # training
 lr  = 0.1
-slr = 0.1
+slr = 0.01
 patience = 1000
 
 # cross dataset normaolization

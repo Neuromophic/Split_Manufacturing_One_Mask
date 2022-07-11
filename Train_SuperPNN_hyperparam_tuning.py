@@ -89,7 +89,7 @@ for normalization in [True, False]:
         # run over seeds
         for seed in range(10):
 
-            if os.path.isfile(f'./result/super pNN/model/spnn_{normalization}_{slr}_{seed}'):
+            if os.path.isfile(f'./result/super pNN hyparam tuning/model/spnn_{normalization}_{slr}_{seed}'):
 
                 print(f'Super pNN {normalization} {slr} {seed} exists, skip this training.')
 
@@ -113,4 +113,4 @@ for normalization in [True, False]:
                                                            train_factor, valid_factor, acc_factor,
                                                            config.alpha)
 
-                torch.save(SuperPNN, f'./result/super pNN/model/spnn_{normalization}_{slr}_{seed}')
+                torch.save(SuperPNN, f'./result/super pNN hyparam tuning/model/spnn_{normalization}_{slr}_{seed}')
