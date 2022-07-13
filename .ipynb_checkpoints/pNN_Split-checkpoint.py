@@ -305,5 +305,5 @@ def LOSSFUNCTION(predictions, labels, factors):
     '''
     L = 0
     for prediction, label, factor in zip(predictions, labels, factors):
-        L = L + LossFunction(prediction, label) / (factor+torch.tensor(0.01))
+        L = L + LossFunction(prediction, label) * factor
     return L

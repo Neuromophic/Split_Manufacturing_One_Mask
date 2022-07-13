@@ -111,9 +111,7 @@ def train_nn(nn, train_loader, valid_loader, optimizer, lossfunction, device='cp
             if patience > config.patience:
                 print('Early stop.')
                 break
-        
-        
-        
+
         # print information about current epoch
         if epoch % 100 == 0:
             # timer
@@ -159,7 +157,8 @@ def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunc
         prediction_trains = spnn(X_trains)
 
         # calculate loss
-        train_loss = lossfunction(prediction_trains, y_trains,train_factor) + alpha*spnn.GetNorm()
+        train_loss = lossfunction(prediction_trains, y_trains,train_factor)\
+                     + alpha*spnn.GetNorm(config.pnorm)
         # calculate accuracy of prediction
         train_acc = E.ACC(prediction_trains, y_trains, acc_factor)
 
@@ -175,7 +174,8 @@ def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunc
         # similar as training, calculate loss and accuracy on valid data
         with torch.no_grad():
             prediction_valids = spnn(X_valids) 
-            valid_loss = lossfunction(prediction_valids, y_valids,valid_factor).data + alpha*spnn.GetNorm(config.pnorm)
+            valid_loss = lossfunction(prediction_valids, y_valids,valid_factor).data\
+                         + alpha*spnn.GetNorm(config.pnorm)
             valid_acc = E.ACC(prediction_valids, y_valids, acc_factor)
 
         valid_losses.append(valid_loss)

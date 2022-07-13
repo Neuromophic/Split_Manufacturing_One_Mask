@@ -157,7 +157,8 @@ def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunc
         prediction_trains = spnn(X_trains)
 
         # calculate loss
-        train_loss = lossfunction(prediction_trains, y_trains,train_factor) + alpha*spnn.GetNorm()
+        train_loss = lossfunction(prediction_trains, y_trains,train_factor)\
+                     + alpha*spnn.GetNorm(config.pnorm)
         # calculate accuracy of prediction
         train_acc = E.ACC(prediction_trains, y_trains, acc_factor)
 
@@ -173,7 +174,8 @@ def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunc
         # similar as training, calculate loss and accuracy on valid data
         with torch.no_grad():
             prediction_valids = spnn(X_valids) 
-            valid_loss = lossfunction(prediction_valids, y_valids,valid_factor).data + alpha*spnn.GetNorm(config.pnorm)
+            valid_loss = lossfunction(prediction_valids, y_valids,valid_factor).data\
+                         + alpha*spnn.GetNorm(config.pnorm)
             valid_acc = E.ACC(prediction_valids, y_valids, acc_factor)
 
         valid_losses.append(valid_loss)
