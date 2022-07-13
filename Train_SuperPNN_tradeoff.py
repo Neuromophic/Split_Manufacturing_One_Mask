@@ -1,3 +1,21 @@
+#!/usr/bin/env python
+
+#SBATCH --job-name=Split_Manufacturing
+
+#SBATCH --error=%x.%j.err
+#SBATCH --output=%x.%j.out
+
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=hzhao@teco.edu
+
+#SBATCH --export=ALL
+
+#SBATCH --time=48:00:00
+
+#SBATCH --partition=sdil
+#SBATCH --gres=cpu:40
+
+
 # Import library
 import importlib
 import torch
