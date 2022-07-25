@@ -10,17 +10,22 @@ device = 'cpu'
 
 # training
 lr  = 0.1
-slr = 0.1
+slr = 0.01
 patience = 1000
 
 # cross dataset normaolization
-normalization = True
+normalization = False
 
 # architecture for pNN
-hidden_topology = [3,3]
+MAX_IN = 9
+MAX_out = 8
+hidden = 2
+hidden_topology = [hidden, hidden]
+full_topology = [MAX_IN, hidden, MAX_out]
+semi_topology = [hidden, MAX_out]
 
 # hyperparameter
-alpha = 0.001
+# alpha = 0.001
 pnorm = 1
 
 # measuring-aware hyperparameter
@@ -55,4 +60,20 @@ def SetSeed(seed):
     os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
     os.environ["CUBLAS_WORKSPACE_CONFIG"] = ":16:8"
     
-
+def DataReshape(Xs, num_in):
+    if type(Xs) is list:
+        Xs_new = []
+        for x in Xs:
+            diff = num_in - x.shape[1]
+            if diff:
+                x = torch.hstack([x, torch.zeros([x.shape[0], diff])])
+                Xs_new.append(x)
+            else:
+                Xs_new.append(x)
+        return Xs_new
+    else:
+        diff = num_in - Xs.shape[1]
+        if diff:
+            return torch.hstack([Xs, torch.zeros([Xs.shape[0], diff])])
+        else:
+            return Xs

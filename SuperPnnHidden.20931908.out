@@ -1,0 +1,15 @@
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc2n566
+Job ID: 20931908
+Cluster: uc2
+User/Group: px3192/tm
+State: CANCELLED (exit code 0)
+Nodes: 1
+Cores per node: 6
+CPU Utilized: 04:33:00
+CPU Efficiency: 16.45% of 1-03:39:42 core-walltime
+Job Wall-clock time: 04:36:37
+Memory Utilized: 20.34 GB
+Memory Efficiency: 5.39% of 377.57 GB

@@ -7,7 +7,7 @@ import calendar
 import evaluation as E
 import time
 
-def train_nn(nn, train_loader, valid_loader, optimizer, lossfunction, device='cpu'):
+def train_nn(nn, train_loader, valid_loader, optimizer, lossfunction, device='cpu', UUID='default'):
     # dir for save temporary files
     if not os.path.exists('./temp'):
         os.mkdir('./temp')
@@ -101,9 +101,9 @@ def train_nn(nn, train_loader, valid_loader, optimizer, lossfunction, device='cp
         # if valid loss in current epoch is better than previous one, save this model
         if valid_loss < best_valid_loss:
             best_valid_loss = valid_loss
-            torch.save(nn, f'./temp/NN_temp_{training_ID}')
+            torch.save(nn, f'./temp/NN_temp_{UUID}_{training_ID}')
             random_state = torch.random.get_rng_state()
-            torch.save(random_state, f'./temp/NN_temp_random_state_{training_ID}')
+            torch.save(random_state, f'./temp/NN_temp_{UUID}_random_state_{training_ID}')
             patience = 0
         # if not, that means in this epoch, the model is not improved.
         else:
@@ -124,9 +124,14 @@ def train_nn(nn, train_loader, valid_loader, optimizer, lossfunction, device='cp
             
     print('Finished.')
     
-    return torch.load(f'./temp/NN_temp_{training_ID}'), train_losses, valid_losses, train_accs, valid_accs
+    resulted_nn = torch.load(f'./temp/NN_temp_{UUID}_{training_ID}')
+    # remove temp files
+    os.remove(f'./temp/NN_temp_{UUID}_{training_ID}')
+    os.remove(f'./temp/NN_temp_{UUID}_random_state_{training_ID}')
+    
+    return resulted_nn, train_losses, valid_losses, train_accs, valid_accs
 
-def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunction, train_factor, valid_factor, acc_factor, alpha):
+def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunction, train_factor, valid_factor, acc_factor, alpha, UUID='default'):
     # dir for save temporary files
     if not os.path.exists('./temp'):
         os.mkdir('./temp')
@@ -184,9 +189,9 @@ def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunc
         # if valid loss in current epoch is better than previous one, save this model
         if valid_loss < best_valid_loss:
             best_valid_loss = valid_loss
-            torch.save(spnn, f'./temp/SPNN_temp_{training_ID}')
+            torch.save(spnn, f'./temp/SPNN_temp_{UUID}_{training_ID}')
             random_state = torch.random.get_rng_state()
-            torch.save(random_state, f'./temp/SPNN_temp_random_state_{training_ID}')
+            torch.save(random_state, f'./temp/SPNN_temp_{UUID}_random_state_{training_ID}')
             patience = 0
         # if not, that means in this epoch, the model is not improved.
         else:
@@ -210,4 +215,9 @@ def train_spnn(spnn, X_trains, y_trains, X_valids, y_valids, optimizer, lossfunc
             
     print('Finished.')
     
-    return torch.load(f'./temp/SPNN_temp_{training_ID}'), train_losses, valid_losses, train_accs, valid_accs
+    resulted_nn = torch.load(f'./temp/SPNN_temp_{UUID}_{training_ID}')
+     # remove temp files
+    os.remove(f'./temp/SPNN_temp_{UUID}_{training_ID}')
+    os.remove(f'./temp/SPNN_temp_{UUID}_random_state_{training_ID}')
+    
+    return resulted_nn, train_losses, valid_losses, train_accs, valid_accs

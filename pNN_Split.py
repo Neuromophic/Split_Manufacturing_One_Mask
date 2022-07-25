@@ -5,6 +5,9 @@ import torch.nn.functional as F
 import matplotlib.pyplot as plt
 import config
 
+#===================================================================================================================
+#============================================== basic layers for pNN ===============================================
+#===================================================================================================================
 
 class pLayer(torch.nn.Module):
     def __init__(self, n_in, n_out):
@@ -179,7 +182,11 @@ class pHiddenLayer(pLayer):
         z_new = self.mac(a_previous)
         a_new = self.activate(z_new)
         return a_new
+
     
+#===================================================================================================================
+#============================================ primitives for super pNN =============================================
+#===================================================================================================================
 
 class pNN(torch.nn.Module):
     '''
@@ -267,16 +274,215 @@ class SuperPNN(torch.nn.Module):
             y.append(nn(x))
         return y
     
+    def NormClip(self, param):
+        param_pos = param.abs()
+        param_temp = param_pos.clone()
+        param_temp[param_temp < config.gmin] = 0.
+        return param_temp
+    
     def GetNorm(self, p=1):
         N = torch.tensor(0)
         M = 0
         for name,param in self.models.named_parameters():
             if name.endswith('theta_individual_'):
-                N = N + param.norm(p)
+                N = N + self.NormClip(param).norm(p)
                 M = M + param.numel()
         return N / M
 
+#===================================================================================================================
+#==================================== primitives for super pNN with semi hidden ====================================
+#===================================================================================================================
 
+class SemiHiddenpNN(torch.nn.Module):
+    '''
+    a pNN consists of 2 pLayers (1 for input layer, 1 for output layer) and multiple pHiddenLayers.
+    the theta for pHiddenLayer is transferred from supernet
+    '''
+    def __init__(self, n_in, topology_hidden, hidden_theta):
+        '''
+        :param n_in: number of input
+        :param n_out: number of output
+        :param topology_hidden: a list, contains the structure of hidden layers
+        :param hidden_theta: a list, contains commen theta for each hidden layer
+        '''
+        super(SemiHiddenpNN, self).__init__()
+        self.model = torch.nn.Sequential()
+
+        # append input layer
+        self.model.add_module(f'Input_Layer', pLayer(n_in, topology_hidden[0]))
+
+        # append hidden layers and allocate common theta
+        for l in range(len(topology_hidden) - 1):
+            self.model.add_module(f'Hiddel_Layer {l}',
+                                  pHiddenLayer(topology_hidden[l],
+                                               topology_hidden[l + 1],
+                                               hidden_theta[l]))
+
+    def forward(self, x):
+        return self.model(x)
+
+
+class SuperSemiPNN(torch.nn.Module):
+    '''
+    super pNN contains multiple pNNs (tasks)
+    '''
+    def __init__(self, num_in_layers, topology_hiddens):
+        '''
+        :param num_in_layers: a list, contains number of inputs for each task (PNN)
+        :param num_out_layers:  a list, contains number of outputs for each task (PNN)
+        :param topology_hiddens: a list, contains structure of hidden layers
+        '''
+        super(SuperSemiPNN, self).__init__()
+        self.num_in = num_in_layers
+        self.topology = topology_hiddens
+
+        # count number of tasks
+        self.N_tasks = len(num_in_layers)
+
+        # generate theta_common for hidden layers in pNNs
+        self.hidden_theta_commen_ = []
+        for l in range(len(topology_hiddens) - 1):
+            # value initialization
+            theta_temp = torch.rand([topology_hiddens[l] + 2, topology_hiddens[l + 1]]) / 100. + config.gmin
+            theta_temp[-1, :] = theta_temp[-1, :] + config.gmax
+            theta_temp[-2, :] = config.ACT_eta3 / (1 - config.ACT_eta3) * (torch.sum(theta_temp[:-2, :], dim=0) + theta_temp[-1, :])
+            # assign name to common theta
+            self.register_parameter(f'theta_common_ {l}', torch.nn.Parameter(theta_temp, requires_grad=True))
+            # add to a list
+            self.hidden_theta_commen_.append(self._parameters[f'theta_common_ {l}'])
+
+        # build pNNs
+        self.models = self.Build_pNNs()
+
+    def Build_pNNs(self):
+        '''
+        build pNNs and collect them into a torch.nn.ModuleList
+        :return: a torch.nn.ModuleList contains all pNNs (for all tasks)
+        '''
+        models = []
+        for n in range(self.N_tasks):
+            models.append(SemiHiddenpNN(self.num_in[n], self.topology, self.hidden_theta_commen_))
+        return torch.nn.ModuleList(models)
+
+    def forward(self, Xs):
+        '''
+        calculate outputs for all pNNs in supernet and collect them in a list
+        :param Xs: a list of training data for different tasks
+        :return: a list of output for different tasks
+        '''
+        y = []
+        for nn, x in zip(self.models, Xs):
+            y.append(nn(x))
+        return y
+    
+    def NormClip(self, param):
+        param_pos = param.abs()
+        param_temp = param_pos.clone()
+        param_temp[param_temp < config.gmin] = 0.
+        return param_temp
+    
+    def GetNorm(self, p=1):
+        N = torch.tensor(0)
+        M = 0
+        for name,param in self.models.named_parameters():
+            if name.endswith('theta_individual_'):
+                N = N + self.NormClip(param).norm(p)
+                M = M + param.numel()
+        return N / M
+    
+#===================================================================================================================
+#====================================== primitives for super pNN with full hidden ==================================
+#===================================================================================================================
+    
+class FullHiddenPNN(torch.nn.Module):
+    def __init__(self, topology_hidden, hidden_theta):
+        super(FullHiddenPNN, self).__init__()
+        self.model = torch.nn.Sequential()
+
+        # append hidden layers and allocate common theta
+        for l in range(len(topology_hidden) - 1):
+            self.model.add_module(f'Hiddel_Layer {l}',
+                                  pHiddenLayer(topology_hidden[l],
+                                               topology_hidden[l + 1],
+                                               hidden_theta[l]))
+
+    def forward(self, x):
+        return self.model(x)
+
+
+    
+class SuperFullPNN(torch.nn.Module):
+    '''
+    super pNN contains multiple pNNs (tasks)
+    '''
+    def __init__(self, N, topology_hiddens):
+        '''
+        :param num_in_layers: a list, contains number of inputs for each task (PNN)
+        :param num_out_layers:  a list, contains number of outputs for each task (PNN)
+        :param topology_hiddens: a list, contains structure of hidden layers
+        '''
+        super(SuperFullPNN, self).__init__()
+        self.topology = topology_hiddens
+
+        # count number of tasks
+        self.N_tasks = N
+
+        # generate theta_common for hidden layers in pNNs
+        self.hidden_theta_commen_ = []
+        for l in range(len(topology_hiddens) - 1):
+            # value initialization
+            theta_temp = torch.rand([topology_hiddens[l] + 2, topology_hiddens[l + 1]]) / 100. + config.gmin
+            theta_temp[-1, :] = theta_temp[-1, :] + config.gmax
+            theta_temp[-2, :] = config.ACT_eta3 / (1 - config.ACT_eta3) * (torch.sum(theta_temp[:-2, :], dim=0) + theta_temp[-1, :])
+            # assign name to common theta
+            self.register_parameter(f'theta_common_ {l}', torch.nn.Parameter(theta_temp, requires_grad=True))
+            # add to a list
+            self.hidden_theta_commen_.append(self._parameters[f'theta_common_ {l}'])
+
+        # build pNNs
+        self.models = self.Build_pNNs()
+
+    def Build_pNNs(self):
+        '''
+        build pNNs and collect them into a torch.nn.ModuleList
+        :return: a torch.nn.ModuleList contains all pNNs (for all tasks)
+        '''
+        models = []
+        for n in range(self.N_tasks):
+            models.append(FullHiddenPNN(self.topology, self.hidden_theta_commen_))
+        return torch.nn.ModuleList(models)
+
+    def forward(self, Xs):
+        '''
+        calculate outputs for all pNNs in supernet and collect them in a list
+        :param Xs: a list of training data for different tasks
+        :return: a list of output for different tasks
+        '''
+        y = []
+        for nn, x in zip(self.models, Xs):
+            y.append(nn(x))
+        return y
+    
+    def NormClip(self, param):
+        param_pos = param.abs()
+        param_temp = param_pos.clone()
+        param_temp[param_temp < config.gmin] = 0.
+        return param_temp
+    
+    def GetNorm(self, p=1):
+        N = torch.tensor(0)
+        M = 0
+        for name,param in self.models.named_parameters():
+            if name.endswith('theta_individual_'):
+                N = N + self.NormClip(param).norm(p)
+                M = M + param.numel()
+        return N / M    
+    
+    
+#===================================================================================================================
+#================================================ loss functions for pNN ===========================================
+#===================================================================================================================
+    
 def LossFunction(prediction, label, m=0.3, T=0.1):
     '''
     Hardware-aware loss function for printed neuromorphic circuits
@@ -306,4 +512,16 @@ def LOSSFUNCTION(predictions, labels, factors):
     L = 0
     for prediction, label, factor in zip(predictions, labels, factors):
         L = L + LossFunction(prediction, label) * factor
+    return L
+
+def LossFunctionList(predictions, labels):
+    '''
+    Hardware-aware loss function for list
+    :param predictions: a list of outputs from different pNNs
+    :param labels: a list of targets/labels of different tasks
+    :return: a list of loss for all tasks
+    '''
+    L = []
+    for prediction, label in zip(predictions, labels):
+        L.append(LossFunction(prediction, label))
     return L

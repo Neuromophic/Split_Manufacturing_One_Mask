@@ -1,0 +1,1628 @@
+Loading acuteinflammation 6 2 70 23
+Loading acutenephritis 6 2 70 23
+Loading balancescale 4 3 373 124
+Loading blood 4 2 447 149
+Loading breastcancer 9 2 170 56
+Loading breastcancerwisc 9 2 418 139
+Loading breasttissue 9 6 62 20
+Loading ecoli 7 8 200 66
+Loading energyy1 8 3 459 153
+Loading energyy2 8 3 459 153
+Loading fertility 9 2 58 19
+Loading glass 9 6 127 42
+Loading habermansurvival 3 2 182 60
+Loading hayesroth 3 3 93 31
+Loading ilpdindianliver 9 2 348 116
+Loading iris 4 3 88 29
+Loading mammographic 5 2 575 191
+Loading monks1 6 2 331 110
+Loading monks2 6 2 358 119
+Loading monks3 6 2 330 110
+Loading pima 8 2 459 153
+Loading pittsburgbridgesMATERIAL 7 3 62 20
+Loading pittsburgbridgesRELL 7 3 60 20
+Loading pittsburgbridgesSPAN 7 3 54 18
+Loading pittsburgbridgesTORD 7 2 60 20
+Loading pittsburgbridgesTYPE 7 6 61 20
+Loading postoperative 8 3 52 17
+Loading seeds 7 3 124 41
+Loading teaching 5 3 89 29
+Loading tictactoe 9 2 573 191
+Loading vertebralcolumn2clases 6 2 184 61
+Loading vertebralcolumn3clases 6 3 184 61
+Finish data loading.
+Training with penalty:0.0001 seed:8.
+The ID for this training is 1658660570.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.960e-01 | Norm: 6.63e-03 | time: 2.01e-01 |
+| epoch:  100 | TA: 113.67 | TL: 3.428e-01 | VA: 108.53 | VL: 3.597e-01 | Norm: 1.34e-01 | time: 1.90e+01 |
+| epoch:  200 | TA: 117.78 | TL: 3.026e-01 | VA: 114.67 | VL: 3.441e-01 | Norm: 1.80e-01 | time: 1.88e+01 |
+| epoch:  300 | TA: 118.97 | TL: 2.882e-01 | VA: 113.54 | VL: 3.454e-01 | Norm: 2.12e-01 | time: 1.87e+01 |
+| epoch:  400 | TA: 120.37 | TL: 2.812e-01 | VA: 113.42 | VL: 3.463e-01 | Norm: 2.38e-01 | time: 1.87e+01 |
+| epoch:  500 | TA: 120.14 | TL: 2.754e-01 | VA: 114.09 | VL: 3.449e-01 | Norm: 2.60e-01 | time: 1.87e+01 |
+| epoch:  600 | TA: 120.67 | TL: 2.719e-01 | VA: 113.41 | VL: 3.450e-01 | Norm: 2.79e-01 | time: 1.87e+01 |
+| epoch:  700 | TA: 121.23 | TL: 2.687e-01 | VA: 114.53 | VL: 3.423e-01 | Norm: 2.97e-01 | time: 1.88e+01 |
+| epoch:  800 | TA: 120.26 | TL: 2.755e-01 | VA: 113.10 | VL: 3.414e-01 | Norm: 3.15e-01 | time: 1.87e+01 |
+| epoch:  900 | TA: 121.24 | TL: 2.666e-01 | VA: 113.45 | VL: 3.390e-01 | Norm: 3.32e-01 | time: 1.87e+01 |
+| epoch: 1000 | TA: 120.56 | TL: 2.823e-01 | VA: 113.36 | VL: 3.507e-01 | Norm: 3.46e-01 | time: 1.86e+01 |
+| epoch: 1100 | TA: 120.87 | TL: 2.666e-01 | VA: 111.98 | VL: 3.380e-01 | Norm: 3.63e-01 | time: 1.88e+01 |
+| epoch: 1200 | TA: 121.43 | TL: 2.645e-01 | VA: 112.98 | VL: 3.378e-01 | Norm: 3.75e-01 | time: 1.88e+01 |
+| epoch: 1300 | TA: 121.35 | TL: 2.644e-01 | VA: 112.36 | VL: 3.372e-01 | Norm: 3.86e-01 | time: 1.88e+01 |
+| epoch: 1400 | TA: 122.26 | TL: 2.613e-01 | VA: 114.42 | VL: 3.349e-01 | Norm: 3.99e-01 | time: 1.88e+01 |
+| epoch: 1500 | TA: 122.14 | TL: 2.600e-01 | VA: 112.58 | VL: 3.355e-01 | Norm: 4.11e-01 | time: 1.88e+01 |
+| epoch: 1600 | TA: 121.54 | TL: 2.597e-01 | VA: 113.50 | VL: 3.339e-01 | Norm: 4.25e-01 | time: 1.89e+01 |
+| epoch: 1700 | TA: 120.80 | TL: 2.585e-01 | VA: 115.25 | VL: 3.310e-01 | Norm: 4.37e-01 | time: 1.89e+01 |
+| epoch: 1800 | TA: 122.37 | TL: 2.577e-01 | VA: 113.85 | VL: 3.304e-01 | Norm: 4.47e-01 | time: 1.89e+01 |
+| epoch: 1900 | TA: 122.49 | TL: 2.573e-01 | VA: 115.12 | VL: 3.314e-01 | Norm: 4.58e-01 | time: 1.89e+01 |
+| epoch: 2000 | TA: 123.10 | TL: 2.568e-01 | VA: 112.56 | VL: 3.438e-01 | Norm: 4.67e-01 | time: 1.89e+01 |
+| epoch: 2100 | TA: 123.14 | TL: 2.559e-01 | VA: 114.44 | VL: 3.317e-01 | Norm: 4.77e-01 | time: 1.89e+01 |
+| epoch: 2200 | TA: 121.73 | TL: 2.559e-01 | VA: 114.41 | VL: 3.336e-01 | Norm: 4.87e-01 | time: 1.90e+01 |
+| epoch: 2300 | TA: 121.88 | TL: 2.548e-01 | VA: 113.92 | VL: 3.331e-01 | Norm: 4.96e-01 | time: 1.90e+01 |
+| epoch: 2400 | TA: 123.04 | TL: 2.539e-01 | VA: 114.22 | VL: 3.338e-01 | Norm: 5.05e-01 | time: 1.90e+01 |
+| epoch: 2500 | TA: 122.85 | TL: 2.532e-01 | VA: 116.12 | VL: 3.323e-01 | Norm: 5.14e-01 | time: 1.90e+01 |
+| epoch: 2600 | TA: 123.00 | TL: 2.535e-01 | VA: 115.31 | VL: 3.319e-01 | Norm: 5.23e-01 | time: 1.90e+01 |
+| epoch: 2700 | TA: 122.43 | TL: 2.526e-01 | VA: 114.85 | VL: 3.327e-01 | Norm: 5.34e-01 | time: 1.91e+01 |
+Early stop.
+Finished.
+Training with penalty:0.00015 seed:8.
+The ID for this training is 1658661113.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.960e-01 | Norm: 6.63e-03 | time: 1.85e-01 |
+| epoch:  100 | TA: 111.01 | TL: 3.517e-01 | VA: 107.59 | VL: 3.595e-01 | Norm: 1.31e-01 | time: 1.87e+01 |
+| epoch:  200 | TA: 117.09 | TL: 3.114e-01 | VA: 114.06 | VL: 3.367e-01 | Norm: 1.75e-01 | time: 1.87e+01 |
+| epoch:  300 | TA: 115.57 | TL: 2.971e-01 | VA: 114.93 | VL: 3.339e-01 | Norm: 2.05e-01 | time: 1.87e+01 |
+| epoch:  400 | TA: 119.26 | TL: 2.913e-01 | VA: 114.54 | VL: 3.333e-01 | Norm: 2.29e-01 | time: 1.89e+01 |
+| epoch:  500 | TA: 116.90 | TL: 2.897e-01 | VA: 113.05 | VL: 3.312e-01 | Norm: 2.54e-01 | time: 1.90e+01 |
+| epoch:  600 | TA: 118.68 | TL: 2.870e-01 | VA: 112.71 | VL: 3.320e-01 | Norm: 2.74e-01 | time: 1.90e+01 |
+| epoch:  700 | TA: 119.15 | TL: 2.795e-01 | VA: 108.45 | VL: 3.296e-01 | Norm: 2.93e-01 | time: 1.91e+01 |
+| epoch:  800 | TA: 120.58 | TL: 2.812e-01 | VA: 112.73 | VL: 3.319e-01 | Norm: 3.13e-01 | time: 1.90e+01 |
+| epoch:  900 | TA: 121.13 | TL: 2.758e-01 | VA: 114.35 | VL: 3.286e-01 | Norm: 3.29e-01 | time: 1.90e+01 |
+| epoch: 1000 | TA: 121.64 | TL: 2.737e-01 | VA: 112.51 | VL: 3.309e-01 | Norm: 3.43e-01 | time: 1.91e+01 |
+| epoch: 1100 | TA: 121.32 | TL: 2.723e-01 | VA: 112.71 | VL: 3.300e-01 | Norm: 3.56e-01 | time: 1.91e+01 |
+| epoch: 1200 | TA: 117.87 | TL: 2.704e-01 | VA: 113.02 | VL: 3.308e-01 | Norm: 3.68e-01 | time: 1.91e+01 |
+| epoch: 1300 | TA: 120.43 | TL: 2.693e-01 | VA: 113.27 | VL: 3.315e-01 | Norm: 3.82e-01 | time: 1.91e+01 |
+| epoch: 1400 | TA: 121.77 | TL: 2.678e-01 | VA: 110.36 | VL: 3.333e-01 | Norm: 3.94e-01 | time: 1.92e+01 |
+| epoch: 1500 | TA: 121.06 | TL: 2.668e-01 | VA: 111.91 | VL: 3.322e-01 | Norm: 4.06e-01 | time: 1.92e+01 |
+| epoch: 1600 | TA: 120.41 | TL: 2.798e-01 | VA: 112.30 | VL: 3.374e-01 | Norm: 4.22e-01 | time: 1.92e+01 |
+| epoch: 1700 | TA: 119.20 | TL: 2.784e-01 | VA: 110.64 | VL: 3.357e-01 | Norm: 4.33e-01 | time: 1.92e+01 |
+| epoch: 1800 | TA: 118.23 | TL: 2.758e-01 | VA: 109.31 | VL: 3.345e-01 | Norm: 4.43e-01 | time: 1.92e+01 |
+Early stop.
+Finished.
+Training with penalty:0.00023 seed:8.
+The ID for this training is 1658661472.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.960e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 111.68 | TL: 3.500e-01 | VA: 108.02 | VL: 3.576e-01 | Norm: 1.31e-01 | time: 1.87e+01 |
+| epoch:  200 | TA: 119.23 | TL: 3.066e-01 | VA: 115.85 | VL: 3.353e-01 | Norm: 1.74e-01 | time: 1.87e+01 |
+| epoch:  300 | TA: 118.70 | TL: 2.979e-01 | VA: 112.77 | VL: 3.382e-01 | Norm: 2.04e-01 | time: 1.87e+01 |
+| epoch:  400 | TA: 119.36 | TL: 2.862e-01 | VA: 111.57 | VL: 3.358e-01 | Norm: 2.26e-01 | time: 1.89e+01 |
+| epoch:  500 | TA: 119.09 | TL: 2.776e-01 | VA: 113.55 | VL: 3.315e-01 | Norm: 2.43e-01 | time: 1.89e+01 |
+| epoch:  600 | TA: 120.15 | TL: 2.725e-01 | VA: 112.34 | VL: 3.342e-01 | Norm: 2.62e-01 | time: 1.89e+01 |
+| epoch:  700 | TA: 121.55 | TL: 2.679e-01 | VA: 114.61 | VL: 3.316e-01 | Norm: 2.79e-01 | time: 1.91e+01 |
+| epoch:  800 | TA: 122.57 | TL: 2.668e-01 | VA: 113.99 | VL: 3.295e-01 | Norm: 2.94e-01 | time: 1.91e+01 |
+| epoch:  900 | TA: 121.60 | TL: 2.698e-01 | VA: 110.34 | VL: 3.383e-01 | Norm: 3.08e-01 | time: 1.90e+01 |
+| epoch: 1000 | TA: 120.79 | TL: 2.612e-01 | VA: 116.81 | VL: 3.258e-01 | Norm: 3.21e-01 | time: 1.91e+01 |
+| epoch: 1100 | TA: 122.56 | TL: 2.626e-01 | VA: 114.77 | VL: 3.251e-01 | Norm: 3.33e-01 | time: 1.91e+01 |
+| epoch: 1200 | TA: 121.97 | TL: 2.599e-01 | VA: 111.93 | VL: 3.258e-01 | Norm: 3.44e-01 | time: 1.92e+01 |
+| epoch: 1300 | TA: 122.34 | TL: 2.608e-01 | VA: 114.10 | VL: 3.260e-01 | Norm: 3.55e-01 | time: 1.91e+01 |
+| epoch: 1400 | TA: 121.95 | TL: 2.582e-01 | VA: 114.72 | VL: 3.228e-01 | Norm: 3.66e-01 | time: 1.92e+01 |
+| epoch: 1500 | TA: 122.52 | TL: 2.563e-01 | VA: 113.28 | VL: 3.213e-01 | Norm: 3.77e-01 | time: 1.93e+01 |
+| epoch: 1600 | TA: 121.39 | TL: 2.556e-01 | VA: 112.74 | VL: 3.217e-01 | Norm: 3.87e-01 | time: 1.92e+01 |
+| epoch: 1700 | TA: 124.07 | TL: 2.556e-01 | VA: 114.41 | VL: 3.219e-01 | Norm: 3.96e-01 | time: 1.93e+01 |
+| epoch: 1800 | TA: 123.06 | TL: 2.541e-01 | VA: 116.61 | VL: 3.218e-01 | Norm: 4.06e-01 | time: 1.92e+01 |
+| epoch: 1900 | TA: 123.88 | TL: 2.542e-01 | VA: 115.46 | VL: 3.215e-01 | Norm: 4.15e-01 | time: 1.93e+01 |
+| epoch: 2000 | TA: 123.85 | TL: 2.523e-01 | VA: 113.62 | VL: 3.242e-01 | Norm: 4.25e-01 | time: 1.93e+01 |
+| epoch: 2100 | TA: 122.73 | TL: 2.522e-01 | VA: 112.48 | VL: 3.259e-01 | Norm: 4.33e-01 | time: 1.93e+01 |
+| epoch: 2200 | TA: 123.19 | TL: 2.598e-01 | VA: 115.59 | VL: 3.227e-01 | Norm: 4.40e-01 | time: 1.93e+01 |
+| epoch: 2300 | TA: 121.67 | TL: 2.513e-01 | VA: 116.21 | VL: 3.285e-01 | Norm: 4.46e-01 | time: 1.93e+01 |
+| epoch: 2400 | TA: 121.28 | TL: 2.655e-01 | VA: 112.95 | VL: 3.343e-01 | Norm: 4.52e-01 | time: 1.93e+01 |
+| epoch: 2500 | TA: 122.47 | TL: 2.554e-01 | VA: 115.13 | VL: 3.269e-01 | Norm: 4.60e-01 | time: 1.93e+01 |
+| epoch: 2600 | TA: 123.18 | TL: 2.514e-01 | VA: 113.78 | VL: 3.272e-01 | Norm: 4.66e-01 | time: 1.93e+01 |
+| epoch: 2700 | TA: 123.99 | TL: 2.485e-01 | VA: 114.33 | VL: 3.223e-01 | Norm: 4.71e-01 | time: 1.93e+01 |
+| epoch: 2800 | TA: 122.78 | TL: 2.514e-01 | VA: 114.57 | VL: 3.258e-01 | Norm: 4.76e-01 | time: 1.94e+01 |
+| epoch: 2900 | TA: 123.95 | TL: 2.515e-01 | VA: 112.72 | VL: 3.254e-01 | Norm: 4.81e-01 | time: 1.95e+01 |
+| epoch: 3000 | TA: 123.44 | TL: 2.498e-01 | VA: 115.24 | VL: 3.263e-01 | Norm: 4.87e-01 | time: 1.95e+01 |
+| epoch: 3100 | TA: 123.30 | TL: 2.478e-01 | VA: 114.96 | VL: 3.236e-01 | Norm: 4.92e-01 | time: 1.94e+01 |
+| epoch: 3200 | TA: 123.06 | TL: 2.652e-01 | VA: 113.36 | VL: 3.312e-01 | Norm: 4.98e-01 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:0.00035 seed:8.
+The ID for this training is 1658662110.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.960e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 111.71 | TL: 3.468e-01 | VA: 111.05 | VL: 3.588e-01 | Norm: 1.31e-01 | time: 1.87e+01 |
+| epoch:  200 | TA: 117.50 | TL: 2.943e-01 | VA: 112.52 | VL: 3.409e-01 | Norm: 1.74e-01 | time: 1.88e+01 |
+| epoch:  300 | TA: 118.67 | TL: 2.864e-01 | VA: 113.07 | VL: 3.385e-01 | Norm: 1.96e-01 | time: 1.87e+01 |
+| epoch:  400 | TA: 120.48 | TL: 2.757e-01 | VA: 109.90 | VL: 3.360e-01 | Norm: 2.17e-01 | time: 1.88e+01 |
+| epoch:  500 | TA: 119.92 | TL: 2.727e-01 | VA: 111.47 | VL: 3.382e-01 | Norm: 2.38e-01 | time: 1.89e+01 |
+| epoch:  600 | TA: 117.99 | TL: 2.819e-01 | VA: 107.19 | VL: 3.584e-01 | Norm: 2.65e-01 | time: 1.89e+01 |
+| epoch:  700 | TA: 119.94 | TL: 2.742e-01 | VA: 109.87 | VL: 3.534e-01 | Norm: 2.80e-01 | time: 1.90e+01 |
+| epoch:  800 | TA: 120.10 | TL: 2.713e-01 | VA: 110.08 | VL: 3.522e-01 | Norm: 2.94e-01 | time: 1.91e+01 |
+| epoch:  900 | TA: 118.78 | TL: 2.693e-01 | VA: 109.75 | VL: 3.514e-01 | Norm: 3.05e-01 | time: 1.91e+01 |
+| epoch: 1000 | TA: 121.29 | TL: 2.685e-01 | VA: 111.46 | VL: 3.525e-01 | Norm: 3.15e-01 | time: 1.90e+01 |
+| epoch: 1100 | TA: 118.70 | TL: 2.686e-01 | VA: 109.94 | VL: 3.530e-01 | Norm: 3.25e-01 | time: 1.91e+01 |
+| epoch: 1200 | TA: 120.16 | TL: 2.694e-01 | VA: 108.31 | VL: 3.517e-01 | Norm: 3.34e-01 | time: 1.92e+01 |
+| epoch: 1300 | TA: 118.99 | TL: 2.664e-01 | VA: 110.71 | VL: 3.512e-01 | Norm: 3.42e-01 | time: 1.92e+01 |
+Early stop.
+Finished.
+Training with penalty:0.00052 seed:8.
+The ID for this training is 1658662369.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.960e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 111.01 | TL: 3.478e-01 | VA: 108.31 | VL: 3.655e-01 | Norm: 1.29e-01 | time: 1.87e+01 |
+| epoch:  200 | TA: 114.94 | TL: 3.112e-01 | VA: 111.27 | VL: 3.459e-01 | Norm: 1.70e-01 | time: 1.88e+01 |
+| epoch:  300 | TA: 116.08 | TL: 2.992e-01 | VA: 110.96 | VL: 3.371e-01 | Norm: 1.93e-01 | time: 1.89e+01 |
+| epoch:  400 | TA: 111.96 | TL: 2.934e-01 | VA: 111.08 | VL: 3.374e-01 | Norm: 2.10e-01 | time: 1.89e+01 |
+| epoch:  500 | TA: 115.58 | TL: 2.883e-01 | VA: 110.62 | VL: 3.382e-01 | Norm: 2.26e-01 | time: 1.89e+01 |
+| epoch:  600 | TA: 115.41 | TL: 2.847e-01 | VA: 109.79 | VL: 3.378e-01 | Norm: 2.42e-01 | time: 1.90e+01 |
+| epoch:  700 | TA: 114.83 | TL: 2.819e-01 | VA: 110.91 | VL: 3.395e-01 | Norm: 2.55e-01 | time: 1.91e+01 |
+| epoch:  800 | TA: 116.17 | TL: 2.806e-01 | VA: 110.68 | VL: 3.374e-01 | Norm: 2.66e-01 | time: 1.91e+01 |
+| epoch:  900 | TA: 117.68 | TL: 2.789e-01 | VA: 109.56 | VL: 3.391e-01 | Norm: 2.75e-01 | time: 1.91e+01 |
+| epoch: 1000 | TA: 116.01 | TL: 2.786e-01 | VA: 111.33 | VL: 3.374e-01 | Norm: 2.83e-01 | time: 1.92e+01 |
+| epoch: 1100 | TA: 119.11 | TL: 2.780e-01 | VA: 110.07 | VL: 3.414e-01 | Norm: 2.89e-01 | time: 1.92e+01 |
+| epoch: 1200 | TA: 115.76 | TL: 2.764e-01 | VA: 108.37 | VL: 3.413e-01 | Norm: 2.96e-01 | time: 1.92e+01 |
+| epoch: 1300 | TA: 117.28 | TL: 2.761e-01 | VA: 109.73 | VL: 3.410e-01 | Norm: 3.01e-01 | time: 1.92e+01 |
+| epoch: 1400 | TA: 119.23 | TL: 2.758e-01 | VA: 108.95 | VL: 3.431e-01 | Norm: 3.06e-01 | time: 1.93e+01 |
+| epoch: 1500 | TA: 114.55 | TL: 2.752e-01 | VA: 106.26 | VL: 3.432e-01 | Norm: 3.12e-01 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:0.00079 seed:8.
+The ID for this training is 1658662668.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.960e-01 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 114.32 | TL: 3.431e-01 | VA: 113.69 | VL: 3.540e-01 | Norm: 1.30e-01 | time: 1.88e+01 |
+| epoch:  200 | TA: 119.09 | TL: 2.975e-01 | VA: 117.89 | VL: 3.280e-01 | Norm: 1.75e-01 | time: 1.88e+01 |
+| epoch:  300 | TA: 119.35 | TL: 2.860e-01 | VA: 113.63 | VL: 3.257e-01 | Norm: 1.99e-01 | time: 1.89e+01 |
+| epoch:  400 | TA: 118.95 | TL: 2.760e-01 | VA: 115.99 | VL: 3.228e-01 | Norm: 2.21e-01 | time: 1.90e+01 |
+| epoch:  500 | TA: 119.34 | TL: 2.747e-01 | VA: 115.05 | VL: 3.212e-01 | Norm: 2.43e-01 | time: 1.90e+01 |
+| epoch:  600 | TA: 121.80 | TL: 2.651e-01 | VA: 114.32 | VL: 3.169e-01 | Norm: 2.64e-01 | time: 1.91e+01 |
+| epoch:  700 | TA: 120.97 | TL: 2.715e-01 | VA: 115.26 | VL: 3.162e-01 | Norm: 2.81e-01 | time: 1.90e+01 |
+| epoch:  800 | TA: 120.97 | TL: 2.599e-01 | VA: 115.45 | VL: 3.159e-01 | Norm: 2.96e-01 | time: 1.91e+01 |
+| epoch:  900 | TA: 119.85 | TL: 2.643e-01 | VA: 115.25 | VL: 3.186e-01 | Norm: 3.10e-01 | time: 1.91e+01 |
+| epoch: 1000 | TA: 122.14 | TL: 2.571e-01 | VA: 115.95 | VL: 3.171e-01 | Norm: 3.23e-01 | time: 1.92e+01 |
+| epoch: 1100 | TA: 120.32 | TL: 2.772e-01 | VA: 116.61 | VL: 3.301e-01 | Norm: 3.37e-01 | time: 1.92e+01 |
+| epoch: 1200 | TA: 121.76 | TL: 2.547e-01 | VA: 113.57 | VL: 3.171e-01 | Norm: 3.49e-01 | time: 1.92e+01 |
+| epoch: 1300 | TA: 121.21 | TL: 2.536e-01 | VA: 112.89 | VL: 3.169e-01 | Norm: 3.59e-01 | time: 1.92e+01 |
+| epoch: 1400 | TA: 123.65 | TL: 2.529e-01 | VA: 116.79 | VL: 3.172e-01 | Norm: 3.69e-01 | time: 1.92e+01 |
+| epoch: 1500 | TA: 122.09 | TL: 2.534e-01 | VA: 113.26 | VL: 3.188e-01 | Norm: 3.78e-01 | time: 1.92e+01 |
+| epoch: 1600 | TA: 121.58 | TL: 2.523e-01 | VA: 113.13 | VL: 3.178e-01 | Norm: 3.85e-01 | time: 1.93e+01 |
+| epoch: 1700 | TA: 120.61 | TL: 2.617e-01 | VA: 111.43 | VL: 3.233e-01 | Norm: 3.94e-01 | time: 1.93e+01 |
+| epoch: 1800 | TA: 122.17 | TL: 2.571e-01 | VA: 115.21 | VL: 3.193e-01 | Norm: 4.00e-01 | time: 1.93e+01 |
+| epoch: 1900 | TA: 119.56 | TL: 2.564e-01 | VA: 115.57 | VL: 3.215e-01 | Norm: 4.10e-01 | time: 1.93e+01 |
+| epoch: 2000 | TA: 121.50 | TL: 2.556e-01 | VA: 113.53 | VL: 3.174e-01 | Norm: 4.20e-01 | time: 1.93e+01 |
+| epoch: 2100 | TA: 123.42 | TL: 2.536e-01 | VA: 115.36 | VL: 3.180e-01 | Norm: 4.31e-01 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:0.0012 seed:8.
+The ID for this training is 1658663092.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.960e-01 | Norm: 6.63e-03 | time: 1.85e-01 |
+| epoch:  100 | TA: 112.23 | TL: 3.518e-01 | VA: 108.92 | VL: 3.580e-01 | Norm: 1.24e-01 | time: 1.88e+01 |
+| epoch:  200 | TA: 115.14 | TL: 3.159e-01 | VA: 110.93 | VL: 3.439e-01 | Norm: 1.61e-01 | time: 1.87e+01 |
+| epoch:  300 | TA: 116.64 | TL: 3.072e-01 | VA: 111.31 | VL: 3.451e-01 | Norm: 1.89e-01 | time: 1.88e+01 |
+| epoch:  400 | TA: 118.18 | TL: 2.843e-01 | VA: 113.04 | VL: 3.329e-01 | Norm: 2.19e-01 | time: 1.90e+01 |
+| epoch:  500 | TA: 120.62 | TL: 2.746e-01 | VA: 112.79 | VL: 3.282e-01 | Norm: 2.38e-01 | time: 1.90e+01 |
+| epoch:  600 | TA: 120.90 | TL: 2.695e-01 | VA: 113.15 | VL: 3.274e-01 | Norm: 2.54e-01 | time: 1.91e+01 |
+| epoch:  700 | TA: 117.83 | TL: 2.723e-01 | VA: 115.37 | VL: 3.257e-01 | Norm: 2.67e-01 | time: 1.91e+01 |
+| epoch:  800 | TA: 118.77 | TL: 2.675e-01 | VA: 114.85 | VL: 3.230e-01 | Norm: 2.79e-01 | time: 1.91e+01 |
+| epoch:  900 | TA: 120.01 | TL: 2.625e-01 | VA: 112.28 | VL: 3.232e-01 | Norm: 2.89e-01 | time: 1.91e+01 |
+| epoch: 1000 | TA: 119.06 | TL: 2.639e-01 | VA: 111.13 | VL: 3.243e-01 | Norm: 2.98e-01 | time: 1.92e+01 |
+| epoch: 1100 | TA: 119.57 | TL: 2.605e-01 | VA: 113.05 | VL: 3.249e-01 | Norm: 3.05e-01 | time: 1.92e+01 |
+| epoch: 1200 | TA: 118.90 | TL: 2.585e-01 | VA: 111.01 | VL: 3.258e-01 | Norm: 3.12e-01 | time: 1.92e+01 |
+| epoch: 1300 | TA: 119.53 | TL: 2.574e-01 | VA: 112.05 | VL: 3.252e-01 | Norm: 3.18e-01 | time: 1.92e+01 |
+| epoch: 1400 | TA: 119.39 | TL: 2.571e-01 | VA: 110.68 | VL: 3.247e-01 | Norm: 3.24e-01 | time: 1.93e+01 |
+| epoch: 1500 | TA: 119.41 | TL: 2.563e-01 | VA: 111.25 | VL: 3.247e-01 | Norm: 3.30e-01 | time: 1.93e+01 |
+| epoch: 1600 | TA: 120.60 | TL: 2.546e-01 | VA: 112.63 | VL: 3.245e-01 | Norm: 3.35e-01 | time: 1.93e+01 |
+| epoch: 1700 | TA: 119.64 | TL: 2.629e-01 | VA: 111.39 | VL: 3.271e-01 | Norm: 3.42e-01 | time: 1.93e+01 |
+| epoch: 1800 | TA: 119.81 | TL: 2.528e-01 | VA: 112.50 | VL: 3.221e-01 | Norm: 3.49e-01 | time: 1.93e+01 |
+| epoch: 1900 | TA: 119.97 | TL: 2.560e-01 | VA: 113.98 | VL: 3.242e-01 | Norm: 3.55e-01 | time: 1.93e+01 |
+| epoch: 2000 | TA: 120.52 | TL: 2.510e-01 | VA: 112.82 | VL: 3.218e-01 | Norm: 3.62e-01 | time: 1.93e+01 |
+| epoch: 2100 | TA: 120.84 | TL: 2.507e-01 | VA: 111.86 | VL: 3.217e-01 | Norm: 3.68e-01 | time: 1.93e+01 |
+| epoch: 2200 | TA: 120.19 | TL: 2.515e-01 | VA: 112.95 | VL: 3.228e-01 | Norm: 3.73e-01 | time: 1.93e+01 |
+| epoch: 2300 | TA: 120.27 | TL: 2.680e-01 | VA: 113.95 | VL: 3.344e-01 | Norm: 3.80e-01 | time: 1.93e+01 |
+| epoch: 2400 | TA: 120.34 | TL: 2.498e-01 | VA: 111.93 | VL: 3.206e-01 | Norm: 3.87e-01 | time: 1.93e+01 |
+| epoch: 2500 | TA: 121.26 | TL: 2.488e-01 | VA: 113.39 | VL: 3.206e-01 | Norm: 3.93e-01 | time: 1.94e+01 |
+| epoch: 2600 | TA: 120.72 | TL: 2.480e-01 | VA: 113.22 | VL: 3.214e-01 | Norm: 4.04e-01 | time: 1.93e+01 |
+| epoch: 2700 | TA: 119.75 | TL: 2.501e-01 | VA: 113.42 | VL: 3.230e-01 | Norm: 4.11e-01 | time: 1.94e+01 |
+| epoch: 2800 | TA: 120.55 | TL: 2.470e-01 | VA: 112.46 | VL: 3.208e-01 | Norm: 4.16e-01 | time: 1.93e+01 |
+| epoch: 2900 | TA: 121.27 | TL: 2.465e-01 | VA: 111.09 | VL: 3.227e-01 | Norm: 4.20e-01 | time: 1.93e+01 |
+| epoch: 3000 | TA: 120.28 | TL: 2.466e-01 | VA: 112.60 | VL: 3.225e-01 | Norm: 4.25e-01 | time: 1.94e+01 |
+| epoch: 3100 | TA: 120.88 | TL: 2.459e-01 | VA: 113.35 | VL: 3.239e-01 | Norm: 4.30e-01 | time: 1.93e+01 |
+| epoch: 3200 | TA: 122.99 | TL: 2.485e-01 | VA: 111.74 | VL: 3.247e-01 | Norm: 4.35e-01 | time: 1.94e+01 |
+| epoch: 3300 | TA: 122.13 | TL: 2.473e-01 | VA: 111.81 | VL: 3.249e-01 | Norm: 4.40e-01 | time: 1.96e+01 |
+| epoch: 3400 | TA: 121.01 | TL: 2.466e-01 | VA: 115.32 | VL: 3.260e-01 | Norm: 4.44e-01 | time: 1.95e+01 |
+| epoch: 3500 | TA: 122.38 | TL: 2.464e-01 | VA: 112.45 | VL: 3.262e-01 | Norm: 4.48e-01 | time: 1.95e+01 |
+| epoch: 3600 | TA: 120.44 | TL: 2.464e-01 | VA: 113.64 | VL: 3.222e-01 | Norm: 4.54e-01 | time: 1.95e+01 |
+| epoch: 3700 | TA: 121.80 | TL: 2.446e-01 | VA: 111.82 | VL: 3.221e-01 | Norm: 4.60e-01 | time: 1.95e+01 |
+Early stop.
+Finished.
+Training with penalty:0.00182 seed:8.
+The ID for this training is 1658663839.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.960e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 113.08 | TL: 3.430e-01 | VA: 110.69 | VL: 3.606e-01 | Norm: 1.28e-01 | time: 1.87e+01 |
+| epoch:  200 | TA: 117.57 | TL: 3.018e-01 | VA: 113.04 | VL: 3.405e-01 | Norm: 1.65e-01 | time: 1.86e+01 |
+| epoch:  300 | TA: 119.12 | TL: 2.907e-01 | VA: 112.34 | VL: 3.374e-01 | Norm: 1.87e-01 | time: 1.86e+01 |
+| epoch:  400 | TA: 119.79 | TL: 2.835e-01 | VA: 113.02 | VL: 3.366e-01 | Norm: 2.08e-01 | time: 1.87e+01 |
+| epoch:  500 | TA: 119.33 | TL: 2.796e-01 | VA: 110.22 | VL: 3.348e-01 | Norm: 2.27e-01 | time: 1.90e+01 |
+| epoch:  600 | TA: 119.06 | TL: 2.815e-01 | VA: 112.12 | VL: 3.385e-01 | Norm: 2.37e-01 | time: 1.90e+01 |
+| epoch:  700 | TA: 119.58 | TL: 2.720e-01 | VA: 112.14 | VL: 3.325e-01 | Norm: 2.53e-01 | time: 1.90e+01 |
+| epoch:  800 | TA: 119.77 | TL: 2.689e-01 | VA: 112.18 | VL: 3.310e-01 | Norm: 2.69e-01 | time: 1.91e+01 |
+| epoch:  900 | TA: 121.38 | TL: 2.680e-01 | VA: 110.85 | VL: 3.313e-01 | Norm: 2.78e-01 | time: 1.91e+01 |
+| epoch: 1000 | TA: 120.93 | TL: 2.661e-01 | VA: 111.98 | VL: 3.309e-01 | Norm: 2.87e-01 | time: 1.92e+01 |
+| epoch: 1100 | TA: 121.91 | TL: 2.650e-01 | VA: 111.44 | VL: 3.355e-01 | Norm: 2.96e-01 | time: 1.92e+01 |
+| epoch: 1200 | TA: 120.01 | TL: 2.633e-01 | VA: 112.10 | VL: 3.298e-01 | Norm: 3.06e-01 | time: 1.92e+01 |
+| epoch: 1300 | TA: 120.84 | TL: 2.620e-01 | VA: 111.80 | VL: 3.297e-01 | Norm: 3.16e-01 | time: 1.92e+01 |
+| epoch: 1400 | TA: 121.08 | TL: 2.611e-01 | VA: 113.14 | VL: 3.294e-01 | Norm: 3.23e-01 | time: 1.93e+01 |
+| epoch: 1500 | TA: 121.48 | TL: 2.614e-01 | VA: 110.65 | VL: 3.314e-01 | Norm: 3.31e-01 | time: 1.92e+01 |
+| epoch: 1600 | TA: 119.98 | TL: 2.594e-01 | VA: 110.38 | VL: 3.310e-01 | Norm: 3.38e-01 | time: 1.93e+01 |
+| epoch: 1700 | TA: 121.67 | TL: 2.588e-01 | VA: 111.60 | VL: 3.315e-01 | Norm: 3.43e-01 | time: 1.93e+01 |
+| epoch: 1800 | TA: 120.84 | TL: 2.576e-01 | VA: 110.66 | VL: 3.309e-01 | Norm: 3.49e-01 | time: 1.93e+01 |
+| epoch: 1900 | TA: 121.03 | TL: 2.571e-01 | VA: 110.73 | VL: 3.312e-01 | Norm: 3.54e-01 | time: 1.93e+01 |
+| epoch: 2000 | TA: 120.46 | TL: 2.567e-01 | VA: 109.67 | VL: 3.307e-01 | Norm: 3.59e-01 | time: 1.93e+01 |
+| epoch: 2100 | TA: 122.62 | TL: 2.562e-01 | VA: 110.31 | VL: 3.299e-01 | Norm: 3.64e-01 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:0.00275 seed:8.
+The ID for this training is 1658664266.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.960e-01 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 113.33 | TL: 3.409e-01 | VA: 110.56 | VL: 3.532e-01 | Norm: 1.32e-01 | time: 1.88e+01 |
+| epoch:  200 | TA: 117.49 | TL: 3.185e-01 | VA: 115.05 | VL: 3.445e-01 | Norm: 1.60e-01 | time: 1.86e+01 |
+| epoch:  300 | TA: 118.24 | TL: 3.069e-01 | VA: 114.70 | VL: 3.383e-01 | Norm: 1.81e-01 | time: 1.89e+01 |
+| epoch:  400 | TA: 118.52 | TL: 3.013e-01 | VA: 116.68 | VL: 3.355e-01 | Norm: 2.01e-01 | time: 1.89e+01 |
+| epoch:  500 | TA: 118.74 | TL: 2.937e-01 | VA: 115.38 | VL: 3.387e-01 | Norm: 2.21e-01 | time: 1.90e+01 |
+| epoch:  600 | TA: 119.55 | TL: 2.888e-01 | VA: 115.84 | VL: 3.303e-01 | Norm: 2.38e-01 | time: 1.90e+01 |
+| epoch:  700 | TA: 119.64 | TL: 2.839e-01 | VA: 116.63 | VL: 3.285e-01 | Norm: 2.51e-01 | time: 1.91e+01 |
+| epoch:  800 | TA: 119.99 | TL: 2.802e-01 | VA: 114.46 | VL: 3.268e-01 | Norm: 2.65e-01 | time: 1.91e+01 |
+| epoch:  900 | TA: 119.25 | TL: 2.772e-01 | VA: 116.55 | VL: 3.275e-01 | Norm: 2.78e-01 | time: 1.91e+01 |
+| epoch: 1000 | TA: 120.00 | TL: 2.768e-01 | VA: 115.03 | VL: 3.285e-01 | Norm: 2.90e-01 | time: 1.91e+01 |
+| epoch: 1100 | TA: 118.59 | TL: 2.798e-01 | VA: 112.09 | VL: 3.321e-01 | Norm: 3.00e-01 | time: 1.92e+01 |
+| epoch: 1200 | TA: 121.47 | TL: 2.725e-01 | VA: 114.49 | VL: 3.305e-01 | Norm: 3.13e-01 | time: 1.92e+01 |
+| epoch: 1300 | TA: 120.40 | TL: 2.714e-01 | VA: 113.96 | VL: 3.313e-01 | Norm: 3.21e-01 | time: 1.92e+01 |
+| epoch: 1400 | TA: 120.12 | TL: 2.708e-01 | VA: 113.36 | VL: 3.354e-01 | Norm: 3.30e-01 | time: 1.92e+01 |
+| epoch: 1500 | TA: 120.11 | TL: 2.741e-01 | VA: 114.51 | VL: 3.379e-01 | Norm: 3.41e-01 | time: 1.93e+01 |
+| epoch: 1600 | TA: 122.12 | TL: 2.681e-01 | VA: 114.26 | VL: 3.336e-01 | Norm: 3.47e-01 | time: 1.93e+01 |
+| epoch: 1700 | TA: 120.48 | TL: 2.739e-01 | VA: 116.20 | VL: 3.344e-01 | Norm: 3.52e-01 | time: 1.93e+01 |
+| epoch: 1800 | TA: 120.81 | TL: 2.679e-01 | VA: 113.35 | VL: 3.326e-01 | Norm: 3.58e-01 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:0.00417 seed:8.
+The ID for this training is 1658664633.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.961e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 113.46 | TL: 3.395e-01 | VA: 110.23 | VL: 3.571e-01 | Norm: 1.27e-01 | time: 1.87e+01 |
+| epoch:  200 | TA: 115.95 | TL: 3.054e-01 | VA: 109.98 | VL: 3.513e-01 | Norm: 1.50e-01 | time: 1.86e+01 |
+| epoch:  300 | TA: 116.80 | TL: 2.959e-01 | VA: 109.08 | VL: 3.508e-01 | Norm: 1.66e-01 | time: 1.87e+01 |
+| epoch:  400 | TA: 117.10 | TL: 2.891e-01 | VA: 106.89 | VL: 3.502e-01 | Norm: 1.78e-01 | time: 1.88e+01 |
+| epoch:  500 | TA: 117.99 | TL: 2.852e-01 | VA: 111.54 | VL: 3.434e-01 | Norm: 1.89e-01 | time: 1.90e+01 |
+| epoch:  600 | TA: 117.93 | TL: 2.836e-01 | VA: 112.20 | VL: 3.442e-01 | Norm: 1.97e-01 | time: 1.90e+01 |
+| epoch:  700 | TA: 118.64 | TL: 2.801e-01 | VA: 112.24 | VL: 3.391e-01 | Norm: 2.05e-01 | time: 1.92e+01 |
+| epoch:  800 | TA: 118.12 | TL: 2.785e-01 | VA: 112.11 | VL: 3.407e-01 | Norm: 2.10e-01 | time: 1.92e+01 |
+| epoch:  900 | TA: 118.99 | TL: 2.762e-01 | VA: 111.00 | VL: 3.384e-01 | Norm: 2.18e-01 | time: 1.92e+01 |
+| epoch: 1000 | TA: 119.12 | TL: 2.745e-01 | VA: 112.40 | VL: 3.377e-01 | Norm: 2.23e-01 | time: 1.92e+01 |
+| epoch: 1100 | TA: 119.96 | TL: 2.738e-01 | VA: 112.02 | VL: 3.355e-01 | Norm: 2.30e-01 | time: 1.92e+01 |
+| epoch: 1200 | TA: 118.27 | TL: 2.717e-01 | VA: 112.56 | VL: 3.377e-01 | Norm: 2.36e-01 | time: 1.93e+01 |
+| epoch: 1300 | TA: 119.82 | TL: 2.681e-01 | VA: 112.67 | VL: 3.404e-01 | Norm: 2.45e-01 | time: 1.92e+01 |
+| epoch: 1400 | TA: 120.07 | TL: 2.665e-01 | VA: 111.96 | VL: 3.377e-01 | Norm: 2.53e-01 | time: 1.93e+01 |
+| epoch: 1500 | TA: 121.66 | TL: 2.642e-01 | VA: 114.66 | VL: 3.353e-01 | Norm: 2.60e-01 | time: 1.93e+01 |
+| epoch: 1600 | TA: 121.36 | TL: 2.634e-01 | VA: 113.75 | VL: 3.361e-01 | Norm: 2.66e-01 | time: 1.93e+01 |
+| epoch: 1700 | TA: 121.86 | TL: 2.641e-01 | VA: 114.56 | VL: 3.360e-01 | Norm: 2.72e-01 | time: 1.93e+01 |
+| epoch: 1800 | TA: 122.35 | TL: 2.666e-01 | VA: 111.03 | VL: 3.318e-01 | Norm: 2.76e-01 | time: 1.93e+01 |
+| epoch: 1900 | TA: 121.52 | TL: 2.634e-01 | VA: 113.01 | VL: 3.329e-01 | Norm: 2.79e-01 | time: 1.93e+01 |
+| epoch: 2000 | TA: 122.63 | TL: 2.627e-01 | VA: 112.99 | VL: 3.310e-01 | Norm: 2.82e-01 | time: 1.93e+01 |
+| epoch: 2100 | TA: 124.15 | TL: 2.605e-01 | VA: 112.46 | VL: 3.330e-01 | Norm: 2.88e-01 | time: 1.93e+01 |
+| epoch: 2200 | TA: 119.59 | TL: 2.595e-01 | VA: 113.53 | VL: 3.328e-01 | Norm: 2.92e-01 | time: 1.93e+01 |
+| epoch: 2300 | TA: 123.98 | TL: 2.590e-01 | VA: 115.92 | VL: 3.318e-01 | Norm: 2.97e-01 | time: 1.93e+01 |
+| epoch: 2400 | TA: 122.35 | TL: 2.585e-01 | VA: 112.40 | VL: 3.308e-01 | Norm: 3.01e-01 | time: 1.94e+01 |
+| epoch: 2500 | TA: 120.67 | TL: 2.571e-01 | VA: 109.91 | VL: 3.302e-01 | Norm: 3.05e-01 | time: 1.93e+01 |
+| epoch: 2600 | TA: 123.06 | TL: 2.563e-01 | VA: 111.04 | VL: 3.310e-01 | Norm: 3.09e-01 | time: 1.94e+01 |
+| epoch: 2700 | TA: 123.15 | TL: 2.570e-01 | VA: 111.02 | VL: 3.307e-01 | Norm: 3.10e-01 | time: 1.93e+01 |
+| epoch: 2800 | TA: 123.09 | TL: 2.558e-01 | VA: 114.07 | VL: 3.318e-01 | Norm: 3.12e-01 | time: 1.94e+01 |
+| epoch: 2900 | TA: 120.59 | TL: 2.551e-01 | VA: 111.15 | VL: 3.319e-01 | Norm: 3.13e-01 | time: 1.94e+01 |
+| epoch: 3000 | TA: 122.07 | TL: 2.558e-01 | VA: 113.08 | VL: 3.331e-01 | Norm: 3.13e-01 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:0.00631 seed:8.
+The ID for this training is 1658665231.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.961e-01 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 112.89 | TL: 3.370e-01 | VA: 111.23 | VL: 3.421e-01 | Norm: 1.20e-01 | time: 1.88e+01 |
+| epoch:  200 | TA: 116.55 | TL: 3.032e-01 | VA: 112.50 | VL: 3.243e-01 | Norm: 1.37e-01 | time: 1.88e+01 |
+| epoch:  300 | TA: 117.01 | TL: 2.930e-01 | VA: 115.84 | VL: 3.208e-01 | Norm: 1.49e-01 | time: 1.87e+01 |
+| epoch:  400 | TA: 118.11 | TL: 2.888e-01 | VA: 111.57 | VL: 3.203e-01 | Norm: 1.60e-01 | time: 1.90e+01 |
+| epoch:  500 | TA: 118.96 | TL: 2.826e-01 | VA: 114.54 | VL: 3.167e-01 | Norm: 1.69e-01 | time: 1.90e+01 |
+| epoch:  600 | TA: 119.81 | TL: 2.816e-01 | VA: 112.82 | VL: 3.160e-01 | Norm: 1.77e-01 | time: 1.91e+01 |
+| epoch:  700 | TA: 119.52 | TL: 2.767e-01 | VA: 114.22 | VL: 3.133e-01 | Norm: 1.90e-01 | time: 1.91e+01 |
+| epoch:  800 | TA: 119.47 | TL: 2.827e-01 | VA: 112.61 | VL: 3.387e-01 | Norm: 2.05e-01 | time: 1.92e+01 |
+| epoch:  900 | TA: 120.52 | TL: 2.757e-01 | VA: 113.97 | VL: 3.125e-01 | Norm: 2.09e-01 | time: 1.91e+01 |
+| epoch: 1000 | TA: 121.49 | TL: 2.746e-01 | VA: 114.87 | VL: 3.135e-01 | Norm: 2.12e-01 | time: 1.92e+01 |
+| epoch: 1100 | TA: 121.25 | TL: 2.870e-01 | VA: 113.21 | VL: 3.227e-01 | Norm: 2.15e-01 | time: 1.92e+01 |
+| epoch: 1200 | TA: 118.73 | TL: 2.807e-01 | VA: 114.14 | VL: 3.187e-01 | Norm: 2.24e-01 | time: 1.92e+01 |
+| epoch: 1300 | TA: 118.96 | TL: 2.754e-01 | VA: 113.45 | VL: 3.117e-01 | Norm: 2.24e-01 | time: 1.93e+01 |
+| epoch: 1400 | TA: 120.52 | TL: 2.744e-01 | VA: 114.92 | VL: 3.125e-01 | Norm: 2.26e-01 | time: 1.93e+01 |
+| epoch: 1500 | TA: 120.06 | TL: 2.709e-01 | VA: 113.62 | VL: 3.190e-01 | Norm: 2.30e-01 | time: 1.93e+01 |
+| epoch: 1600 | TA: 121.08 | TL: 2.673e-01 | VA: 112.81 | VL: 3.190e-01 | Norm: 2.32e-01 | time: 1.93e+01 |
+| epoch: 1700 | TA: 119.02 | TL: 2.668e-01 | VA: 112.94 | VL: 3.191e-01 | Norm: 2.36e-01 | time: 1.93e+01 |
+| epoch: 1800 | TA: 121.92 | TL: 2.647e-01 | VA: 113.98 | VL: 3.136e-01 | Norm: 2.43e-01 | time: 1.93e+01 |
+| epoch: 1900 | TA: 121.98 | TL: 2.613e-01 | VA: 113.77 | VL: 3.137e-01 | Norm: 2.49e-01 | time: 1.94e+01 |
+| epoch: 2000 | TA: 122.20 | TL: 2.793e-01 | VA: 113.14 | VL: 3.250e-01 | Norm: 2.51e-01 | time: 1.93e+01 |
+| epoch: 2100 | TA: 120.91 | TL: 2.633e-01 | VA: 114.33 | VL: 3.150e-01 | Norm: 2.54e-01 | time: 1.94e+01 |
+| epoch: 2200 | TA: 123.04 | TL: 2.599e-01 | VA: 114.19 | VL: 3.133e-01 | Norm: 2.55e-01 | time: 1.94e+01 |
+| epoch: 2300 | TA: 121.23 | TL: 2.593e-01 | VA: 112.50 | VL: 3.136e-01 | Norm: 2.57e-01 | time: 1.94e+01 |
+| epoch: 2400 | TA: 120.51 | TL: 2.585e-01 | VA: 113.86 | VL: 3.150e-01 | Norm: 2.58e-01 | time: 1.94e+01 |
+| epoch: 2500 | TA: 117.92 | TL: 2.575e-01 | VA: 113.57 | VL: 3.167e-01 | Norm: 2.59e-01 | time: 1.93e+01 |
+| epoch: 2600 | TA: 118.72 | TL: 2.567e-01 | VA: 113.85 | VL: 3.172e-01 | Norm: 2.60e-01 | time: 1.94e+01 |
+| epoch: 2700 | TA: 121.36 | TL: 2.568e-01 | VA: 113.36 | VL: 3.172e-01 | Norm: 2.61e-01 | time: 1.94e+01 |
+| epoch: 2800 | TA: 119.13 | TL: 2.560e-01 | VA: 110.63 | VL: 3.146e-01 | Norm: 2.64e-01 | time: 1.93e+01 |
+| epoch: 2900 | TA: 122.16 | TL: 2.565e-01 | VA: 114.61 | VL: 3.167e-01 | Norm: 2.66e-01 | time: 1.94e+01 |
+| epoch: 3000 | TA: 121.35 | TL: 2.566e-01 | VA: 114.52 | VL: 3.159e-01 | Norm: 2.69e-01 | time: 1.93e+01 |
+| epoch: 3100 | TA: 117.68 | TL: 2.618e-01 | VA: 114.41 | VL: 3.184e-01 | Norm: 2.72e-01 | time: 1.94e+01 |
+| epoch: 3200 | TA: 121.48 | TL: 2.605e-01 | VA: 114.09 | VL: 3.145e-01 | Norm: 2.75e-01 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:0.00955 seed:8.
+The ID for this training is 1658665879.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.961e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 113.38 | TL: 3.413e-01 | VA: 111.03 | VL: 3.534e-01 | Norm: 1.16e-01 | time: 1.87e+01 |
+| epoch:  200 | TA: 118.18 | TL: 3.067e-01 | VA: 114.60 | VL: 3.404e-01 | Norm: 1.35e-01 | time: 1.87e+01 |
+| epoch:  300 | TA: 116.44 | TL: 2.919e-01 | VA: 112.45 | VL: 3.378e-01 | Norm: 1.52e-01 | time: 1.86e+01 |
+| epoch:  400 | TA: 120.45 | TL: 2.854e-01 | VA: 112.26 | VL: 3.378e-01 | Norm: 1.66e-01 | time: 1.87e+01 |
+| epoch:  500 | TA: 120.15 | TL: 2.807e-01 | VA: 113.81 | VL: 3.383e-01 | Norm: 1.75e-01 | time: 1.89e+01 |
+| epoch:  600 | TA: 119.21 | TL: 2.848e-01 | VA: 113.57 | VL: 3.404e-01 | Norm: 1.86e-01 | time: 1.89e+01 |
+| epoch:  700 | TA: 119.53 | TL: 2.850e-01 | VA: 111.83 | VL: 3.431e-01 | Norm: 1.92e-01 | time: 1.91e+01 |
+| epoch:  800 | TA: 120.12 | TL: 2.784e-01 | VA: 113.53 | VL: 3.424e-01 | Norm: 1.96e-01 | time: 1.91e+01 |
+| epoch:  900 | TA: 120.40 | TL: 2.746e-01 | VA: 112.88 | VL: 3.443e-01 | Norm: 2.00e-01 | time: 1.91e+01 |
+| epoch: 1000 | TA: 121.91 | TL: 2.755e-01 | VA: 113.90 | VL: 3.454e-01 | Norm: 2.04e-01 | time: 1.92e+01 |
+| epoch: 1100 | TA: 118.84 | TL: 2.709e-01 | VA: 111.86 | VL: 3.459e-01 | Norm: 2.06e-01 | time: 1.92e+01 |
+| epoch: 1200 | TA: 122.03 | TL: 2.710e-01 | VA: 112.23 | VL: 3.459e-01 | Norm: 2.07e-01 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:0.01445 seed:8.
+The ID for this training is 1658666129.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.961e-01 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 111.48 | TL: 3.381e-01 | VA: 111.24 | VL: 3.471e-01 | Norm: 1.04e-01 | time: 1.89e+01 |
+| epoch:  200 | TA: 116.69 | TL: 3.119e-01 | VA: 111.84 | VL: 3.329e-01 | Norm: 1.07e-01 | time: 1.89e+01 |
+| epoch:  300 | TA: 115.18 | TL: 3.002e-01 | VA: 111.49 | VL: 3.278e-01 | Norm: 1.12e-01 | time: 1.89e+01 |
+| epoch:  400 | TA: 116.70 | TL: 3.025e-01 | VA: 113.44 | VL: 3.291e-01 | Norm: 1.18e-01 | time: 1.89e+01 |
+| epoch:  500 | TA: 117.14 | TL: 2.950e-01 | VA: 112.52 | VL: 3.261e-01 | Norm: 1.15e-01 | time: 1.91e+01 |
+| epoch:  600 | TA: 115.27 | TL: 2.922e-01 | VA: 111.79 | VL: 3.277e-01 | Norm: 1.16e-01 | time: 1.90e+01 |
+| epoch:  700 | TA: 118.68 | TL: 2.880e-01 | VA: 112.31 | VL: 3.316e-01 | Norm: 1.18e-01 | time: 1.91e+01 |
+| epoch:  800 | TA: 118.04 | TL: 2.853e-01 | VA: 108.50 | VL: 3.292e-01 | Norm: 1.18e-01 | time: 1.92e+01 |
+| epoch:  900 | TA: 115.19 | TL: 2.832e-01 | VA: 109.11 | VL: 3.295e-01 | Norm: 1.17e-01 | time: 1.92e+01 |
+| epoch: 1000 | TA: 115.88 | TL: 2.823e-01 | VA: 109.57 | VL: 3.297e-01 | Norm: 1.16e-01 | time: 1.92e+01 |
+| epoch: 1100 | TA: 116.35 | TL: 2.813e-01 | VA: 112.89 | VL: 3.311e-01 | Norm: 1.16e-01 | time: 1.93e+01 |
+| epoch: 1200 | TA: 119.19 | TL: 2.799e-01 | VA: 109.69 | VL: 3.317e-01 | Norm: 1.17e-01 | time: 1.92e+01 |
+| epoch: 1300 | TA: 119.00 | TL: 2.789e-01 | VA: 110.71 | VL: 3.324e-01 | Norm: 1.18e-01 | time: 1.93e+01 |
+| epoch: 1400 | TA: 118.51 | TL: 2.790e-01 | VA: 111.12 | VL: 3.353e-01 | Norm: 1.19e-01 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:0.02188 seed:8.
+The ID for this training is 1658666412.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.962e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 113.73 | TL: 3.458e-01 | VA: 110.50 | VL: 3.542e-01 | Norm: 8.62e-02 | time: 1.89e+01 |
+| epoch:  200 | TA: 117.79 | TL: 3.123e-01 | VA: 114.34 | VL: 3.331e-01 | Norm: 9.30e-02 | time: 1.89e+01 |
+| epoch:  300 | TA: 119.22 | TL: 2.948e-01 | VA: 113.31 | VL: 3.308e-01 | Norm: 1.03e-01 | time: 1.89e+01 |
+| epoch:  400 | TA: 120.12 | TL: 2.862e-01 | VA: 114.29 | VL: 3.300e-01 | Norm: 1.11e-01 | time: 1.89e+01 |
+| epoch:  500 | TA: 120.40 | TL: 2.780e-01 | VA: 112.92 | VL: 3.274e-01 | Norm: 1.16e-01 | time: 1.89e+01 |
+| epoch:  600 | TA: 120.70 | TL: 2.769e-01 | VA: 115.27 | VL: 3.275e-01 | Norm: 1.20e-01 | time: 1.90e+01 |
+| epoch:  700 | TA: 122.27 | TL: 2.724e-01 | VA: 112.07 | VL: 3.268e-01 | Norm: 1.22e-01 | time: 1.90e+01 |
+| epoch:  800 | TA: 121.18 | TL: 2.697e-01 | VA: 113.17 | VL: 3.295e-01 | Norm: 1.25e-01 | time: 1.90e+01 |
+| epoch:  900 | TA: 121.69 | TL: 2.718e-01 | VA: 112.15 | VL: 3.331e-01 | Norm: 1.29e-01 | time: 1.91e+01 |
+| epoch: 1000 | TA: 123.81 | TL: 2.621e-01 | VA: 114.61 | VL: 3.290e-01 | Norm: 1.38e-01 | time: 1.91e+01 |
+| epoch: 1100 | TA: 123.04 | TL: 2.609e-01 | VA: 113.91 | VL: 3.281e-01 | Norm: 1.43e-01 | time: 1.92e+01 |
+| epoch: 1200 | TA: 123.90 | TL: 2.598e-01 | VA: 112.99 | VL: 3.294e-01 | Norm: 1.46e-01 | time: 1.92e+01 |
+| epoch: 1300 | TA: 123.69 | TL: 2.581e-01 | VA: 113.09 | VL: 3.275e-01 | Norm: 1.51e-01 | time: 1.92e+01 |
+| epoch: 1400 | TA: 122.82 | TL: 2.574e-01 | VA: 113.48 | VL: 3.279e-01 | Norm: 1.56e-01 | time: 1.92e+01 |
+| epoch: 1500 | TA: 123.87 | TL: 2.556e-01 | VA: 115.28 | VL: 3.280e-01 | Norm: 1.57e-01 | time: 1.93e+01 |
+| epoch: 1600 | TA: 122.54 | TL: 2.558e-01 | VA: 112.57 | VL: 3.282e-01 | Norm: 1.59e-01 | time: 1.93e+01 |
+| epoch: 1700 | TA: 123.76 | TL: 2.539e-01 | VA: 114.19 | VL: 3.295e-01 | Norm: 1.60e-01 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:0.03311 seed:8.
+The ID for this training is 1658666750.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.962e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 113.00 | TL: 3.390e-01 | VA: 107.37 | VL: 3.546e-01 | Norm: 7.76e-02 | time: 1.89e+01 |
+| epoch:  200 | TA: 115.36 | TL: 3.055e-01 | VA: 111.95 | VL: 3.342e-01 | Norm: 8.27e-02 | time: 1.88e+01 |
+| epoch:  300 | TA: 116.88 | TL: 2.938e-01 | VA: 114.60 | VL: 3.266e-01 | Norm: 8.55e-02 | time: 1.89e+01 |
+| epoch:  400 | TA: 117.31 | TL: 2.837e-01 | VA: 112.22 | VL: 3.342e-01 | Norm: 8.57e-02 | time: 1.89e+01 |
+| epoch:  500 | TA: 116.93 | TL: 2.877e-01 | VA: 113.88 | VL: 3.344e-01 | Norm: 8.70e-02 | time: 1.90e+01 |
+| epoch:  600 | TA: 120.44 | TL: 2.742e-01 | VA: 112.97 | VL: 3.239e-01 | Norm: 8.90e-02 | time: 1.91e+01 |
+| epoch:  700 | TA: 120.96 | TL: 2.712e-01 | VA: 114.69 | VL: 3.215e-01 | Norm: 8.78e-02 | time: 1.91e+01 |
+| epoch:  800 | TA: 119.40 | TL: 2.696e-01 | VA: 114.90 | VL: 3.196e-01 | Norm: 8.72e-02 | time: 1.91e+01 |
+| epoch:  900 | TA: 119.72 | TL: 2.674e-01 | VA: 113.21 | VL: 3.189e-01 | Norm: 8.83e-02 | time: 1.92e+01 |
+| epoch: 1000 | TA: 120.54 | TL: 2.670e-01 | VA: 112.79 | VL: 3.230e-01 | Norm: 9.12e-02 | time: 1.92e+01 |
+| epoch: 1100 | TA: 120.00 | TL: 2.634e-01 | VA: 111.58 | VL: 3.202e-01 | Norm: 9.15e-02 | time: 1.92e+01 |
+| epoch: 1200 | TA: 121.02 | TL: 2.625e-01 | VA: 115.72 | VL: 3.222e-01 | Norm: 9.36e-02 | time: 1.93e+01 |
+| epoch: 1300 | TA: 121.14 | TL: 2.603e-01 | VA: 113.96 | VL: 3.235e-01 | Norm: 9.42e-02 | time: 1.92e+01 |
+| epoch: 1400 | TA: 120.22 | TL: 2.605e-01 | VA: 113.45 | VL: 3.206e-01 | Norm: 9.37e-02 | time: 1.93e+01 |
+| epoch: 1500 | TA: 120.26 | TL: 2.591e-01 | VA: 115.03 | VL: 3.218e-01 | Norm: 9.25e-02 | time: 1.93e+01 |
+| epoch: 1600 | TA: 121.39 | TL: 2.589e-01 | VA: 111.98 | VL: 3.214e-01 | Norm: 9.11e-02 | time: 1.93e+01 |
+| epoch: 1700 | TA: 120.89 | TL: 2.588e-01 | VA: 111.31 | VL: 3.210e-01 | Norm: 9.14e-02 | time: 1.93e+01 |
+| epoch: 1800 | TA: 119.47 | TL: 2.552e-01 | VA: 112.99 | VL: 3.219e-01 | Norm: 9.11e-02 | time: 1.94e+01 |
+| epoch: 1900 | TA: 120.86 | TL: 2.553e-01 | VA: 112.66 | VL: 3.218e-01 | Norm: 8.91e-02 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:0.05012 seed:8.
+The ID for this training is 1658667131.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.964e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 111.98 | TL: 3.375e-01 | VA: 107.99 | VL: 3.542e-01 | Norm: 6.69e-02 | time: 1.89e+01 |
+| epoch:  200 | TA: 118.05 | TL: 2.999e-01 | VA: 114.92 | VL: 3.347e-01 | Norm: 7.11e-02 | time: 1.89e+01 |
+| epoch:  300 | TA: 118.65 | TL: 2.873e-01 | VA: 113.42 | VL: 3.260e-01 | Norm: 6.76e-02 | time: 1.90e+01 |
+| epoch:  400 | TA: 118.72 | TL: 2.860e-01 | VA: 113.59 | VL: 3.273e-01 | Norm: 7.35e-02 | time: 1.90e+01 |
+| epoch:  500 | TA: 119.74 | TL: 2.779e-01 | VA: 117.24 | VL: 3.210e-01 | Norm: 7.50e-02 | time: 1.90e+01 |
+| epoch:  600 | TA: 120.97 | TL: 2.743e-01 | VA: 115.40 | VL: 3.221e-01 | Norm: 7.53e-02 | time: 1.91e+01 |
+| epoch:  700 | TA: 121.93 | TL: 2.694e-01 | VA: 116.14 | VL: 3.245e-01 | Norm: 7.22e-02 | time: 1.90e+01 |
+| epoch:  800 | TA: 121.29 | TL: 2.660e-01 | VA: 116.62 | VL: 3.251e-01 | Norm: 6.76e-02 | time: 1.91e+01 |
+| epoch:  900 | TA: 120.95 | TL: 2.644e-01 | VA: 115.50 | VL: 3.255e-01 | Norm: 6.30e-02 | time: 1.91e+01 |
+| epoch: 1000 | TA: 121.47 | TL: 2.620e-01 | VA: 117.15 | VL: 3.243e-01 | Norm: 5.92e-02 | time: 1.91e+01 |
+| epoch: 1100 | TA: 121.78 | TL: 2.607e-01 | VA: 115.04 | VL: 3.243e-01 | Norm: 5.65e-02 | time: 1.91e+01 |
+| epoch: 1200 | TA: 121.24 | TL: 2.602e-01 | VA: 117.63 | VL: 3.243e-01 | Norm: 5.50e-02 | time: 1.92e+01 |
+| epoch: 1300 | TA: 120.25 | TL: 2.586e-01 | VA: 116.54 | VL: 3.240e-01 | Norm: 5.37e-02 | time: 1.92e+01 |
+| epoch: 1400 | TA: 122.13 | TL: 2.581e-01 | VA: 118.29 | VL: 3.232e-01 | Norm: 5.32e-02 | time: 1.92e+01 |
+| epoch: 1500 | TA: 122.05 | TL: 2.569e-01 | VA: 116.76 | VL: 3.210e-01 | Norm: 5.25e-02 | time: 1.92e+01 |
+Early stop.
+Finished.
+Training with penalty:0.07586 seed:8.
+The ID for this training is 1658667432.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.965e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 109.45 | TL: 3.539e-01 | VA: 108.27 | VL: 3.662e-01 | Norm: 4.89e-02 | time: 1.89e+01 |
+| epoch:  200 | TA: 114.76 | TL: 3.044e-01 | VA: 110.76 | VL: 3.361e-01 | Norm: 4.40e-02 | time: 1.89e+01 |
+| epoch:  300 | TA: 115.23 | TL: 2.930e-01 | VA: 110.93 | VL: 3.320e-01 | Norm: 3.75e-02 | time: 1.89e+01 |
+| epoch:  400 | TA: 116.57 | TL: 2.872e-01 | VA: 111.39 | VL: 3.285e-01 | Norm: 3.47e-02 | time: 1.90e+01 |
+| epoch:  500 | TA: 118.08 | TL: 2.828e-01 | VA: 109.11 | VL: 3.280e-01 | Norm: 3.21e-02 | time: 1.90e+01 |
+| epoch:  600 | TA: 117.08 | TL: 2.756e-01 | VA: 110.28 | VL: 3.291e-01 | Norm: 3.41e-02 | time: 1.91e+01 |
+| epoch:  700 | TA: 118.32 | TL: 2.714e-01 | VA: 110.40 | VL: 3.286e-01 | Norm: 3.31e-02 | time: 1.91e+01 |
+| epoch:  800 | TA: 118.22 | TL: 2.695e-01 | VA: 112.75 | VL: 3.285e-01 | Norm: 3.34e-02 | time: 1.92e+01 |
+| epoch:  900 | TA: 118.75 | TL: 2.662e-01 | VA: 111.11 | VL: 3.306e-01 | Norm: 3.20e-02 | time: 1.92e+01 |
+| epoch: 1000 | TA: 119.34 | TL: 2.651e-01 | VA: 110.50 | VL: 3.304e-01 | Norm: 3.20e-02 | time: 1.92e+01 |
+| epoch: 1100 | TA: 117.66 | TL: 2.659e-01 | VA: 110.29 | VL: 3.271e-01 | Norm: 3.11e-02 | time: 1.92e+01 |
+| epoch: 1200 | TA: 119.88 | TL: 2.624e-01 | VA: 110.56 | VL: 3.290e-01 | Norm: 2.93e-02 | time: 1.92e+01 |
+| epoch: 1300 | TA: 119.59 | TL: 2.617e-01 | VA: 111.79 | VL: 3.289e-01 | Norm: 2.82e-02 | time: 1.93e+01 |
+| epoch: 1400 | TA: 117.43 | TL: 2.610e-01 | VA: 112.27 | VL: 3.268e-01 | Norm: 2.71e-02 | time: 1.92e+01 |
+| epoch: 1500 | TA: 118.63 | TL: 2.604e-01 | VA: 112.41 | VL: 3.262e-01 | Norm: 2.60e-02 | time: 1.93e+01 |
+| epoch: 1600 | TA: 118.78 | TL: 2.592e-01 | VA: 110.24 | VL: 3.267e-01 | Norm: 2.54e-02 | time: 1.93e+01 |
+| epoch: 1700 | TA: 119.66 | TL: 2.596e-01 | VA: 109.81 | VL: 3.270e-01 | Norm: 2.48e-02 | time: 1.93e+01 |
+| epoch: 1800 | TA: 119.81 | TL: 2.583e-01 | VA: 112.48 | VL: 3.260e-01 | Norm: 2.44e-02 | time: 1.93e+01 |
+| epoch: 1900 | TA: 120.16 | TL: 2.579e-01 | VA: 110.56 | VL: 3.255e-01 | Norm: 2.37e-02 | time: 1.93e+01 |
+| epoch: 2000 | TA: 119.51 | TL: 2.574e-01 | VA: 110.45 | VL: 3.266e-01 | Norm: 2.33e-02 | time: 1.93e+01 |
+| epoch: 2100 | TA: 120.28 | TL: 2.564e-01 | VA: 112.34 | VL: 3.248e-01 | Norm: 2.24e-02 | time: 1.93e+01 |
+| epoch: 2200 | TA: 119.48 | TL: 2.560e-01 | VA: 110.93 | VL: 3.254e-01 | Norm: 2.15e-02 | time: 1.93e+01 |
+| epoch: 2300 | TA: 119.40 | TL: 2.555e-01 | VA: 108.71 | VL: 3.258e-01 | Norm: 2.08e-02 | time: 1.93e+01 |
+| epoch: 2400 | TA: 118.62 | TL: 2.549e-01 | VA: 111.39 | VL: 3.255e-01 | Norm: 2.04e-02 | time: 1.93e+01 |
+| epoch: 2500 | TA: 119.33 | TL: 2.548e-01 | VA: 110.37 | VL: 3.258e-01 | Norm: 1.99e-02 | time: 1.93e+01 |
+| epoch: 2600 | TA: 117.96 | TL: 2.543e-01 | VA: 109.90 | VL: 3.255e-01 | Norm: 1.96e-02 | time: 1.94e+01 |
+| epoch: 2700 | TA: 120.78 | TL: 2.540e-01 | VA: 110.59 | VL: 3.250e-01 | Norm: 1.89e-02 | time: 1.93e+01 |
+| epoch: 2800 | TA: 117.50 | TL: 2.542e-01 | VA: 111.88 | VL: 3.266e-01 | Norm: 1.85e-02 | time: 1.94e+01 |
+| epoch: 2900 | TA: 119.53 | TL: 2.540e-01 | VA: 110.48 | VL: 3.261e-01 | Norm: 1.88e-02 | time: 1.94e+01 |
+| epoch: 3000 | TA: 120.46 | TL: 2.538e-01 | VA: 109.96 | VL: 3.256e-01 | Norm: 1.87e-02 | time: 1.94e+01 |
+| epoch: 3100 | TA: 119.58 | TL: 2.533e-01 | VA: 111.44 | VL: 3.260e-01 | Norm: 1.85e-02 | time: 1.94e+01 |
+| epoch: 3200 | TA: 119.07 | TL: 2.536e-01 | VA: 111.73 | VL: 3.253e-01 | Norm: 1.81e-02 | time: 1.94e+01 |
+| epoch: 3300 | TA: 120.58 | TL: 2.532e-01 | VA: 111.71 | VL: 3.256e-01 | Norm: 1.81e-02 | time: 1.93e+01 |
+| epoch: 3400 | TA: 120.35 | TL: 2.528e-01 | VA: 112.73 | VL: 3.257e-01 | Norm: 1.76e-02 | time: 1.94e+01 |
+| epoch: 3500 | TA: 121.13 | TL: 2.523e-01 | VA: 113.13 | VL: 3.248e-01 | Norm: 1.70e-02 | time: 1.94e+01 |
+| epoch: 3600 | TA: 118.80 | TL: 2.534e-01 | VA: 112.50 | VL: 3.255e-01 | Norm: 1.70e-02 | time: 1.94e+01 |
+| epoch: 3700 | TA: 117.84 | TL: 2.534e-01 | VA: 110.29 | VL: 3.258e-01 | Norm: 1.73e-02 | time: 1.95e+01 |
+| epoch: 3800 | TA: 120.91 | TL: 2.534e-01 | VA: 111.24 | VL: 3.259e-01 | Norm: 1.72e-02 | time: 1.97e+01 |
+| epoch: 3900 | TA: 120.26 | TL: 2.518e-01 | VA: 111.75 | VL: 3.247e-01 | Norm: 1.67e-02 | time: 1.96e+01 |
+| epoch: 4000 | TA: 119.38 | TL: 2.519e-01 | VA: 110.63 | VL: 3.259e-01 | Norm: 1.65e-02 | time: 1.96e+01 |
+| epoch: 4100 | TA: 116.87 | TL: 2.515e-01 | VA: 112.74 | VL: 3.251e-01 | Norm: 1.61e-02 | time: 1.96e+01 |
+| epoch: 4200 | TA: 120.26 | TL: 2.513e-01 | VA: 110.59 | VL: 3.252e-01 | Norm: 1.57e-02 | time: 1.96e+01 |
+| epoch: 4300 | TA: 120.67 | TL: 2.513e-01 | VA: 111.57 | VL: 3.245e-01 | Norm: 1.55e-02 | time: 1.95e+01 |
+| epoch: 4400 | TA: 120.38 | TL: 2.516e-01 | VA: 108.89 | VL: 3.259e-01 | Norm: 1.56e-02 | time: 1.96e+01 |
+| epoch: 4500 | TA: 119.38 | TL: 2.513e-01 | VA: 110.62 | VL: 3.264e-01 | Norm: 1.50e-02 | time: 1.95e+01 |
+| epoch: 4600 | TA: 119.69 | TL: 2.521e-01 | VA: 111.95 | VL: 3.270e-01 | Norm: 1.51e-02 | time: 1.96e+01 |
+| epoch: 4700 | TA: 119.13 | TL: 2.532e-01 | VA: 113.26 | VL: 3.260e-01 | Norm: 1.49e-02 | time: 1.95e+01 |
+Early stop.
+Finished.
+Training with penalty:0.11482 seed:8.
+The ID for this training is 1658668377.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.968e-01 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 113.08 | TL: 3.442e-01 | VA: 109.02 | VL: 3.663e-01 | Norm: 3.63e-02 | time: 1.88e+01 |
+| epoch:  200 | TA: 116.23 | TL: 3.014e-01 | VA: 111.90 | VL: 3.389e-01 | Norm: 3.06e-02 | time: 1.88e+01 |
+| epoch:  300 | TA: 119.12 | TL: 2.982e-01 | VA: 113.97 | VL: 3.379e-01 | Norm: 3.05e-02 | time: 1.88e+01 |
+| epoch:  400 | TA: 120.39 | TL: 2.782e-01 | VA: 113.43 | VL: 3.293e-01 | Norm: 2.86e-02 | time: 1.89e+01 |
+| epoch:  500 | TA: 120.65 | TL: 2.776e-01 | VA: 113.55 | VL: 3.342e-01 | Norm: 2.76e-02 | time: 1.90e+01 |
+| epoch:  600 | TA: 120.20 | TL: 2.715e-01 | VA: 113.15 | VL: 3.316e-01 | Norm: 2.54e-02 | time: 1.90e+01 |
+| epoch:  700 | TA: 120.30 | TL: 2.702e-01 | VA: 114.34 | VL: 3.316e-01 | Norm: 2.32e-02 | time: 1.91e+01 |
+| epoch:  800 | TA: 120.26 | TL: 2.676e-01 | VA: 114.87 | VL: 3.318e-01 | Norm: 2.14e-02 | time: 1.91e+01 |
+| epoch:  900 | TA: 120.15 | TL: 2.682e-01 | VA: 115.22 | VL: 3.350e-01 | Norm: 2.05e-02 | time: 1.92e+01 |
+| epoch: 1000 | TA: 120.96 | TL: 2.641e-01 | VA: 114.26 | VL: 3.312e-01 | Norm: 2.03e-02 | time: 1.92e+01 |
+| epoch: 1100 | TA: 120.75 | TL: 2.626e-01 | VA: 114.71 | VL: 3.333e-01 | Norm: 2.06e-02 | time: 1.93e+01 |
+| epoch: 1200 | TA: 121.21 | TL: 2.593e-01 | VA: 114.29 | VL: 3.339e-01 | Norm: 2.08e-02 | time: 1.93e+01 |
+| epoch: 1300 | TA: 122.02 | TL: 2.576e-01 | VA: 114.82 | VL: 3.372e-01 | Norm: 2.05e-02 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:0.17378 seed:8.
+The ID for this training is 1658668649.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.972e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 110.85 | TL: 3.531e-01 | VA: 108.57 | VL: 3.731e-01 | Norm: 2.11e-02 | time: 1.88e+01 |
+| epoch:  200 | TA: 115.42 | TL: 3.205e-01 | VA: 110.76 | VL: 3.541e-01 | Norm: 1.59e-02 | time: 1.89e+01 |
+| epoch:  300 | TA: 117.71 | TL: 3.077e-01 | VA: 115.27 | VL: 3.494e-01 | Norm: 1.64e-02 | time: 1.89e+01 |
+| epoch:  400 | TA: 119.95 | TL: 3.038e-01 | VA: 112.65 | VL: 3.467e-01 | Norm: 1.45e-02 | time: 1.89e+01 |
+| epoch:  500 | TA: 118.56 | TL: 2.991e-01 | VA: 112.50 | VL: 3.448e-01 | Norm: 1.26e-02 | time: 1.90e+01 |
+| epoch:  600 | TA: 119.28 | TL: 2.950e-01 | VA: 114.04 | VL: 3.450e-01 | Norm: 1.17e-02 | time: 1.91e+01 |
+| epoch:  700 | TA: 118.89 | TL: 2.925e-01 | VA: 114.76 | VL: 3.440e-01 | Norm: 1.04e-02 | time: 1.91e+01 |
+| epoch:  800 | TA: 119.82 | TL: 2.918e-01 | VA: 113.35 | VL: 3.421e-01 | Norm: 1.00e-02 | time: 1.92e+01 |
+| epoch:  900 | TA: 120.11 | TL: 2.888e-01 | VA: 114.51 | VL: 3.404e-01 | Norm: 9.47e-03 | time: 1.92e+01 |
+| epoch: 1000 | TA: 118.92 | TL: 2.871e-01 | VA: 114.78 | VL: 3.394e-01 | Norm: 8.80e-03 | time: 1.92e+01 |
+| epoch: 1100 | TA: 120.89 | TL: 2.864e-01 | VA: 116.12 | VL: 3.407e-01 | Norm: 8.40e-03 | time: 1.93e+01 |
+| epoch: 1200 | TA: 119.85 | TL: 2.861e-01 | VA: 116.20 | VL: 3.386e-01 | Norm: 7.88e-03 | time: 1.93e+01 |
+| epoch: 1300 | TA: 120.43 | TL: 2.832e-01 | VA: 114.37 | VL: 3.368e-01 | Norm: 8.33e-03 | time: 1.93e+01 |
+| epoch: 1400 | TA: 119.32 | TL: 2.812e-01 | VA: 114.81 | VL: 3.401e-01 | Norm: 9.05e-03 | time: 1.93e+01 |
+| epoch: 1500 | TA: 120.40 | TL: 2.803e-01 | VA: 114.79 | VL: 3.390e-01 | Norm: 9.23e-03 | time: 1.94e+01 |
+| epoch: 1600 | TA: 118.96 | TL: 2.796e-01 | VA: 115.37 | VL: 3.393e-01 | Norm: 9.25e-03 | time: 1.94e+01 |
+| epoch: 1700 | TA: 120.21 | TL: 2.787e-01 | VA: 116.23 | VL: 3.423e-01 | Norm: 9.37e-03 | time: 1.94e+01 |
+| epoch: 1800 | TA: 121.34 | TL: 2.776e-01 | VA: 113.90 | VL: 3.415e-01 | Norm: 9.35e-03 | time: 1.94e+01 |
+| epoch: 1900 | TA: 120.99 | TL: 2.774e-01 | VA: 113.08 | VL: 3.431e-01 | Norm: 8.94e-03 | time: 1.94e+01 |
+| epoch: 2000 | TA: 121.07 | TL: 2.765e-01 | VA: 112.69 | VL: 3.406e-01 | Norm: 8.69e-03 | time: 1.94e+01 |
+| epoch: 2100 | TA: 121.76 | TL: 2.757e-01 | VA: 113.82 | VL: 3.415e-01 | Norm: 8.40e-03 | time: 1.94e+01 |
+| epoch: 2200 | TA: 120.72 | TL: 2.752e-01 | VA: 112.45 | VL: 3.419e-01 | Norm: 8.45e-03 | time: 1.94e+01 |
+| epoch: 2300 | TA: 121.05 | TL: 2.751e-01 | VA: 113.85 | VL: 3.436e-01 | Norm: 8.20e-03 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:0.26303 seed:8.
+The ID for this training is 1658669109.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.978e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 112.45 | TL: 3.485e-01 | VA: 109.55 | VL: 3.716e-01 | Norm: 1.35e-02 | time: 1.89e+01 |
+| epoch:  200 | TA: 117.80 | TL: 3.071e-01 | VA: 112.76 | VL: 3.487e-01 | Norm: 1.16e-02 | time: 1.88e+01 |
+| epoch:  300 | TA: 119.40 | TL: 2.933e-01 | VA: 112.04 | VL: 3.456e-01 | Norm: 1.08e-02 | time: 1.89e+01 |
+| epoch:  400 | TA: 118.81 | TL: 2.853e-01 | VA: 111.39 | VL: 3.382e-01 | Norm: 9.75e-03 | time: 1.90e+01 |
+| epoch:  500 | TA: 119.21 | TL: 2.828e-01 | VA: 113.91 | VL: 3.365e-01 | Norm: 8.27e-03 | time: 1.90e+01 |
+| epoch:  600 | TA: 120.90 | TL: 2.778e-01 | VA: 112.82 | VL: 3.333e-01 | Norm: 7.58e-03 | time: 1.91e+01 |
+| epoch:  700 | TA: 119.95 | TL: 2.739e-01 | VA: 113.39 | VL: 3.305e-01 | Norm: 7.22e-03 | time: 1.91e+01 |
+| epoch:  800 | TA: 120.75 | TL: 2.731e-01 | VA: 112.91 | VL: 3.307e-01 | Norm: 6.54e-03 | time: 1.92e+01 |
+| epoch:  900 | TA: 120.08 | TL: 2.710e-01 | VA: 114.18 | VL: 3.253e-01 | Norm: 5.82e-03 | time: 1.92e+01 |
+| epoch: 1000 | TA: 119.68 | TL: 2.686e-01 | VA: 111.06 | VL: 3.316e-01 | Norm: 5.51e-03 | time: 1.92e+01 |
+| epoch: 1100 | TA: 121.19 | TL: 2.754e-01 | VA: 113.28 | VL: 3.438e-01 | Norm: 4.64e-03 | time: 1.93e+01 |
+| epoch: 1200 | TA: 122.10 | TL: 2.685e-01 | VA: 113.17 | VL: 3.400e-01 | Norm: 4.21e-03 | time: 1.93e+01 |
+| epoch: 1300 | TA: 121.44 | TL: 2.677e-01 | VA: 112.97 | VL: 3.297e-01 | Norm: 4.15e-03 | time: 1.93e+01 |
+| epoch: 1400 | TA: 121.86 | TL: 2.671e-01 | VA: 114.83 | VL: 3.270e-01 | Norm: 4.11e-03 | time: 1.93e+01 |
+| epoch: 1500 | TA: 121.45 | TL: 2.661e-01 | VA: 114.07 | VL: 3.286e-01 | Norm: 3.93e-03 | time: 1.93e+01 |
+| epoch: 1600 | TA: 121.84 | TL: 2.687e-01 | VA: 113.73 | VL: 3.269e-01 | Norm: 4.12e-03 | time: 1.93e+01 |
+| epoch: 1700 | TA: 120.22 | TL: 2.645e-01 | VA: 112.53 | VL: 3.261e-01 | Norm: 3.66e-03 | time: 1.94e+01 |
+| epoch: 1800 | TA: 119.62 | TL: 2.756e-01 | VA: 113.50 | VL: 3.328e-01 | Norm: 3.67e-03 | time: 1.93e+01 |
+| epoch: 1900 | TA: 121.81 | TL: 2.641e-01 | VA: 112.35 | VL: 3.260e-01 | Norm: 3.37e-03 | time: 1.93e+01 |
+| epoch: 2000 | TA: 122.51 | TL: 2.623e-01 | VA: 113.87 | VL: 3.314e-01 | Norm: 3.29e-03 | time: 1.94e+01 |
+| epoch: 2100 | TA: 122.62 | TL: 2.605e-01 | VA: 113.47 | VL: 3.286e-01 | Norm: 3.22e-03 | time: 1.93e+01 |
+| epoch: 2200 | TA: 120.83 | TL: 2.659e-01 | VA: 114.28 | VL: 3.341e-01 | Norm: 2.84e-03 | time: 1.94e+01 |
+| epoch: 2300 | TA: 121.27 | TL: 2.592e-01 | VA: 111.90 | VL: 3.318e-01 | Norm: 2.49e-03 | time: 1.94e+01 |
+| epoch: 2400 | TA: 122.74 | TL: 2.578e-01 | VA: 113.06 | VL: 3.342e-01 | Norm: 2.43e-03 | time: 1.94e+01 |
+| epoch: 2500 | TA: 122.37 | TL: 2.681e-01 | VA: 114.29 | VL: 3.380e-01 | Norm: 2.63e-03 | time: 1.94e+01 |
+| epoch: 2600 | TA: 120.60 | TL: 2.577e-01 | VA: 112.72 | VL: 3.347e-01 | Norm: 2.28e-03 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:0.39811 seed:8.
+The ID for this training is 1658669642.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.987e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 112.97 | TL: 3.477e-01 | VA: 111.61 | VL: 3.680e-01 | Norm: 8.96e-03 | time: 1.88e+01 |
+| epoch:  200 | TA: 117.31 | TL: 3.130e-01 | VA: 111.86 | VL: 3.484e-01 | Norm: 4.81e-03 | time: 1.87e+01 |
+| epoch:  300 | TA: 115.66 | TL: 3.038e-01 | VA: 111.06 | VL: 3.441e-01 | Norm: 3.13e-03 | time: 1.87e+01 |
+| epoch:  400 | TA: 117.78 | TL: 2.969e-01 | VA: 111.92 | VL: 3.417e-01 | Norm: 1.81e-03 | time: 1.88e+01 |
+| epoch:  500 | TA: 118.72 | TL: 2.934e-01 | VA: 112.14 | VL: 3.426e-01 | Norm: 1.48e-03 | time: 1.89e+01 |
+| epoch:  600 | TA: 115.53 | TL: 2.891e-01 | VA: 110.11 | VL: 3.419e-01 | Norm: 1.12e-03 | time: 1.89e+01 |
+| epoch:  700 | TA: 118.57 | TL: 2.841e-01 | VA: 110.59 | VL: 3.431e-01 | Norm: 1.22e-03 | time: 1.90e+01 |
+| epoch:  800 | TA: 116.82 | TL: 2.847e-01 | VA: 110.09 | VL: 3.460e-01 | Norm: 1.10e-03 | time: 1.90e+01 |
+| epoch:  900 | TA: 117.75 | TL: 2.794e-01 | VA: 112.51 | VL: 3.424e-01 | Norm: 9.98e-04 | time: 1.90e+01 |
+| epoch: 1000 | TA: 117.99 | TL: 2.770e-01 | VA: 113.74 | VL: 3.420e-01 | Norm: 9.48e-04 | time: 1.91e+01 |
+| epoch: 1100 | TA: 119.32 | TL: 2.752e-01 | VA: 113.31 | VL: 3.409e-01 | Norm: 1.06e-03 | time: 1.92e+01 |
+| epoch: 1200 | TA: 118.44 | TL: 2.739e-01 | VA: 110.38 | VL: 3.406e-01 | Norm: 1.34e-03 | time: 1.91e+01 |
+| epoch: 1300 | TA: 117.81 | TL: 2.739e-01 | VA: 110.81 | VL: 3.406e-01 | Norm: 1.13e-03 | time: 1.92e+01 |
+| epoch: 1400 | TA: 118.64 | TL: 2.737e-01 | VA: 112.62 | VL: 3.384e-01 | Norm: 1.05e-03 | time: 1.92e+01 |
+| epoch: 1500 | TA: 119.15 | TL: 2.696e-01 | VA: 110.43 | VL: 3.401e-01 | Norm: 1.21e-03 | time: 1.92e+01 |
+| epoch: 1600 | TA: 117.92 | TL: 2.703e-01 | VA: 109.78 | VL: 3.379e-01 | Norm: 1.05e-03 | time: 1.93e+01 |
+| epoch: 1700 | TA: 119.18 | TL: 2.686e-01 | VA: 109.85 | VL: 3.358e-01 | Norm: 1.31e-03 | time: 1.93e+01 |
+| epoch: 1800 | TA: 119.80 | TL: 2.687e-01 | VA: 109.65 | VL: 3.373e-01 | Norm: 1.07e-03 | time: 1.94e+01 |
+| epoch: 1900 | TA: 120.05 | TL: 2.658e-01 | VA: 109.25 | VL: 3.358e-01 | Norm: 1.34e-03 | time: 1.93e+01 |
+| epoch: 2000 | TA: 118.54 | TL: 2.695e-01 | VA: 110.83 | VL: 3.355e-01 | Norm: 1.27e-03 | time: 1.94e+01 |
+| epoch: 2100 | TA: 120.76 | TL: 2.652e-01 | VA: 110.45 | VL: 3.342e-01 | Norm: 8.74e-04 | time: 1.93e+01 |
+| epoch: 2200 | TA: 119.39 | TL: 2.681e-01 | VA: 107.23 | VL: 3.462e-01 | Norm: 1.45e-03 | time: 1.93e+01 |
+| epoch: 2300 | TA: 118.14 | TL: 2.640e-01 | VA: 112.33 | VL: 3.339e-01 | Norm: 1.03e-03 | time: 1.93e+01 |
+| epoch: 2400 | TA: 119.10 | TL: 2.648e-01 | VA: 111.05 | VL: 3.342e-01 | Norm: 8.47e-04 | time: 1.94e+01 |
+| epoch: 2500 | TA: 121.81 | TL: 2.627e-01 | VA: 113.02 | VL: 3.340e-01 | Norm: 8.65e-04 | time: 1.94e+01 |
+| epoch: 2600 | TA: 120.90 | TL: 2.600e-01 | VA: 110.39 | VL: 3.348e-01 | Norm: 1.07e-03 | time: 1.94e+01 |
+| epoch: 2700 | TA: 120.05 | TL: 2.594e-01 | VA: 110.10 | VL: 3.329e-01 | Norm: 9.77e-04 | time: 1.94e+01 |
+| epoch: 2800 | TA: 118.37 | TL: 2.790e-01 | VA: 109.78 | VL: 3.481e-01 | Norm: 1.13e-03 | time: 1.94e+01 |
+| epoch: 2900 | TA: 120.16 | TL: 2.802e-01 | VA: 108.66 | VL: 3.485e-01 | Norm: 8.63e-04 | time: 1.93e+01 |
+| epoch: 3000 | TA: 118.62 | TL: 2.783e-01 | VA: 107.91 | VL: 3.484e-01 | Norm: 6.55e-04 | time: 1.94e+01 |
+| epoch: 3100 | TA: 120.41 | TL: 2.778e-01 | VA: 110.56 | VL: 3.478e-01 | Norm: 4.23e-04 | time: 1.94e+01 |
+| epoch: 3200 | TA: 119.26 | TL: 2.787e-01 | VA: 108.73 | VL: 3.482e-01 | Norm: 7.20e-04 | time: 1.94e+01 |
+| epoch: 3300 | TA: 119.36 | TL: 2.770e-01 | VA: 107.30 | VL: 3.482e-01 | Norm: 4.15e-04 | time: 1.93e+01 |
+| epoch: 3400 | TA: 118.85 | TL: 2.812e-01 | VA: 108.88 | VL: 3.480e-01 | Norm: 5.51e-04 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:0.60256 seed:8.
+The ID for this training is 1658670321.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 7.000e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 111.63 | TL: 3.522e-01 | VA: 105.07 | VL: 3.688e-01 | Norm: 4.10e-03 | time: 1.89e+01 |
+| epoch:  200 | TA: 116.03 | TL: 3.122e-01 | VA: 113.24 | VL: 3.429e-01 | Norm: 2.12e-03 | time: 1.89e+01 |
+| epoch:  300 | TA: 118.50 | TL: 2.963e-01 | VA: 113.26 | VL: 3.381e-01 | Norm: 1.53e-03 | time: 1.89e+01 |
+| epoch:  400 | TA: 118.06 | TL: 2.881e-01 | VA: 112.15 | VL: 3.380e-01 | Norm: 1.21e-03 | time: 1.89e+01 |
+| epoch:  500 | TA: 118.79 | TL: 2.835e-01 | VA: 110.51 | VL: 3.394e-01 | Norm: 1.07e-03 | time: 1.90e+01 |
+| epoch:  600 | TA: 119.24 | TL: 2.791e-01 | VA: 110.37 | VL: 3.377e-01 | Norm: 5.72e-04 | time: 1.90e+01 |
+| epoch:  700 | TA: 116.59 | TL: 2.767e-01 | VA: 112.00 | VL: 3.395e-01 | Norm: 6.49e-04 | time: 1.91e+01 |
+| epoch:  800 | TA: 118.80 | TL: 2.756e-01 | VA: 111.43 | VL: 3.407e-01 | Norm: 6.69e-04 | time: 1.92e+01 |
+| epoch:  900 | TA: 120.27 | TL: 2.696e-01 | VA: 110.11 | VL: 3.465e-01 | Norm: 6.45e-04 | time: 1.92e+01 |
+| epoch: 1000 | TA: 119.51 | TL: 2.696e-01 | VA: 110.27 | VL: 3.442e-01 | Norm: 6.44e-04 | time: 1.92e+01 |
+| epoch: 1100 | TA: 118.30 | TL: 2.658e-01 | VA: 109.87 | VL: 3.457e-01 | Norm: 4.99e-04 | time: 1.92e+01 |
+| epoch: 1200 | TA: 118.63 | TL: 2.663e-01 | VA: 111.00 | VL: 3.462e-01 | Norm: 6.14e-04 | time: 1.93e+01 |
+| epoch: 1300 | TA: 119.90 | TL: 2.635e-01 | VA: 109.98 | VL: 3.529e-01 | Norm: 5.21e-04 | time: 1.93e+01 |
+| epoch: 1400 | TA: 120.86 | TL: 2.621e-01 | VA: 111.23 | VL: 3.448e-01 | Norm: 3.88e-04 | time: 1.93e+01 |
+| epoch: 1500 | TA: 119.74 | TL: 2.600e-01 | VA: 108.81 | VL: 3.472e-01 | Norm: 6.28e-04 | time: 1.93e+01 |
+| epoch: 1600 | TA: 118.27 | TL: 2.589e-01 | VA: 110.16 | VL: 3.455e-01 | Norm: 4.94e-04 | time: 1.93e+01 |
+| epoch: 1700 | TA: 119.28 | TL: 2.559e-01 | VA: 107.67 | VL: 3.457e-01 | Norm: 4.81e-04 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:0.91201 seed:8.
+The ID for this training is 1658670659.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 7.021e-01 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 110.46 | TL: 3.468e-01 | VA: 108.42 | VL: 3.634e-01 | Norm: 3.04e-03 | time: 1.89e+01 |
+| epoch:  200 | TA: 116.28 | TL: 2.994e-01 | VA: 114.08 | VL: 3.279e-01 | Norm: 5.50e-04 | time: 1.90e+01 |
+| epoch:  300 | TA: 118.73 | TL: 2.881e-01 | VA: 113.37 | VL: 3.240e-01 | Norm: 5.60e-04 | time: 1.89e+01 |
+| epoch:  400 | TA: 119.32 | TL: 2.799e-01 | VA: 114.53 | VL: 3.194e-01 | Norm: 5.47e-04 | time: 1.90e+01 |
+| epoch:  500 | TA: 119.80 | TL: 2.746e-01 | VA: 115.19 | VL: 3.169e-01 | Norm: 4.82e-04 | time: 1.90e+01 |
+| epoch:  600 | TA: 120.17 | TL: 2.703e-01 | VA: 113.93 | VL: 3.173e-01 | Norm: 4.83e-04 | time: 1.91e+01 |
+| epoch:  700 | TA: 121.36 | TL: 2.640e-01 | VA: 114.49 | VL: 3.158e-01 | Norm: 4.67e-04 | time: 1.91e+01 |
+| epoch:  800 | TA: 121.18 | TL: 2.616e-01 | VA: 114.30 | VL: 3.165e-01 | Norm: 4.22e-04 | time: 1.91e+01 |
+| epoch:  900 | TA: 119.69 | TL: 2.603e-01 | VA: 113.78 | VL: 3.172e-01 | Norm: 4.42e-04 | time: 1.92e+01 |
+| epoch: 1000 | TA: 121.49 | TL: 2.589e-01 | VA: 113.13 | VL: 3.167e-01 | Norm: 5.70e-04 | time: 1.92e+01 |
+| epoch: 1100 | TA: 119.98 | TL: 2.586e-01 | VA: 112.88 | VL: 3.167e-01 | Norm: 5.18e-04 | time: 1.92e+01 |
+| epoch: 1200 | TA: 122.49 | TL: 2.578e-01 | VA: 112.51 | VL: 3.163e-01 | Norm: 4.15e-04 | time: 1.92e+01 |
+| epoch: 1300 | TA: 120.41 | TL: 2.573e-01 | VA: 114.64 | VL: 3.169e-01 | Norm: 4.86e-04 | time: 1.93e+01 |
+| epoch: 1400 | TA: 120.53 | TL: 2.563e-01 | VA: 113.81 | VL: 3.163e-01 | Norm: 2.66e-04 | time: 1.93e+01 |
+| epoch: 1500 | TA: 119.79 | TL: 2.558e-01 | VA: 113.16 | VL: 3.155e-01 | Norm: 3.48e-04 | time: 1.94e+01 |
+| epoch: 1600 | TA: 121.72 | TL: 2.559e-01 | VA: 112.97 | VL: 3.162e-01 | Norm: 4.70e-04 | time: 1.93e+01 |
+| epoch: 1700 | TA: 122.36 | TL: 2.549e-01 | VA: 113.99 | VL: 3.150e-01 | Norm: 4.62e-04 | time: 1.94e+01 |
+| epoch: 1800 | TA: 121.78 | TL: 2.546e-01 | VA: 113.35 | VL: 3.146e-01 | Norm: 3.87e-04 | time: 1.94e+01 |
+| epoch: 1900 | TA: 121.80 | TL: 2.550e-01 | VA: 112.74 | VL: 3.153e-01 | Norm: 4.38e-04 | time: 1.94e+01 |
+| epoch: 2000 | TA: 121.57 | TL: 2.536e-01 | VA: 113.18 | VL: 3.140e-01 | Norm: 3.55e-04 | time: 1.94e+01 |
+| epoch: 2100 | TA: 121.40 | TL: 2.530e-01 | VA: 112.87 | VL: 3.151e-01 | Norm: 3.96e-04 | time: 1.94e+01 |
+| epoch: 2200 | TA: 121.36 | TL: 2.526e-01 | VA: 113.34 | VL: 3.138e-01 | Norm: 3.97e-04 | time: 1.94e+01 |
+| epoch: 2300 | TA: 121.62 | TL: 2.528e-01 | VA: 113.78 | VL: 3.148e-01 | Norm: 3.91e-04 | time: 1.94e+01 |
+| epoch: 2400 | TA: 121.73 | TL: 2.525e-01 | VA: 112.84 | VL: 3.139e-01 | Norm: 4.55e-04 | time: 1.94e+01 |
+| epoch: 2500 | TA: 121.99 | TL: 2.526e-01 | VA: 112.64 | VL: 3.155e-01 | Norm: 4.77e-04 | time: 1.94e+01 |
+| epoch: 2600 | TA: 122.12 | TL: 2.519e-01 | VA: 112.80 | VL: 3.129e-01 | Norm: 4.36e-04 | time: 1.94e+01 |
+| epoch: 2700 | TA: 121.82 | TL: 2.517e-01 | VA: 113.44 | VL: 3.141e-01 | Norm: 3.64e-04 | time: 1.94e+01 |
+| epoch: 2800 | TA: 120.00 | TL: 2.514e-01 | VA: 112.96 | VL: 3.152e-01 | Norm: 3.81e-04 | time: 1.94e+01 |
+| epoch: 2900 | TA: 121.85 | TL: 2.517e-01 | VA: 111.34 | VL: 3.148e-01 | Norm: 3.86e-04 | time: 1.94e+01 |
+| epoch: 3000 | TA: 122.32 | TL: 2.514e-01 | VA: 114.56 | VL: 3.138e-01 | Norm: 4.93e-04 | time: 1.94e+01 |
+| epoch: 3100 | TA: 121.75 | TL: 2.513e-01 | VA: 112.93 | VL: 3.152e-01 | Norm: 4.42e-04 | time: 1.94e+01 |
+| epoch: 3200 | TA: 120.51 | TL: 2.508e-01 | VA: 114.60 | VL: 3.145e-01 | Norm: 3.70e-04 | time: 1.94e+01 |
+| epoch: 3300 | TA: 121.71 | TL: 2.511e-01 | VA: 113.57 | VL: 3.140e-01 | Norm: 4.21e-04 | time: 1.94e+01 |
+| epoch: 3400 | TA: 122.50 | TL: 2.504e-01 | VA: 112.47 | VL: 3.150e-01 | Norm: 5.74e-04 | time: 1.94e+01 |
+| epoch: 3500 | TA: 122.86 | TL: 2.490e-01 | VA: 113.20 | VL: 3.126e-01 | Norm: 4.00e-04 | time: 1.94e+01 |
+| epoch: 3600 | TA: 122.02 | TL: 2.486e-01 | VA: 113.88 | VL: 3.139e-01 | Norm: 4.27e-04 | time: 1.94e+01 |
+| epoch: 3700 | TA: 122.73 | TL: 2.485e-01 | VA: 112.73 | VL: 3.177e-01 | Norm: 7.63e-04 | time: 1.94e+01 |
+| epoch: 3800 | TA: 123.02 | TL: 2.480e-01 | VA: 114.73 | VL: 3.153e-01 | Norm: 4.77e-04 | time: 1.95e+01 |
+| epoch: 3900 | TA: 122.67 | TL: 2.474e-01 | VA: 113.10 | VL: 3.159e-01 | Norm: 4.32e-04 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:1.38038 seed:8.
+The ID for this training is 1658671445.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 7.052e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 114.14 | TL: 3.310e-01 | VA: 114.56 | VL: 3.534e-01 | Norm: 1.71e-03 | time: 1.88e+01 |
+| epoch:  200 | TA: 118.13 | TL: 2.951e-01 | VA: 112.87 | VL: 3.308e-01 | Norm: 6.18e-04 | time: 1.87e+01 |
+| epoch:  300 | TA: 118.60 | TL: 2.799e-01 | VA: 113.28 | VL: 3.238e-01 | Norm: 5.30e-04 | time: 1.87e+01 |
+| epoch:  400 | TA: 119.60 | TL: 2.706e-01 | VA: 112.50 | VL: 3.277e-01 | Norm: 3.04e-04 | time: 1.88e+01 |
+| epoch:  500 | TA: 120.28 | TL: 2.656e-01 | VA: 112.02 | VL: 3.287e-01 | Norm: 3.48e-04 | time: 1.88e+01 |
+| epoch:  600 | TA: 121.64 | TL: 2.610e-01 | VA: 113.58 | VL: 3.276e-01 | Norm: 5.97e-04 | time: 1.89e+01 |
+| epoch:  700 | TA: 119.72 | TL: 2.564e-01 | VA: 112.42 | VL: 3.269e-01 | Norm: 3.59e-04 | time: 1.89e+01 |
+| epoch:  800 | TA: 119.54 | TL: 2.543e-01 | VA: 116.15 | VL: 3.270e-01 | Norm: 4.12e-04 | time: 1.90e+01 |
+| epoch:  900 | TA: 122.40 | TL: 2.522e-01 | VA: 113.73 | VL: 3.271e-01 | Norm: 2.82e-04 | time: 1.90e+01 |
+| epoch: 1000 | TA: 122.74 | TL: 2.503e-01 | VA: 114.93 | VL: 3.285e-01 | Norm: 6.36e-04 | time: 1.90e+01 |
+| epoch: 1100 | TA: 123.45 | TL: 2.502e-01 | VA: 115.72 | VL: 3.276e-01 | Norm: 4.54e-04 | time: 1.91e+01 |
+| epoch: 1200 | TA: 120.41 | TL: 2.476e-01 | VA: 116.01 | VL: 3.280e-01 | Norm: 4.94e-04 | time: 1.90e+01 |
+Early stop.
+Finished.
+Training with penalty:2.0893 seed:8.
+The ID for this training is 1658671693.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 7.099e-01 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 113.27 | TL: 3.455e-01 | VA: 109.11 | VL: 3.645e-01 | Norm: 5.49e-04 | time: 1.89e+01 |
+| epoch:  200 | TA: 113.78 | TL: 3.103e-01 | VA: 109.81 | VL: 3.466e-01 | Norm: 4.64e-04 | time: 1.89e+01 |
+| epoch:  300 | TA: 115.51 | TL: 2.959e-01 | VA: 111.94 | VL: 3.422e-01 | Norm: 3.09e-04 | time: 1.89e+01 |
+| epoch:  400 | TA: 116.44 | TL: 2.860e-01 | VA: 111.78 | VL: 3.368e-01 | Norm: 3.56e-04 | time: 1.90e+01 |
+| epoch:  500 | TA: 118.18 | TL: 2.798e-01 | VA: 110.73 | VL: 3.357e-01 | Norm: 4.29e-04 | time: 1.90e+01 |
+| epoch:  600 | TA: 118.38 | TL: 2.761e-01 | VA: 109.68 | VL: 3.343e-01 | Norm: 3.85e-04 | time: 1.91e+01 |
+| epoch:  700 | TA: 117.24 | TL: 2.752e-01 | VA: 111.49 | VL: 3.331e-01 | Norm: 2.20e-04 | time: 1.91e+01 |
+| epoch:  800 | TA: 119.76 | TL: 2.713e-01 | VA: 109.57 | VL: 3.335e-01 | Norm: 4.43e-04 | time: 1.91e+01 |
+| epoch:  900 | TA: 118.88 | TL: 2.701e-01 | VA: 112.69 | VL: 3.323e-01 | Norm: 3.11e-04 | time: 1.92e+01 |
+| epoch: 1000 | TA: 119.18 | TL: 2.700e-01 | VA: 112.72 | VL: 3.299e-01 | Norm: 3.57e-04 | time: 1.92e+01 |
+| epoch: 1100 | TA: 118.81 | TL: 2.684e-01 | VA: 112.39 | VL: 3.304e-01 | Norm: 3.21e-04 | time: 1.92e+01 |
+| epoch: 1200 | TA: 119.50 | TL: 2.667e-01 | VA: 110.71 | VL: 3.293e-01 | Norm: 3.71e-04 | time: 1.93e+01 |
+| epoch: 1300 | TA: 117.94 | TL: 2.706e-01 | VA: 112.24 | VL: 3.301e-01 | Norm: 4.54e-04 | time: 1.93e+01 |
+| epoch: 1400 | TA: 118.12 | TL: 2.661e-01 | VA: 113.20 | VL: 3.278e-01 | Norm: 4.47e-04 | time: 1.93e+01 |
+| epoch: 1500 | TA: 117.93 | TL: 2.660e-01 | VA: 110.97 | VL: 3.275e-01 | Norm: 3.57e-04 | time: 1.94e+01 |
+| epoch: 1600 | TA: 119.47 | TL: 2.679e-01 | VA: 110.54 | VL: 3.276e-01 | Norm: 2.54e-04 | time: 1.93e+01 |
+| epoch: 1700 | TA: 117.29 | TL: 2.655e-01 | VA: 111.42 | VL: 3.239e-01 | Norm: 4.00e-04 | time: 1.94e+01 |
+| epoch: 1800 | TA: 120.56 | TL: 2.628e-01 | VA: 111.16 | VL: 3.249e-01 | Norm: 3.17e-04 | time: 1.94e+01 |
+| epoch: 1900 | TA: 120.09 | TL: 2.633e-01 | VA: 115.09 | VL: 3.211e-01 | Norm: 1.95e-04 | time: 1.94e+01 |
+| epoch: 2000 | TA: 120.36 | TL: 2.626e-01 | VA: 112.85 | VL: 3.193e-01 | Norm: 3.47e-04 | time: 1.94e+01 |
+| epoch: 2100 | TA: 121.82 | TL: 2.618e-01 | VA: 114.74 | VL: 3.210e-01 | Norm: 2.54e-04 | time: 1.93e+01 |
+| epoch: 2200 | TA: 120.80 | TL: 2.600e-01 | VA: 113.10 | VL: 3.212e-01 | Norm: 2.68e-04 | time: 1.94e+01 |
+| epoch: 2300 | TA: 118.83 | TL: 2.602e-01 | VA: 107.60 | VL: 3.214e-01 | Norm: 2.39e-04 | time: 1.93e+01 |
+| epoch: 2400 | TA: 120.99 | TL: 2.594e-01 | VA: 113.85 | VL: 3.214e-01 | Norm: 2.72e-04 | time: 1.94e+01 |
+| epoch: 2500 | TA: 118.83 | TL: 2.576e-01 | VA: 110.87 | VL: 3.202e-01 | Norm: 2.35e-04 | time: 1.93e+01 |
+| epoch: 2600 | TA: 121.60 | TL: 2.567e-01 | VA: 112.63 | VL: 3.201e-01 | Norm: 2.86e-04 | time: 1.94e+01 |
+| epoch: 2700 | TA: 119.71 | TL: 2.571e-01 | VA: 111.82 | VL: 3.219e-01 | Norm: 2.97e-04 | time: 1.94e+01 |
+| epoch: 2800 | TA: 121.02 | TL: 2.566e-01 | VA: 112.61 | VL: 3.213e-01 | Norm: 3.57e-04 | time: 1.94e+01 |
+| epoch: 2900 | TA: 121.33 | TL: 2.564e-01 | VA: 113.94 | VL: 3.215e-01 | Norm: 1.74e-04 | time: 1.94e+01 |
+| epoch: 3000 | TA: 122.11 | TL: 2.559e-01 | VA: 115.49 | VL: 3.210e-01 | Norm: 2.79e-04 | time: 1.94e+01 |
+| epoch: 3100 | TA: 119.81 | TL: 2.684e-01 | VA: 112.63 | VL: 3.275e-01 | Norm: 2.92e-04 | time: 1.94e+01 |
+| epoch: 3200 | TA: 119.38 | TL: 2.697e-01 | VA: 110.16 | VL: 3.289e-01 | Norm: 3.05e-04 | time: 1.94e+01 |
+| epoch: 3300 | TA: 118.73 | TL: 2.677e-01 | VA: 113.98 | VL: 3.281e-01 | Norm: 2.26e-04 | time: 1.94e+01 |
+| epoch: 3400 | TA: 118.15 | TL: 2.682e-01 | VA: 109.07 | VL: 3.288e-01 | Norm: 3.44e-04 | time: 1.94e+01 |
+| epoch: 3500 | TA: 118.92 | TL: 2.678e-01 | VA: 114.37 | VL: 3.282e-01 | Norm: 2.48e-04 | time: 1.94e+01 |
+| epoch: 3600 | TA: 119.31 | TL: 2.671e-01 | VA: 110.29 | VL: 3.280e-01 | Norm: 2.84e-04 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:3.16228 seed:8.
+The ID for this training is 1658672424.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 7.170e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 110.14 | TL: 3.504e-01 | VA: 108.60 | VL: 3.622e-01 | Norm: 6.16e-04 | time: 1.89e+01 |
+| epoch:  200 | TA: 114.07 | TL: 3.141e-01 | VA: 107.98 | VL: 3.436e-01 | Norm: 3.43e-04 | time: 1.89e+01 |
+| epoch:  300 | TA: 116.31 | TL: 3.005e-01 | VA: 108.58 | VL: 3.417e-01 | Norm: 4.26e-04 | time: 1.88e+01 |
+| epoch:  400 | TA: 115.80 | TL: 2.913e-01 | VA: 108.06 | VL: 3.378e-01 | Norm: 3.94e-04 | time: 1.90e+01 |
+| epoch:  500 | TA: 115.69 | TL: 2.857e-01 | VA: 109.39 | VL: 3.369e-01 | Norm: 4.19e-04 | time: 1.90e+01 |
+| epoch:  600 | TA: 117.92 | TL: 2.820e-01 | VA: 108.41 | VL: 3.397e-01 | Norm: 4.12e-04 | time: 1.90e+01 |
+| epoch:  700 | TA: 117.75 | TL: 2.783e-01 | VA: 107.06 | VL: 3.374e-01 | Norm: 3.08e-04 | time: 1.91e+01 |
+| epoch:  800 | TA: 120.06 | TL: 2.749e-01 | VA: 109.06 | VL: 3.385e-01 | Norm: 4.67e-04 | time: 1.91e+01 |
+| epoch:  900 | TA: 120.67 | TL: 2.736e-01 | VA: 108.74 | VL: 3.391e-01 | Norm: 5.85e-04 | time: 1.92e+01 |
+| epoch: 1000 | TA: 119.76 | TL: 2.721e-01 | VA: 108.94 | VL: 3.405e-01 | Norm: 4.71e-04 | time: 1.91e+01 |
+| epoch: 1100 | TA: 118.32 | TL: 2.716e-01 | VA: 110.01 | VL: 3.394e-01 | Norm: 3.50e-04 | time: 1.92e+01 |
+| epoch: 1200 | TA: 119.77 | TL: 2.705e-01 | VA: 108.89 | VL: 3.395e-01 | Norm: 3.02e-04 | time: 1.92e+01 |
+| epoch: 1300 | TA: 119.16 | TL: 2.699e-01 | VA: 108.25 | VL: 3.408e-01 | Norm: 3.39e-04 | time: 1.92e+01 |
+| epoch: 1400 | TA: 120.69 | TL: 2.687e-01 | VA: 109.13 | VL: 3.390e-01 | Norm: 3.47e-04 | time: 1.93e+01 |
+| epoch: 1500 | TA: 120.99 | TL: 2.679e-01 | VA: 110.86 | VL: 3.413e-01 | Norm: 3.61e-04 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:4.7863 seed:8.
+The ID for this training is 1658672727.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 7.278e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 110.52 | TL: 3.561e-01 | VA: 106.63 | VL: 3.770e-01 | Norm: 5.44e-04 | time: 1.89e+01 |
+| epoch:  200 | TA: 111.47 | TL: 3.149e-01 | VA: 106.85 | VL: 3.526e-01 | Norm: 5.76e-04 | time: 1.89e+01 |
+| epoch:  300 | TA: 114.75 | TL: 3.003e-01 | VA: 109.12 | VL: 3.429e-01 | Norm: 3.03e-04 | time: 1.90e+01 |
+| epoch:  400 | TA: 115.30 | TL: 2.907e-01 | VA: 108.32 | VL: 3.376e-01 | Norm: 3.64e-04 | time: 1.90e+01 |
+| epoch:  500 | TA: 116.36 | TL: 2.923e-01 | VA: 111.89 | VL: 3.393e-01 | Norm: 4.06e-04 | time: 1.90e+01 |
+| epoch:  600 | TA: 114.41 | TL: 2.817e-01 | VA: 111.24 | VL: 3.367e-01 | Norm: 4.49e-04 | time: 1.90e+01 |
+| epoch:  700 | TA: 117.83 | TL: 2.775e-01 | VA: 111.61 | VL: 3.360e-01 | Norm: 3.76e-04 | time: 1.91e+01 |
+| epoch:  800 | TA: 116.65 | TL: 2.764e-01 | VA: 113.11 | VL: 3.336e-01 | Norm: 4.37e-04 | time: 1.91e+01 |
+| epoch:  900 | TA: 117.47 | TL: 2.743e-01 | VA: 111.38 | VL: 3.309e-01 | Norm: 3.09e-04 | time: 1.91e+01 |
+| epoch: 1000 | TA: 116.41 | TL: 2.724e-01 | VA: 111.33 | VL: 3.329e-01 | Norm: 2.17e-04 | time: 1.91e+01 |
+| epoch: 1100 | TA: 116.79 | TL: 2.722e-01 | VA: 113.60 | VL: 3.310e-01 | Norm: 3.75e-04 | time: 1.92e+01 |
+| epoch: 1200 | TA: 118.74 | TL: 2.706e-01 | VA: 110.75 | VL: 3.309e-01 | Norm: 3.45e-04 | time: 1.93e+01 |
+| epoch: 1300 | TA: 116.33 | TL: 2.696e-01 | VA: 111.45 | VL: 3.311e-01 | Norm: 4.47e-04 | time: 1.93e+01 |
+| epoch: 1400 | TA: 118.79 | TL: 2.706e-01 | VA: 111.96 | VL: 3.306e-01 | Norm: 4.82e-04 | time: 1.93e+01 |
+| epoch: 1500 | TA: 117.54 | TL: 2.680e-01 | VA: 113.13 | VL: 3.284e-01 | Norm: 3.70e-04 | time: 1.94e+01 |
+| epoch: 1600 | TA: 117.38 | TL: 2.681e-01 | VA: 112.19 | VL: 3.281e-01 | Norm: 4.21e-04 | time: 1.93e+01 |
+| epoch: 1700 | TA: 118.97 | TL: 2.673e-01 | VA: 110.09 | VL: 3.263e-01 | Norm: 4.25e-04 | time: 1.93e+01 |
+| epoch: 1800 | TA: 117.53 | TL: 2.661e-01 | VA: 110.52 | VL: 3.268e-01 | Norm: 2.91e-04 | time: 1.93e+01 |
+| epoch: 1900 | TA: 120.47 | TL: 2.664e-01 | VA: 113.99 | VL: 3.282e-01 | Norm: 3.17e-04 | time: 1.93e+01 |
+| epoch: 2000 | TA: 119.26 | TL: 2.652e-01 | VA: 112.32 | VL: 3.276e-01 | Norm: 2.67e-04 | time: 1.93e+01 |
+| epoch: 2100 | TA: 117.63 | TL: 2.658e-01 | VA: 110.92 | VL: 3.281e-01 | Norm: 3.96e-04 | time: 1.93e+01 |
+| epoch: 2200 | TA: 117.62 | TL: 2.656e-01 | VA: 112.55 | VL: 3.262e-01 | Norm: 3.15e-04 | time: 1.93e+01 |
+| epoch: 2300 | TA: 119.25 | TL: 2.652e-01 | VA: 112.36 | VL: 3.272e-01 | Norm: 3.17e-04 | time: 1.93e+01 |
+| epoch: 2400 | TA: 119.32 | TL: 2.647e-01 | VA: 111.62 | VL: 3.269e-01 | Norm: 3.35e-04 | time: 1.93e+01 |
+| epoch: 2500 | TA: 118.62 | TL: 2.648e-01 | VA: 109.71 | VL: 3.255e-01 | Norm: 3.80e-04 | time: 1.94e+01 |
+| epoch: 2600 | TA: 119.62 | TL: 2.639e-01 | VA: 108.52 | VL: 3.255e-01 | Norm: 3.98e-04 | time: 1.93e+01 |
+| epoch: 2700 | TA: 118.05 | TL: 2.608e-01 | VA: 112.02 | VL: 3.248e-01 | Norm: 3.32e-04 | time: 1.93e+01 |
+| epoch: 2800 | TA: 120.02 | TL: 2.608e-01 | VA: 111.51 | VL: 3.224e-01 | Norm: 3.51e-04 | time: 1.94e+01 |
+| epoch: 2900 | TA: 118.09 | TL: 2.593e-01 | VA: 111.05 | VL: 3.231e-01 | Norm: 3.40e-04 | time: 1.93e+01 |
+| epoch: 3000 | TA: 119.17 | TL: 2.593e-01 | VA: 112.13 | VL: 3.212e-01 | Norm: 3.42e-04 | time: 1.94e+01 |
+| epoch: 3100 | TA: 120.55 | TL: 2.594e-01 | VA: 107.66 | VL: 3.214e-01 | Norm: 3.33e-04 | time: 1.94e+01 |
+| epoch: 3200 | TA: 115.65 | TL: 2.598e-01 | VA: 113.78 | VL: 3.183e-01 | Norm: 4.37e-04 | time: 1.94e+01 |
+| epoch: 3300 | TA: 119.34 | TL: 2.587e-01 | VA: 113.14 | VL: 3.215e-01 | Norm: 2.51e-04 | time: 1.94e+01 |
+| epoch: 3400 | TA: 121.46 | TL: 2.585e-01 | VA: 111.03 | VL: 3.217e-01 | Norm: 2.33e-04 | time: 1.94e+01 |
+| epoch: 3500 | TA: 118.55 | TL: 2.791e-01 | VA: 111.10 | VL: 3.357e-01 | Norm: 4.27e-04 | time: 1.94e+01 |
+| epoch: 3600 | TA: 119.89 | TL: 2.591e-01 | VA: 114.24 | VL: 3.222e-01 | Norm: 3.71e-04 | time: 1.94e+01 |
+| epoch: 3700 | TA: 118.41 | TL: 2.575e-01 | VA: 109.94 | VL: 3.217e-01 | Norm: 3.97e-04 | time: 1.94e+01 |
+| epoch: 3800 | TA: 120.03 | TL: 2.572e-01 | VA: 115.21 | VL: 3.195e-01 | Norm: 3.60e-04 | time: 1.94e+01 |
+| epoch: 3900 | TA: 120.13 | TL: 2.575e-01 | VA: 110.19 | VL: 3.206e-01 | Norm: 3.34e-04 | time: 1.94e+01 |
+| epoch: 4000 | TA: 120.40 | TL: 2.571e-01 | VA: 112.15 | VL: 3.216e-01 | Norm: 3.33e-04 | time: 1.95e+01 |
+| epoch: 4100 | TA: 119.15 | TL: 2.578e-01 | VA: 111.48 | VL: 3.206e-01 | Norm: 2.06e-04 | time: 1.96e+01 |
+| epoch: 4200 | TA: 118.43 | TL: 2.565e-01 | VA: 112.57 | VL: 3.230e-01 | Norm: 3.19e-04 | time: 1.96e+01 |
+| epoch: 4300 | TA: 120.32 | TL: 2.564e-01 | VA: 111.56 | VL: 3.213e-01 | Norm: 2.59e-04 | time: 1.96e+01 |
+Early stop.
+Finished.
+Training with penalty:7.24436 seed:8.
+The ID for this training is 1658673594.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 7.440e-01 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 111.59 | TL: 3.541e-01 | VA: 107.35 | VL: 3.747e-01 | Norm: 3.90e-04 | time: 1.87e+01 |
+| epoch:  200 | TA: 116.02 | TL: 3.161e-01 | VA: 111.52 | VL: 3.534e-01 | Norm: 4.42e-04 | time: 1.88e+01 |
+| epoch:  300 | TA: 116.13 | TL: 3.059e-01 | VA: 113.17 | VL: 3.528e-01 | Norm: 4.41e-04 | time: 1.87e+01 |
+| epoch:  400 | TA: 116.85 | TL: 2.972e-01 | VA: 113.67 | VL: 3.488e-01 | Norm: 3.33e-04 | time: 1.88e+01 |
+| epoch:  500 | TA: 118.25 | TL: 2.897e-01 | VA: 110.55 | VL: 3.468e-01 | Norm: 3.59e-04 | time: 1.89e+01 |
+| epoch:  600 | TA: 114.95 | TL: 2.843e-01 | VA: 110.52 | VL: 3.427e-01 | Norm: 4.17e-04 | time: 1.90e+01 |
+| epoch:  700 | TA: 116.54 | TL: 2.810e-01 | VA: 113.41 | VL: 3.410e-01 | Norm: 1.86e-04 | time: 1.91e+01 |
+| epoch:  800 | TA: 119.97 | TL: 2.792e-01 | VA: 113.09 | VL: 3.426e-01 | Norm: 4.38e-04 | time: 1.91e+01 |
+| epoch:  900 | TA: 119.94 | TL: 2.764e-01 | VA: 111.65 | VL: 3.393e-01 | Norm: 3.10e-04 | time: 1.91e+01 |
+| epoch: 1000 | TA: 116.24 | TL: 2.741e-01 | VA: 112.33 | VL: 3.397e-01 | Norm: 3.38e-04 | time: 1.91e+01 |
+| epoch: 1100 | TA: 120.18 | TL: 2.720e-01 | VA: 111.77 | VL: 3.413e-01 | Norm: 3.92e-04 | time: 1.91e+01 |
+| epoch: 1200 | TA: 120.07 | TL: 2.718e-01 | VA: 113.00 | VL: 3.424e-01 | Norm: 3.81e-04 | time: 1.92e+01 |
+| epoch: 1300 | TA: 116.91 | TL: 2.708e-01 | VA: 113.29 | VL: 3.412e-01 | Norm: 3.43e-04 | time: 1.92e+01 |
+| epoch: 1400 | TA: 118.13 | TL: 2.707e-01 | VA: 112.03 | VL: 3.414e-01 | Norm: 3.30e-04 | time: 1.92e+01 |
+| epoch: 1500 | TA: 120.10 | TL: 2.682e-01 | VA: 110.94 | VL: 3.384e-01 | Norm: 2.40e-04 | time: 1.92e+01 |
+| epoch: 1600 | TA: 120.23 | TL: 2.661e-01 | VA: 112.84 | VL: 3.391e-01 | Norm: 3.46e-04 | time: 1.93e+01 |
+| epoch: 1700 | TA: 121.90 | TL: 2.652e-01 | VA: 114.83 | VL: 3.378e-01 | Norm: 3.75e-04 | time: 1.92e+01 |
+| epoch: 1800 | TA: 117.38 | TL: 2.649e-01 | VA: 111.88 | VL: 3.370e-01 | Norm: 3.23e-04 | time: 1.93e+01 |
+| epoch: 1900 | TA: 116.28 | TL: 2.646e-01 | VA: 112.54 | VL: 3.362e-01 | Norm: 2.86e-04 | time: 1.93e+01 |
+| epoch: 2000 | TA: 121.66 | TL: 2.639e-01 | VA: 114.00 | VL: 3.368e-01 | Norm: 2.92e-04 | time: 1.93e+01 |
+| epoch: 2100 | TA: 121.00 | TL: 2.635e-01 | VA: 113.62 | VL: 3.360e-01 | Norm: 2.08e-04 | time: 1.93e+01 |
+| epoch: 2200 | TA: 120.26 | TL: 2.657e-01 | VA: 113.74 | VL: 3.378e-01 | Norm: 4.01e-04 | time: 1.93e+01 |
+| epoch: 2300 | TA: 120.80 | TL: 2.650e-01 | VA: 113.52 | VL: 3.363e-01 | Norm: 3.05e-04 | time: 1.93e+01 |
+| epoch: 2400 | TA: 118.71 | TL: 2.615e-01 | VA: 111.88 | VL: 3.358e-01 | Norm: 2.18e-04 | time: 1.93e+01 |
+| epoch: 2500 | TA: 122.26 | TL: 2.613e-01 | VA: 113.01 | VL: 3.361e-01 | Norm: 3.03e-04 | time: 1.93e+01 |
+| epoch: 2600 | TA: 118.55 | TL: 2.620e-01 | VA: 111.14 | VL: 3.370e-01 | Norm: 2.35e-04 | time: 1.93e+01 |
+| epoch: 2700 | TA: 119.39 | TL: 2.614e-01 | VA: 112.14 | VL: 3.351e-01 | Norm: 2.33e-04 | time: 1.93e+01 |
+| epoch: 2800 | TA: 118.05 | TL: 2.613e-01 | VA: 111.83 | VL: 3.366e-01 | Norm: 2.46e-04 | time: 1.93e+01 |
+| epoch: 2900 | TA: 122.60 | TL: 2.608e-01 | VA: 112.45 | VL: 3.380e-01 | Norm: 3.39e-04 | time: 1.94e+01 |
+| epoch: 3000 | TA: 122.50 | TL: 2.607e-01 | VA: 114.42 | VL: 3.375e-01 | Norm: 3.96e-04 | time: 1.93e+01 |
+| epoch: 3100 | TA: 122.20 | TL: 2.603e-01 | VA: 114.39 | VL: 3.359e-01 | Norm: 2.32e-04 | time: 1.93e+01 |
+| epoch: 3200 | TA: 122.56 | TL: 2.610e-01 | VA: 113.90 | VL: 3.360e-01 | Norm: 1.99e-04 | time: 1.93e+01 |
+| epoch: 3300 | TA: 118.61 | TL: 2.592e-01 | VA: 111.84 | VL: 3.348e-01 | Norm: 2.54e-04 | time: 1.94e+01 |
+| epoch: 3400 | TA: 118.47 | TL: 2.621e-01 | VA: 112.44 | VL: 3.366e-01 | Norm: 3.37e-04 | time: 1.94e+01 |
+| epoch: 3500 | TA: 121.39 | TL: 2.585e-01 | VA: 111.49 | VL: 3.339e-01 | Norm: 2.95e-04 | time: 1.94e+01 |
+| epoch: 3600 | TA: 118.84 | TL: 2.598e-01 | VA: 111.27 | VL: 3.364e-01 | Norm: 3.96e-04 | time: 1.94e+01 |
+| epoch: 3700 | TA: 122.42 | TL: 2.601e-01 | VA: 112.18 | VL: 3.378e-01 | Norm: 3.35e-04 | time: 1.94e+01 |
+| epoch: 3800 | TA: 122.69 | TL: 2.600e-01 | VA: 112.23 | VL: 3.368e-01 | Norm: 1.92e-04 | time: 1.93e+01 |
+| epoch: 3900 | TA: 122.07 | TL: 2.603e-01 | VA: 111.72 | VL: 3.353e-01 | Norm: 1.19e-04 | time: 1.94e+01 |
+| epoch: 4000 | TA: 122.02 | TL: 2.595e-01 | VA: 112.18 | VL: 3.342e-01 | Norm: 3.07e-04 | time: 1.93e+01 |
+| epoch: 4100 | TA: 121.66 | TL: 2.593e-01 | VA: 112.85 | VL: 3.393e-01 | Norm: 3.98e-04 | time: 1.94e+01 |
+| epoch: 4200 | TA: 119.61 | TL: 2.596e-01 | VA: 110.29 | VL: 3.374e-01 | Norm: 2.83e-04 | time: 1.94e+01 |
+| epoch: 4300 | TA: 122.53 | TL: 2.581e-01 | VA: 110.55 | VL: 3.348e-01 | Norm: 3.37e-04 | time: 1.93e+01 |
+| epoch: 4400 | TA: 122.17 | TL: 2.594e-01 | VA: 113.91 | VL: 3.364e-01 | Norm: 2.37e-04 | time: 1.95e+01 |
+| epoch: 4500 | TA: 122.61 | TL: 2.589e-01 | VA: 111.43 | VL: 3.383e-01 | Norm: 2.38e-04 | time: 1.97e+01 |
+| epoch: 4600 | TA: 120.06 | TL: 2.588e-01 | VA: 111.05 | VL: 3.379e-01 | Norm: 3.92e-04 | time: 1.96e+01 |
+| epoch: 4700 | TA: 122.29 | TL: 2.590e-01 | VA: 113.10 | VL: 3.371e-01 | Norm: 3.73e-04 | time: 1.96e+01 |
+| epoch: 4800 | TA: 122.76 | TL: 2.574e-01 | VA: 114.21 | VL: 3.364e-01 | Norm: 2.79e-04 | time: 1.96e+01 |
+| epoch: 4900 | TA: 122.69 | TL: 2.572e-01 | VA: 114.28 | VL: 3.382e-01 | Norm: 2.75e-04 | time: 1.95e+01 |
+| epoch: 5000 | TA: 121.70 | TL: 2.607e-01 | VA: 110.04 | VL: 3.365e-01 | Norm: 2.95e-04 | time: 1.95e+01 |
+| epoch: 5100 | TA: 122.50 | TL: 2.584e-01 | VA: 111.41 | VL: 3.344e-01 | Norm: 3.07e-04 | time: 1.95e+01 |
+| epoch: 5200 | TA: 120.23 | TL: 2.581e-01 | VA: 110.29 | VL: 3.345e-01 | Norm: 2.01e-04 | time: 1.95e+01 |
+| epoch: 5300 | TA: 123.19 | TL: 2.572e-01 | VA: 111.79 | VL: 3.379e-01 | Norm: 2.38e-04 | time: 1.96e+01 |
+| epoch: 5400 | TA: 122.44 | TL: 2.626e-01 | VA: 113.03 | VL: 3.347e-01 | Norm: 3.39e-04 | time: 1.95e+01 |
+| epoch: 5500 | TA: 119.37 | TL: 2.564e-01 | VA: 112.18 | VL: 3.362e-01 | Norm: 3.07e-04 | time: 1.95e+01 |
+| epoch: 5600 | TA: 122.82 | TL: 2.569e-01 | VA: 113.91 | VL: 3.346e-01 | Norm: 2.92e-04 | time: 1.94e+01 |
+| epoch: 5700 | TA: 123.14 | TL: 2.570e-01 | VA: 111.54 | VL: 3.354e-01 | Norm: 4.82e-04 | time: 1.94e+01 |
+| epoch: 5800 | TA: 123.58 | TL: 2.549e-01 | VA: 114.70 | VL: 3.346e-01 | Norm: 2.48e-04 | time: 1.94e+01 |
+| epoch: 5900 | TA: 122.24 | TL: 2.563e-01 | VA: 113.57 | VL: 3.341e-01 | Norm: 3.17e-04 | time: 1.94e+01 |
+| epoch: 6000 | TA: 120.45 | TL: 2.722e-01 | VA: 111.05 | VL: 3.492e-01 | Norm: 3.18e-04 | time: 1.94e+01 |
+| epoch: 6100 | TA: 120.25 | TL: 2.737e-01 | VA: 111.04 | VL: 3.519e-01 | Norm: 3.38e-04 | time: 1.94e+01 |
+| epoch: 6200 | TA: 121.34 | TL: 2.733e-01 | VA: 110.50 | VL: 3.494e-01 | Norm: 2.61e-04 | time: 1.93e+01 |
+| epoch: 6300 | TA: 120.46 | TL: 2.733e-01 | VA: 111.66 | VL: 3.488e-01 | Norm: 2.67e-04 | time: 1.94e+01 |
+| epoch: 6400 | TA: 119.31 | TL: 2.590e-01 | VA: 113.79 | VL: 3.328e-01 | Norm: 2.95e-04 | time: 1.94e+01 |
+| epoch: 6500 | TA: 120.89 | TL: 2.615e-01 | VA: 110.85 | VL: 3.393e-01 | Norm: 4.01e-04 | time: 1.93e+01 |
+| epoch: 6600 | TA: 122.48 | TL: 2.567e-01 | VA: 114.07 | VL: 3.367e-01 | Norm: 3.75e-04 | time: 1.94e+01 |
+| epoch: 6700 | TA: 123.20 | TL: 2.562e-01 | VA: 112.64 | VL: 3.383e-01 | Norm: 3.06e-04 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:10.96478 seed:8.
+The ID for this training is 1658674931.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 7.687e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 110.78 | TL: 3.550e-01 | VA: 107.97 | VL: 3.727e-01 | Norm: 4.68e-04 | time: 1.88e+01 |
+| epoch:  200 | TA: 116.78 | TL: 3.093e-01 | VA: 111.36 | VL: 3.481e-01 | Norm: 2.91e-04 | time: 1.88e+01 |
+| epoch:  300 | TA: 118.72 | TL: 2.936e-01 | VA: 110.99 | VL: 3.481e-01 | Norm: 4.38e-04 | time: 1.87e+01 |
+| epoch:  400 | TA: 119.23 | TL: 2.843e-01 | VA: 113.27 | VL: 3.431e-01 | Norm: 3.50e-04 | time: 1.89e+01 |
+| epoch:  500 | TA: 120.24 | TL: 2.808e-01 | VA: 112.08 | VL: 3.434e-01 | Norm: 3.14e-04 | time: 1.90e+01 |
+| epoch:  600 | TA: 120.08 | TL: 2.756e-01 | VA: 112.92 | VL: 3.439e-01 | Norm: 2.32e-04 | time: 1.91e+01 |
+| epoch:  700 | TA: 120.91 | TL: 2.714e-01 | VA: 113.50 | VL: 3.426e-01 | Norm: 3.03e-04 | time: 1.92e+01 |
+| epoch:  800 | TA: 120.48 | TL: 2.688e-01 | VA: 112.55 | VL: 3.405e-01 | Norm: 3.14e-04 | time: 1.92e+01 |
+| epoch:  900 | TA: 121.16 | TL: 2.681e-01 | VA: 112.90 | VL: 3.402e-01 | Norm: 5.41e-04 | time: 1.93e+01 |
+| epoch: 1000 | TA: 120.03 | TL: 2.661e-01 | VA: 114.25 | VL: 3.425e-01 | Norm: 4.71e-04 | time: 1.93e+01 |
+| epoch: 1100 | TA: 121.43 | TL: 2.644e-01 | VA: 112.10 | VL: 3.356e-01 | Norm: 3.58e-04 | time: 1.93e+01 |
+| epoch: 1200 | TA: 121.53 | TL: 2.612e-01 | VA: 113.75 | VL: 3.375e-01 | Norm: 3.98e-04 | time: 1.93e+01 |
+| epoch: 1300 | TA: 122.07 | TL: 2.625e-01 | VA: 113.72 | VL: 3.358e-01 | Norm: 3.21e-04 | time: 1.93e+01 |
+| epoch: 1400 | TA: 121.51 | TL: 2.618e-01 | VA: 112.50 | VL: 3.331e-01 | Norm: 2.47e-04 | time: 1.94e+01 |
+| epoch: 1500 | TA: 121.70 | TL: 2.597e-01 | VA: 114.76 | VL: 3.350e-01 | Norm: 3.39e-04 | time: 1.94e+01 |
+| epoch: 1600 | TA: 122.08 | TL: 2.580e-01 | VA: 113.70 | VL: 3.375e-01 | Norm: 4.27e-04 | time: 1.94e+01 |
+| epoch: 1700 | TA: 121.00 | TL: 2.570e-01 | VA: 113.45 | VL: 3.305e-01 | Norm: 1.95e-04 | time: 1.94e+01 |
+| epoch: 1800 | TA: 121.54 | TL: 2.698e-01 | VA: 112.77 | VL: 3.399e-01 | Norm: 2.99e-04 | time: 1.94e+01 |
+| epoch: 1900 | TA: 121.73 | TL: 2.691e-01 | VA: 113.90 | VL: 3.401e-01 | Norm: 3.54e-04 | time: 1.95e+01 |
+| epoch: 2000 | TA: 121.63 | TL: 2.681e-01 | VA: 113.91 | VL: 3.397e-01 | Norm: 2.19e-04 | time: 1.95e+01 |
+| epoch: 2100 | TA: 120.19 | TL: 2.682e-01 | VA: 112.62 | VL: 3.407e-01 | Norm: 3.34e-04 | time: 1.95e+01 |
+| epoch: 2200 | TA: 122.57 | TL: 2.595e-01 | VA: 115.66 | VL: 3.290e-01 | Norm: 1.98e-04 | time: 1.95e+01 |
+| epoch: 2300 | TA: 122.26 | TL: 2.560e-01 | VA: 114.00 | VL: 3.306e-01 | Norm: 2.46e-04 | time: 1.95e+01 |
+| epoch: 2400 | TA: 120.98 | TL: 2.634e-01 | VA: 113.13 | VL: 3.319e-01 | Norm: 3.34e-04 | time: 1.95e+01 |
+| epoch: 2500 | TA: 123.72 | TL: 2.569e-01 | VA: 114.66 | VL: 3.300e-01 | Norm: 2.47e-04 | time: 1.95e+01 |
+| epoch: 2600 | TA: 122.62 | TL: 2.673e-01 | VA: 114.52 | VL: 3.406e-01 | Norm: 4.05e-04 | time: 1.95e+01 |
+| epoch: 2700 | TA: 122.59 | TL: 2.650e-01 | VA: 113.26 | VL: 3.396e-01 | Norm: 3.00e-04 | time: 1.95e+01 |
+| epoch: 2800 | TA: 122.27 | TL: 2.663e-01 | VA: 112.96 | VL: 3.411e-01 | Norm: 3.51e-04 | time: 1.95e+01 |
+| epoch: 2900 | TA: 122.58 | TL: 2.580e-01 | VA: 112.96 | VL: 3.340e-01 | Norm: 4.41e-04 | time: 1.95e+01 |
+| epoch: 3000 | TA: 122.64 | TL: 2.533e-01 | VA: 114.10 | VL: 3.314e-01 | Norm: 2.85e-04 | time: 1.95e+01 |
+| epoch: 3100 | TA: 123.12 | TL: 2.538e-01 | VA: 113.52 | VL: 3.319e-01 | Norm: 3.44e-04 | time: 1.95e+01 |
+| epoch: 3200 | TA: 122.50 | TL: 2.521e-01 | VA: 115.82 | VL: 3.292e-01 | Norm: 2.64e-04 | time: 1.95e+01 |
+| epoch: 3300 | TA: 121.29 | TL: 2.533e-01 | VA: 114.52 | VL: 3.299e-01 | Norm: 3.49e-04 | time: 1.95e+01 |
+| epoch: 3400 | TA: 123.63 | TL: 2.535e-01 | VA: 114.23 | VL: 3.307e-01 | Norm: 3.10e-04 | time: 1.96e+01 |
+| epoch: 3500 | TA: 123.29 | TL: 2.649e-01 | VA: 114.72 | VL: 3.405e-01 | Norm: 3.64e-04 | time: 1.95e+01 |
+| epoch: 3600 | TA: 123.30 | TL: 2.543e-01 | VA: 114.02 | VL: 3.301e-01 | Norm: 4.52e-04 | time: 1.96e+01 |
+| epoch: 3700 | TA: 123.48 | TL: 2.521e-01 | VA: 114.48 | VL: 3.282e-01 | Norm: 2.47e-04 | time: 1.95e+01 |
+| epoch: 3800 | TA: 122.00 | TL: 2.512e-01 | VA: 115.50 | VL: 3.297e-01 | Norm: 3.23e-04 | time: 1.96e+01 |
+| epoch: 3900 | TA: 123.41 | TL: 2.511e-01 | VA: 114.68 | VL: 3.280e-01 | Norm: 3.03e-04 | time: 1.96e+01 |
+| epoch: 4000 | TA: 124.17 | TL: 2.511e-01 | VA: 113.85 | VL: 3.286e-01 | Norm: 3.63e-04 | time: 1.96e+01 |
+| epoch: 4100 | TA: 121.64 | TL: 2.523e-01 | VA: 113.96 | VL: 3.315e-01 | Norm: 3.24e-04 | time: 1.96e+01 |
+| epoch: 4200 | TA: 121.83 | TL: 2.518e-01 | VA: 116.12 | VL: 3.307e-01 | Norm: 2.69e-04 | time: 1.96e+01 |
+| epoch: 4300 | TA: 124.28 | TL: 2.519e-01 | VA: 115.11 | VL: 3.289e-01 | Norm: 2.85e-04 | time: 1.96e+01 |
+| epoch: 4400 | TA: 122.29 | TL: 2.518e-01 | VA: 114.42 | VL: 3.287e-01 | Norm: 2.99e-04 | time: 1.96e+01 |
+| epoch: 4500 | TA: 123.66 | TL: 2.539e-01 | VA: 113.15 | VL: 3.324e-01 | Norm: 4.70e-04 | time: 1.96e+01 |
+| epoch: 4600 | TA: 123.85 | TL: 2.509e-01 | VA: 116.24 | VL: 3.272e-01 | Norm: 2.19e-04 | time: 1.96e+01 |
+| epoch: 4700 | TA: 122.32 | TL: 2.508e-01 | VA: 115.68 | VL: 3.289e-01 | Norm: 2.54e-04 | time: 1.96e+01 |
+| epoch: 4800 | TA: 123.61 | TL: 2.518e-01 | VA: 114.79 | VL: 3.288e-01 | Norm: 2.03e-04 | time: 1.96e+01 |
+| epoch: 4900 | TA: 124.46 | TL: 2.503e-01 | VA: 115.16 | VL: 3.299e-01 | Norm: 2.92e-04 | time: 1.96e+01 |
+| epoch: 5000 | TA: 124.60 | TL: 2.505e-01 | VA: 114.45 | VL: 3.322e-01 | Norm: 3.69e-04 | time: 1.96e+01 |
+Early stop.
+Finished.
+Training with penalty:16.59587 seed:8.
+The ID for this training is 1658675946.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 8.060e-01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 110.02 | TL: 3.645e-01 | VA: 107.63 | VL: 3.747e-01 | Norm: 4.04e-04 | time: 1.86e+01 |
+| epoch:  200 | TA: 112.42 | TL: 3.223e-01 | VA: 109.08 | VL: 3.508e-01 | Norm: 3.61e-04 | time: 1.87e+01 |
+| epoch:  300 | TA: 118.20 | TL: 3.096e-01 | VA: 112.78 | VL: 3.379e-01 | Norm: 3.02e-04 | time: 1.89e+01 |
+| epoch:  400 | TA: 115.25 | TL: 3.034e-01 | VA: 114.02 | VL: 3.367e-01 | Norm: 3.41e-04 | time: 1.90e+01 |
+| epoch:  500 | TA: 115.20 | TL: 2.947e-01 | VA: 112.04 | VL: 3.377e-01 | Norm: 2.67e-04 | time: 1.90e+01 |
+| epoch:  600 | TA: 119.09 | TL: 2.929e-01 | VA: 108.17 | VL: 3.393e-01 | Norm: 3.31e-04 | time: 1.91e+01 |
+| epoch:  700 | TA: 119.38 | TL: 2.892e-01 | VA: 111.93 | VL: 3.471e-01 | Norm: 3.67e-04 | time: 1.91e+01 |
+| epoch:  800 | TA: 120.20 | TL: 2.825e-01 | VA: 112.26 | VL: 3.443e-01 | Norm: 3.00e-04 | time: 1.92e+01 |
+| epoch:  900 | TA: 117.33 | TL: 2.828e-01 | VA: 110.38 | VL: 3.469e-01 | Norm: 3.19e-04 | time: 1.92e+01 |
+| epoch: 1000 | TA: 117.40 | TL: 2.884e-01 | VA: 113.14 | VL: 3.439e-01 | Norm: 3.06e-04 | time: 1.93e+01 |
+| epoch: 1100 | TA: 117.74 | TL: 2.798e-01 | VA: 111.67 | VL: 3.434e-01 | Norm: 2.71e-04 | time: 1.93e+01 |
+| epoch: 1200 | TA: 119.83 | TL: 2.772e-01 | VA: 111.56 | VL: 3.470e-01 | Norm: 3.75e-04 | time: 1.93e+01 |
+| epoch: 1300 | TA: 121.05 | TL: 2.755e-01 | VA: 112.81 | VL: 3.459e-01 | Norm: 3.42e-04 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:25.11886 seed:8.
+The ID for this training is 1658676218.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 8.625e-01 | Norm: 6.63e-03 | time: 1.88e-01 |
+| epoch:  100 | TA: 108.64 | TL: 3.675e-01 | VA: 107.86 | VL: 3.800e-01 | Norm: 3.20e-04 | time: 1.87e+01 |
+| epoch:  200 | TA: 116.49 | TL: 3.122e-01 | VA: 112.91 | VL: 3.476e-01 | Norm: 3.27e-04 | time: 1.89e+01 |
+| epoch:  300 | TA: 117.18 | TL: 3.006e-01 | VA: 110.15 | VL: 3.432e-01 | Norm: 2.98e-04 | time: 1.89e+01 |
+| epoch:  400 | TA: 116.32 | TL: 2.948e-01 | VA: 109.39 | VL: 3.453e-01 | Norm: 3.68e-04 | time: 1.90e+01 |
+| epoch:  500 | TA: 115.92 | TL: 2.803e-01 | VA: 112.40 | VL: 3.354e-01 | Norm: 2.77e-04 | time: 1.91e+01 |
+| epoch:  600 | TA: 118.42 | TL: 2.753e-01 | VA: 112.59 | VL: 3.324e-01 | Norm: 2.44e-04 | time: 1.91e+01 |
+| epoch:  700 | TA: 119.90 | TL: 2.712e-01 | VA: 112.77 | VL: 3.311e-01 | Norm: 2.51e-04 | time: 1.92e+01 |
+| epoch:  800 | TA: 119.12 | TL: 2.740e-01 | VA: 112.32 | VL: 3.302e-01 | Norm: 2.29e-04 | time: 1.92e+01 |
+| epoch:  900 | TA: 118.55 | TL: 2.699e-01 | VA: 114.20 | VL: 3.338e-01 | Norm: 3.59e-04 | time: 1.93e+01 |
+| epoch: 1000 | TA: 118.88 | TL: 2.671e-01 | VA: 113.41 | VL: 3.327e-01 | Norm: 2.63e-04 | time: 1.93e+01 |
+| epoch: 1100 | TA: 119.79 | TL: 2.643e-01 | VA: 114.82 | VL: 3.351e-01 | Norm: 3.06e-04 | time: 1.93e+01 |
+| epoch: 1200 | TA: 120.77 | TL: 2.629e-01 | VA: 112.33 | VL: 3.353e-01 | Norm: 2.72e-04 | time: 1.93e+01 |
+| epoch: 1300 | TA: 119.39 | TL: 2.609e-01 | VA: 115.96 | VL: 3.310e-01 | Norm: 1.49e-04 | time: 1.93e+01 |
+| epoch: 1400 | TA: 120.81 | TL: 2.613e-01 | VA: 112.90 | VL: 3.347e-01 | Norm: 2.66e-04 | time: 1.94e+01 |
+| epoch: 1500 | TA: 120.00 | TL: 2.654e-01 | VA: 111.97 | VL: 3.321e-01 | Norm: 1.99e-04 | time: 1.94e+01 |
+| epoch: 1600 | TA: 119.91 | TL: 2.630e-01 | VA: 113.61 | VL: 3.345e-01 | Norm: 3.36e-04 | time: 1.94e+01 |
+| epoch: 1700 | TA: 120.23 | TL: 2.575e-01 | VA: 114.85 | VL: 3.343e-01 | Norm: 3.42e-04 | time: 1.94e+01 |
+| epoch: 1800 | TA: 120.22 | TL: 2.660e-01 | VA: 112.55 | VL: 3.397e-01 | Norm: 3.78e-04 | time: 1.94e+01 |
+| epoch: 1900 | TA: 121.82 | TL: 2.579e-01 | VA: 111.00 | VL: 3.341e-01 | Norm: 2.25e-04 | time: 1.94e+01 |
+| epoch: 2000 | TA: 120.07 | TL: 2.572e-01 | VA: 112.75 | VL: 3.369e-01 | Norm: 4.63e-04 | time: 1.94e+01 |
+| epoch: 2100 | TA: 121.96 | TL: 2.552e-01 | VA: 112.03 | VL: 3.311e-01 | Norm: 2.54e-04 | time: 1.94e+01 |
+| epoch: 2200 | TA: 122.28 | TL: 2.591e-01 | VA: 114.98 | VL: 3.331e-01 | Norm: 3.22e-04 | time: 1.94e+01 |
+| epoch: 2300 | TA: 120.76 | TL: 2.571e-01 | VA: 112.82 | VL: 3.342e-01 | Norm: 3.19e-04 | time: 1.94e+01 |
+| epoch: 2400 | TA: 120.43 | TL: 2.561e-01 | VA: 112.89 | VL: 3.327e-01 | Norm: 3.10e-04 | time: 1.94e+01 |
+| epoch: 2500 | TA: 122.60 | TL: 2.553e-01 | VA: 113.92 | VL: 3.335e-01 | Norm: 3.20e-04 | time: 1.94e+01 |
+| epoch: 2600 | TA: 119.64 | TL: 2.591e-01 | VA: 112.68 | VL: 3.353e-01 | Norm: 3.57e-04 | time: 1.94e+01 |
+| epoch: 2700 | TA: 120.00 | TL: 2.537e-01 | VA: 111.95 | VL: 3.329e-01 | Norm: 2.87e-04 | time: 1.94e+01 |
+| epoch: 2800 | TA: 120.45 | TL: 2.544e-01 | VA: 113.28 | VL: 3.311e-01 | Norm: 2.07e-04 | time: 1.94e+01 |
+| epoch: 2900 | TA: 120.12 | TL: 2.535e-01 | VA: 112.89 | VL: 3.322e-01 | Norm: 1.88e-04 | time: 1.94e+01 |
+| epoch: 3000 | TA: 120.37 | TL: 2.513e-01 | VA: 111.62 | VL: 3.324e-01 | Norm: 2.83e-04 | time: 1.94e+01 |
+| epoch: 3100 | TA: 120.98 | TL: 2.511e-01 | VA: 111.91 | VL: 3.305e-01 | Norm: 2.31e-04 | time: 1.94e+01 |
+| epoch: 3200 | TA: 120.19 | TL: 2.525e-01 | VA: 113.64 | VL: 3.312e-01 | Norm: 2.76e-04 | time: 1.94e+01 |
+| epoch: 3300 | TA: 120.59 | TL: 2.535e-01 | VA: 112.94 | VL: 3.341e-01 | Norm: 2.88e-04 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:38.01894 seed:8.
+The ID for this training is 1658676888.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 9.480e-01 | Norm: 6.63e-03 | time: 1.88e-01 |
+| epoch:  100 | TA: 108.60 | TL: 3.794e-01 | VA: 109.07 | VL: 3.768e-01 | Norm: 1.07e-04 | time: 1.87e+01 |
+| epoch:  200 | TA: 114.96 | TL: 3.269e-01 | VA: 111.06 | VL: 3.480e-01 | Norm: 2.05e-04 | time: 1.88e+01 |
+| epoch:  300 | TA: 113.73 | TL: 3.098e-01 | VA: 113.64 | VL: 3.443e-01 | Norm: 4.05e-04 | time: 1.89e+01 |
+| epoch:  400 | TA: 117.74 | TL: 2.997e-01 | VA: 113.76 | VL: 3.417e-01 | Norm: 4.28e-04 | time: 1.90e+01 |
+| epoch:  500 | TA: 115.50 | TL: 2.966e-01 | VA: 114.31 | VL: 3.343e-01 | Norm: 2.47e-04 | time: 1.90e+01 |
+| epoch:  600 | TA: 117.73 | TL: 2.882e-01 | VA: 114.41 | VL: 3.377e-01 | Norm: 2.57e-04 | time: 1.91e+01 |
+| epoch:  700 | TA: 118.54 | TL: 2.885e-01 | VA: 115.12 | VL: 3.340e-01 | Norm: 2.79e-04 | time: 1.92e+01 |
+| epoch:  800 | TA: 116.05 | TL: 2.851e-01 | VA: 110.99 | VL: 3.352e-01 | Norm: 2.93e-04 | time: 1.92e+01 |
+| epoch:  900 | TA: 119.38 | TL: 2.881e-01 | VA: 111.58 | VL: 3.324e-01 | Norm: 2.15e-04 | time: 1.92e+01 |
+| epoch: 1000 | TA: 117.89 | TL: 2.798e-01 | VA: 115.21 | VL: 3.398e-01 | Norm: 4.07e-04 | time: 1.93e+01 |
+| epoch: 1100 | TA: 119.31 | TL: 2.829e-01 | VA: 114.95 | VL: 3.350e-01 | Norm: 2.57e-04 | time: 1.93e+01 |
+| epoch: 1200 | TA: 119.93 | TL: 2.767e-01 | VA: 114.84 | VL: 3.319e-01 | Norm: 2.34e-04 | time: 1.93e+01 |
+| epoch: 1300 | TA: 119.23 | TL: 2.762e-01 | VA: 115.80 | VL: 3.327e-01 | Norm: 2.35e-04 | time: 1.93e+01 |
+| epoch: 1400 | TA: 118.89 | TL: 2.782e-01 | VA: 113.61 | VL: 3.351e-01 | Norm: 2.65e-04 | time: 1.94e+01 |
+| epoch: 1500 | TA: 117.05 | TL: 2.741e-01 | VA: 115.61 | VL: 3.349e-01 | Norm: 1.87e-04 | time: 1.94e+01 |
+| epoch: 1600 | TA: 119.23 | TL: 2.783e-01 | VA: 114.10 | VL: 3.309e-01 | Norm: 1.86e-04 | time: 1.93e+01 |
+| epoch: 1700 | TA: 120.69 | TL: 2.776e-01 | VA: 115.28 | VL: 3.319e-01 | Norm: 2.23e-04 | time: 1.94e+01 |
+| epoch: 1800 | TA: 118.82 | TL: 2.803e-01 | VA: 113.14 | VL: 3.384e-01 | Norm: 2.58e-04 | time: 1.94e+01 |
+| epoch: 1900 | TA: 119.87 | TL: 2.726e-01 | VA: 115.89 | VL: 3.271e-01 | Norm: 1.90e-04 | time: 1.94e+01 |
+| epoch: 2000 | TA: 119.37 | TL: 2.691e-01 | VA: 113.19 | VL: 3.323e-01 | Norm: 2.89e-04 | time: 1.94e+01 |
+| epoch: 2100 | TA: 119.90 | TL: 2.657e-01 | VA: 116.04 | VL: 3.279e-01 | Norm: 2.08e-04 | time: 1.94e+01 |
+| epoch: 2200 | TA: 119.40 | TL: 2.662e-01 | VA: 111.76 | VL: 3.274e-01 | Norm: 1.91e-04 | time: 1.94e+01 |
+| epoch: 2300 | TA: 120.80 | TL: 2.672e-01 | VA: 112.47 | VL: 3.345e-01 | Norm: 3.04e-04 | time: 1.94e+01 |
+| epoch: 2400 | TA: 117.90 | TL: 2.676e-01 | VA: 116.25 | VL: 3.296e-01 | Norm: 2.20e-04 | time: 1.94e+01 |
+| epoch: 2500 | TA: 120.94 | TL: 2.759e-01 | VA: 115.27 | VL: 3.303e-01 | Norm: 1.80e-04 | time: 1.94e+01 |
+| epoch: 2600 | TA: 119.67 | TL: 2.675e-01 | VA: 113.37 | VL: 3.319e-01 | Norm: 3.08e-04 | time: 1.94e+01 |
+| epoch: 2700 | TA: 120.39 | TL: 2.670e-01 | VA: 114.30 | VL: 3.286e-01 | Norm: 2.26e-04 | time: 1.94e+01 |
+| epoch: 2800 | TA: 120.13 | TL: 2.667e-01 | VA: 114.94 | VL: 3.237e-01 | Norm: 1.12e-04 | time: 1.94e+01 |
+| epoch: 2900 | TA: 120.36 | TL: 2.667e-01 | VA: 113.21 | VL: 3.321e-01 | Norm: 2.82e-04 | time: 1.94e+01 |
+| epoch: 3000 | TA: 120.27 | TL: 2.651e-01 | VA: 113.66 | VL: 3.236e-01 | Norm: 5.46e-05 | time: 1.95e+01 |
+| epoch: 3100 | TA: 122.09 | TL: 2.631e-01 | VA: 110.97 | VL: 3.254e-01 | Norm: 1.38e-04 | time: 1.94e+01 |
+| epoch: 3200 | TA: 119.69 | TL: 2.643e-01 | VA: 113.11 | VL: 3.267e-01 | Norm: 1.57e-04 | time: 1.94e+01 |
+| epoch: 3300 | TA: 121.43 | TL: 2.616e-01 | VA: 113.59 | VL: 3.318e-01 | Norm: 3.08e-04 | time: 1.95e+01 |
+| epoch: 3400 | TA: 122.95 | TL: 2.634e-01 | VA: 116.31 | VL: 3.283e-01 | Norm: 1.94e-04 | time: 1.94e+01 |
+| epoch: 3500 | TA: 122.58 | TL: 2.631e-01 | VA: 113.81 | VL: 3.285e-01 | Norm: 1.64e-04 | time: 1.95e+01 |
+| epoch: 3600 | TA: 121.29 | TL: 2.605e-01 | VA: 115.14 | VL: 3.305e-01 | Norm: 2.99e-04 | time: 1.94e+01 |
+| epoch: 3700 | TA: 121.04 | TL: 2.649e-01 | VA: 114.84 | VL: 3.294e-01 | Norm: 2.20e-04 | time: 1.95e+01 |
+| epoch: 3800 | TA: 122.60 | TL: 2.663e-01 | VA: 114.57 | VL: 3.293e-01 | Norm: 2.16e-04 | time: 1.94e+01 |
+| epoch: 3900 | TA: 121.66 | TL: 2.881e-01 | VA: 114.95 | VL: 3.473e-01 | Norm: 2.75e-04 | time: 1.95e+01 |
+Early stop.
+Finished.
+Training with penalty:57.54399 seed:8.
+The ID for this training is 1658677668.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 1.077e+00 | Norm: 6.63e-03 | time: 1.88e-01 |
+| epoch:  100 | TA: 110.45 | TL: 3.704e-01 | VA: 106.94 | VL: 3.816e-01 | Norm: 1.79e-04 | time: 1.87e+01 |
+| epoch:  200 | TA: 115.96 | TL: 3.208e-01 | VA: 110.67 | VL: 3.557e-01 | Norm: 1.39e-04 | time: 1.86e+01 |
+| epoch:  300 | TA: 118.12 | TL: 3.079e-01 | VA: 111.32 | VL: 3.604e-01 | Norm: 2.70e-04 | time: 1.88e+01 |
+| epoch:  400 | TA: 119.06 | TL: 3.001e-01 | VA: 113.78 | VL: 3.566e-01 | Norm: 2.50e-04 | time: 1.89e+01 |
+| epoch:  500 | TA: 119.75 | TL: 2.980e-01 | VA: 113.15 | VL: 3.574e-01 | Norm: 3.33e-04 | time: 1.89e+01 |
+| epoch:  600 | TA: 120.17 | TL: 2.901e-01 | VA: 112.25 | VL: 3.523e-01 | Norm: 2.79e-04 | time: 1.90e+01 |
+| epoch:  700 | TA: 120.20 | TL: 2.815e-01 | VA: 112.51 | VL: 3.446e-01 | Norm: 1.79e-04 | time: 1.91e+01 |
+| epoch:  800 | TA: 120.59 | TL: 2.777e-01 | VA: 112.67 | VL: 3.512e-01 | Norm: 2.48e-04 | time: 1.91e+01 |
+| epoch:  900 | TA: 121.34 | TL: 2.818e-01 | VA: 112.16 | VL: 3.448e-01 | Norm: 2.07e-04 | time: 1.91e+01 |
+| epoch: 1000 | TA: 121.69 | TL: 2.753e-01 | VA: 114.76 | VL: 3.475e-01 | Norm: 2.33e-04 | time: 1.92e+01 |
+| epoch: 1100 | TA: 119.10 | TL: 2.829e-01 | VA: 114.58 | VL: 3.430e-01 | Norm: 1.67e-04 | time: 1.92e+01 |
+| epoch: 1200 | TA: 121.24 | TL: 2.897e-01 | VA: 113.77 | VL: 3.481e-01 | Norm: 2.37e-04 | time: 1.92e+01 |
+| epoch: 1300 | TA: 121.44 | TL: 2.741e-01 | VA: 113.72 | VL: 3.471e-01 | Norm: 2.37e-04 | time: 1.92e+01 |
+| epoch: 1400 | TA: 121.22 | TL: 2.789e-01 | VA: 112.78 | VL: 3.443e-01 | Norm: 1.93e-04 | time: 1.92e+01 |
+| epoch: 1500 | TA: 122.74 | TL: 2.809e-01 | VA: 113.14 | VL: 3.541e-01 | Norm: 3.42e-04 | time: 1.92e+01 |
+| epoch: 1600 | TA: 122.46 | TL: 2.773e-01 | VA: 113.35 | VL: 3.426e-01 | Norm: 1.66e-04 | time: 1.92e+01 |
+| epoch: 1700 | TA: 121.86 | TL: 2.816e-01 | VA: 112.67 | VL: 3.434e-01 | Norm: 1.70e-04 | time: 1.93e+01 |
+| epoch: 1800 | TA: 121.23 | TL: 2.671e-01 | VA: 114.45 | VL: 3.472e-01 | Norm: 2.33e-04 | time: 1.93e+01 |
+| epoch: 1900 | TA: 122.38 | TL: 2.784e-01 | VA: 113.78 | VL: 3.479e-01 | Norm: 2.34e-04 | time: 1.93e+01 |
+| epoch: 2000 | TA: 122.89 | TL: 2.740e-01 | VA: 114.42 | VL: 3.476e-01 | Norm: 2.55e-04 | time: 1.92e+01 |
+| epoch: 2100 | TA: 123.28 | TL: 2.707e-01 | VA: 113.93 | VL: 3.420e-01 | Norm: 2.08e-04 | time: 1.93e+01 |
+| epoch: 2200 | TA: 124.23 | TL: 2.673e-01 | VA: 115.08 | VL: 3.436e-01 | Norm: 2.47e-04 | time: 1.94e+01 |
+| epoch: 2300 | TA: 124.35 | TL: 2.714e-01 | VA: 113.88 | VL: 3.444e-01 | Norm: 2.59e-04 | time: 1.94e+01 |
+| epoch: 2400 | TA: 123.97 | TL: 2.734e-01 | VA: 113.82 | VL: 3.450e-01 | Norm: 2.93e-04 | time: 1.94e+01 |
+| epoch: 2500 | TA: 122.55 | TL: 2.681e-01 | VA: 116.36 | VL: 3.354e-01 | Norm: 1.56e-04 | time: 1.95e+01 |
+| epoch: 2600 | TA: 123.17 | TL: 2.737e-01 | VA: 114.02 | VL: 3.455e-01 | Norm: 2.18e-04 | time: 1.94e+01 |
+| epoch: 2700 | TA: 122.36 | TL: 2.705e-01 | VA: 114.20 | VL: 3.445e-01 | Norm: 2.31e-04 | time: 1.94e+01 |
+| epoch: 2800 | TA: 122.89 | TL: 2.769e-01 | VA: 113.52 | VL: 3.479e-01 | Norm: 3.00e-04 | time: 1.95e+01 |
+| epoch: 2900 | TA: 122.07 | TL: 2.984e-01 | VA: 112.77 | VL: 3.505e-01 | Norm: 9.82e-05 | time: 1.94e+01 |
+| epoch: 3000 | TA: 122.84 | TL: 2.813e-01 | VA: 113.29 | VL: 3.450e-01 | Norm: 1.55e-04 | time: 1.95e+01 |
+| epoch: 3100 | TA: 124.85 | TL: 2.707e-01 | VA: 115.89 | VL: 3.445e-01 | Norm: 2.34e-04 | time: 1.94e+01 |
+| epoch: 3200 | TA: 123.98 | TL: 2.713e-01 | VA: 116.88 | VL: 3.415e-01 | Norm: 1.82e-04 | time: 1.94e+01 |
+| epoch: 3300 | TA: 123.53 | TL: 2.670e-01 | VA: 114.86 | VL: 3.394e-01 | Norm: 1.75e-04 | time: 1.95e+01 |
+| epoch: 3400 | TA: 123.35 | TL: 2.670e-01 | VA: 114.60 | VL: 3.411e-01 | Norm: 1.96e-04 | time: 1.94e+01 |
+| epoch: 3500 | TA: 124.89 | TL: 2.677e-01 | VA: 114.31 | VL: 3.362e-01 | Norm: 1.07e-04 | time: 1.95e+01 |
+| epoch: 3600 | TA: 121.91 | TL: 2.888e-01 | VA: 115.31 | VL: 3.543e-01 | Norm: 2.18e-04 | time: 1.94e+01 |
+| epoch: 3700 | TA: 124.71 | TL: 2.719e-01 | VA: 115.04 | VL: 3.457e-01 | Norm: 1.97e-04 | time: 1.95e+01 |
+| epoch: 3800 | TA: 123.87 | TL: 2.706e-01 | VA: 116.87 | VL: 3.443e-01 | Norm: 1.68e-04 | time: 1.94e+01 |
+| epoch: 3900 | TA: 124.87 | TL: 2.735e-01 | VA: 113.61 | VL: 3.451e-01 | Norm: 2.08e-04 | time: 1.95e+01 |
+| epoch: 4000 | TA: 125.21 | TL: 2.680e-01 | VA: 116.10 | VL: 3.495e-01 | Norm: 2.73e-04 | time: 1.95e+01 |
+| epoch: 4100 | TA: 123.53 | TL: 2.630e-01 | VA: 116.99 | VL: 3.462e-01 | Norm: 2.09e-04 | time: 1.95e+01 |
+| epoch: 4200 | TA: 125.40 | TL: 2.754e-01 | VA: 112.61 | VL: 3.551e-01 | Norm: 3.27e-04 | time: 1.95e+01 |
+| epoch: 4300 | TA: 123.76 | TL: 2.744e-01 | VA: 112.21 | VL: 3.431e-01 | Norm: 1.56e-04 | time: 1.95e+01 |
+Early stop.
+Finished.
+Training with penalty:87.09636 seed:8.
+The ID for this training is 1658678531.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 1.273e+00 | Norm: 6.63e-03 | time: 1.88e-01 |
+| epoch:  100 | TA: 113.62 | TL: 3.503e-01 | VA: 109.84 | VL: 3.714e-01 | Norm: 1.17e-04 | time: 1.87e+01 |
+| epoch:  200 | TA: 116.35 | TL: 3.122e-01 | VA: 113.50 | VL: 3.484e-01 | Norm: 6.74e-05 | time: 1.88e+01 |
+| epoch:  300 | TA: 118.66 | TL: 3.074e-01 | VA: 114.67 | VL: 3.500e-01 | Norm: 1.50e-04 | time: 1.88e+01 |
+| epoch:  400 | TA: 119.25 | TL: 2.921e-01 | VA: 112.02 | VL: 3.543e-01 | Norm: 2.24e-04 | time: 1.90e+01 |
+| epoch:  500 | TA: 118.82 | TL: 2.893e-01 | VA: 108.37 | VL: 3.636e-01 | Norm: 2.98e-04 | time: 1.90e+01 |
+| epoch:  600 | TA: 119.36 | TL: 2.875e-01 | VA: 111.75 | VL: 3.776e-01 | Norm: 4.17e-04 | time: 1.91e+01 |
+| epoch:  700 | TA: 120.40 | TL: 2.756e-01 | VA: 114.82 | VL: 3.591e-01 | Norm: 2.19e-04 | time: 1.91e+01 |
+| epoch:  800 | TA: 120.39 | TL: 2.833e-01 | VA: 111.27 | VL: 3.593e-01 | Norm: 2.07e-04 | time: 1.92e+01 |
+| epoch:  900 | TA: 120.91 | TL: 2.775e-01 | VA: 112.20 | VL: 3.579e-01 | Norm: 1.87e-04 | time: 1.92e+01 |
+| epoch: 1000 | TA: 120.62 | TL: 2.769e-01 | VA: 112.28 | VL: 3.587e-01 | Norm: 1.86e-04 | time: 1.93e+01 |
+| epoch: 1100 | TA: 122.07 | TL: 2.683e-01 | VA: 114.05 | VL: 3.583e-01 | Norm: 1.84e-04 | time: 1.93e+01 |
+| epoch: 1200 | TA: 121.34 | TL: 2.733e-01 | VA: 113.53 | VL: 3.591e-01 | Norm: 1.90e-04 | time: 1.93e+01 |
+| epoch: 1300 | TA: 121.86 | TL: 2.714e-01 | VA: 113.05 | VL: 3.583e-01 | Norm: 1.47e-04 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:131.82567 seed:8.
+The ID for this training is 1658678793.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 1.570e+00 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 113.71 | TL: 3.479e-01 | VA: 109.71 | VL: 3.678e-01 | Norm: 7.51e-05 | time: 1.86e+01 |
+| epoch:  200 | TA: 118.07 | TL: 3.120e-01 | VA: 107.74 | VL: 3.639e-01 | Norm: 1.26e-04 | time: 1.87e+01 |
+| epoch:  300 | TA: 118.09 | TL: 3.145e-01 | VA: 110.61 | VL: 3.651e-01 | Norm: 1.62e-04 | time: 1.88e+01 |
+| epoch:  400 | TA: 119.91 | TL: 3.057e-01 | VA: 110.75 | VL: 3.651e-01 | Norm: 1.87e-04 | time: 1.89e+01 |
+| epoch:  500 | TA: 118.69 | TL: 2.851e-01 | VA: 111.43 | VL: 3.580e-01 | Norm: 1.44e-04 | time: 1.89e+01 |
+| epoch:  600 | TA: 119.25 | TL: 2.777e-01 | VA: 109.42 | VL: 3.593e-01 | Norm: 1.61e-04 | time: 1.90e+01 |
+| epoch:  700 | TA: 120.39 | TL: 2.845e-01 | VA: 109.43 | VL: 3.497e-01 | Norm: 9.27e-05 | time: 1.91e+01 |
+| epoch:  800 | TA: 121.34 | TL: 2.756e-01 | VA: 111.14 | VL: 3.509e-01 | Norm: 1.08e-04 | time: 1.92e+01 |
+| epoch:  900 | TA: 120.52 | TL: 2.888e-01 | VA: 111.27 | VL: 3.600e-01 | Norm: 1.77e-04 | time: 1.93e+01 |
+| epoch: 1000 | TA: 121.20 | TL: 2.775e-01 | VA: 111.29 | VL: 3.545e-01 | Norm: 1.43e-04 | time: 1.93e+01 |
+| epoch: 1100 | TA: 121.53 | TL: 2.774e-01 | VA: 113.56 | VL: 3.466e-01 | Norm: 8.55e-05 | time: 1.93e+01 |
+| epoch: 1200 | TA: 120.75 | TL: 2.705e-01 | VA: 111.23 | VL: 3.582e-01 | Norm: 1.79e-04 | time: 1.93e+01 |
+| epoch: 1300 | TA: 120.20 | TL: 2.792e-01 | VA: 109.20 | VL: 3.651e-01 | Norm: 2.08e-04 | time: 1.94e+01 |
+| epoch: 1400 | TA: 119.27 | TL: 2.783e-01 | VA: 113.16 | VL: 3.611e-01 | Norm: 1.97e-04 | time: 1.94e+01 |
+| epoch: 1500 | TA: 118.96 | TL: 2.754e-01 | VA: 110.95 | VL: 3.562e-01 | Norm: 1.58e-04 | time: 1.94e+01 |
+| epoch: 1600 | TA: 120.66 | TL: 2.786e-01 | VA: 112.80 | VL: 3.449e-01 | Norm: 8.32e-05 | time: 1.94e+01 |
+| epoch: 1700 | TA: 121.55 | TL: 2.731e-01 | VA: 112.62 | VL: 3.583e-01 | Norm: 1.86e-04 | time: 1.94e+01 |
+| epoch: 1800 | TA: 121.25 | TL: 2.668e-01 | VA: 111.38 | VL: 3.443e-01 | Norm: 8.99e-05 | time: 1.94e+01 |
+| epoch: 1900 | TA: 121.87 | TL: 2.665e-01 | VA: 111.93 | VL: 3.531e-01 | Norm: 1.54e-04 | time: 1.94e+01 |
+| epoch: 2000 | TA: 121.55 | TL: 2.735e-01 | VA: 111.97 | VL: 3.491e-01 | Norm: 1.13e-04 | time: 1.94e+01 |
+| epoch: 2100 | TA: 119.18 | TL: 2.687e-01 | VA: 111.94 | VL: 3.383e-01 | Norm: 4.62e-05 | time: 1.94e+01 |
+| epoch: 2200 | TA: 121.35 | TL: 2.768e-01 | VA: 112.67 | VL: 3.558e-01 | Norm: 1.69e-04 | time: 1.94e+01 |
+| epoch: 2300 | TA: 118.49 | TL: 2.750e-01 | VA: 109.44 | VL: 3.470e-01 | Norm: 1.12e-04 | time: 1.94e+01 |
+| epoch: 2400 | TA: 120.43 | TL: 2.682e-01 | VA: 112.40 | VL: 3.502e-01 | Norm: 1.32e-04 | time: 1.94e+01 |
+| epoch: 2500 | TA: 120.35 | TL: 2.604e-01 | VA: 112.89 | VL: 3.508e-01 | Norm: 1.24e-04 | time: 1.95e+01 |
+| epoch: 2600 | TA: 119.32 | TL: 2.705e-01 | VA: 110.53 | VL: 3.526e-01 | Norm: 9.33e-05 | time: 1.94e+01 |
+| epoch: 2700 | TA: 119.90 | TL: 2.644e-01 | VA: 114.24 | VL: 3.491e-01 | Norm: 1.41e-04 | time: 1.94e+01 |
+| epoch: 2800 | TA: 121.05 | TL: 2.769e-01 | VA: 109.93 | VL: 3.419e-01 | Norm: 6.71e-05 | time: 1.95e+01 |
+| epoch: 2900 | TA: 120.21 | TL: 2.642e-01 | VA: 111.85 | VL: 3.458e-01 | Norm: 9.67e-05 | time: 1.94e+01 |
+| epoch: 3000 | TA: 120.29 | TL: 2.670e-01 | VA: 112.99 | VL: 3.528e-01 | Norm: 1.67e-04 | time: 1.95e+01 |
+| epoch: 3100 | TA: 121.48 | TL: 2.641e-01 | VA: 113.51 | VL: 3.559e-01 | Norm: 1.76e-04 | time: 1.95e+01 |
+| epoch: 3200 | TA: 121.05 | TL: 2.655e-01 | VA: 113.13 | VL: 3.492e-01 | Norm: 1.10e-04 | time: 1.95e+01 |
+| epoch: 3300 | TA: 121.71 | TL: 2.611e-01 | VA: 112.83 | VL: 3.385e-01 | Norm: 5.29e-05 | time: 1.95e+01 |
+Early stop.
+Finished.
+Training with penalty:199.52623 seed:8.
+The ID for this training is 1658679453.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 2.019e+00 | Norm: 6.63e-03 | time: 1.90e-01 |
+| epoch:  100 | TA: 113.50 | TL: 3.481e-01 | VA: 109.52 | VL: 3.640e-01 | Norm: 2.73e-05 | time: 1.86e+01 |
+| epoch:  200 | TA: 116.96 | TL: 3.105e-01 | VA: 113.40 | VL: 3.328e-01 | Norm: 1.43e-05 | time: 1.86e+01 |
+| epoch:  300 | TA: 119.06 | TL: 2.838e-01 | VA: 110.91 | VL: 3.421e-01 | Norm: 8.52e-05 | time: 1.88e+01 |
+| epoch:  400 | TA: 118.70 | TL: 2.821e-01 | VA: 113.26 | VL: 3.323e-01 | Norm: 6.91e-05 | time: 1.90e+01 |
+| epoch:  500 | TA: 121.89 | TL: 2.818e-01 | VA: 115.02 | VL: 3.360e-01 | Norm: 8.46e-05 | time: 1.90e+01 |
+| epoch:  600 | TA: 122.16 | TL: 2.970e-01 | VA: 114.72 | VL: 3.452e-01 | Norm: 1.46e-04 | time: 1.91e+01 |
+| epoch:  700 | TA: 122.26 | TL: 2.572e-01 | VA: 115.76 | VL: 3.250e-01 | Norm: 5.33e-05 | time: 1.91e+01 |
+| epoch:  800 | TA: 122.47 | TL: 2.833e-01 | VA: 114.18 | VL: 3.393e-01 | Norm: 1.29e-04 | time: 1.92e+01 |
+| epoch:  900 | TA: 122.16 | TL: 2.747e-01 | VA: 116.35 | VL: 3.296e-01 | Norm: 7.10e-05 | time: 1.93e+01 |
+| epoch: 1000 | TA: 122.85 | TL: 2.540e-01 | VA: 116.79 | VL: 3.336e-01 | Norm: 9.21e-05 | time: 1.93e+01 |
+| epoch: 1100 | TA: 123.14 | TL: 2.730e-01 | VA: 115.07 | VL: 3.302e-01 | Norm: 7.57e-05 | time: 1.93e+01 |
+| epoch: 1200 | TA: 123.91 | TL: 2.717e-01 | VA: 114.02 | VL: 3.310e-01 | Norm: 7.52e-05 | time: 1.93e+01 |
+| epoch: 1300 | TA: 121.73 | TL: 2.610e-01 | VA: 116.64 | VL: 3.329e-01 | Norm: 8.02e-05 | time: 1.94e+01 |
+| epoch: 1400 | TA: 123.58 | TL: 2.751e-01 | VA: 115.11 | VL: 3.350e-01 | Norm: 8.22e-05 | time: 1.94e+01 |
+| epoch: 1500 | TA: 124.31 | TL: 2.698e-01 | VA: 116.52 | VL: 3.332e-01 | Norm: 7.49e-05 | time: 1.94e+01 |
+| epoch: 1600 | TA: 123.89 | TL: 2.669e-01 | VA: 116.14 | VL: 3.430e-01 | Norm: 1.29e-04 | time: 1.94e+01 |
+| epoch: 1700 | TA: 123.34 | TL: 2.605e-01 | VA: 113.79 | VL: 3.407e-01 | Norm: 1.16e-04 | time: 1.94e+01 |
+| epoch: 1800 | TA: 124.09 | TL: 2.504e-01 | VA: 115.82 | VL: 3.286e-01 | Norm: 5.62e-05 | time: 1.94e+01 |
+| epoch: 1900 | TA: 123.20 | TL: 2.553e-01 | VA: 114.84 | VL: 3.373e-01 | Norm: 1.01e-04 | time: 1.94e+01 |
+| epoch: 2000 | TA: 123.97 | TL: 2.638e-01 | VA: 116.98 | VL: 3.363e-01 | Norm: 1.02e-04 | time: 1.94e+01 |
+| epoch: 2100 | TA: 122.84 | TL: 2.503e-01 | VA: 115.53 | VL: 3.442e-01 | Norm: 1.38e-04 | time: 1.94e+01 |
+| epoch: 2200 | TA: 122.98 | TL: 2.696e-01 | VA: 115.27 | VL: 3.396e-01 | Norm: 9.51e-05 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:301.99517 seed:8.
+The ID for this training is 1658679908.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 2.698e+00 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 112.26 | TL: 3.554e-01 | VA: 108.54 | VL: 3.798e-01 | Norm: 7.46e-05 | time: 1.86e+01 |
+| epoch:  200 | TA: 115.22 | TL: 3.182e-01 | VA: 112.80 | VL: 3.512e-01 | Norm: 5.88e-05 | time: 1.87e+01 |
+| epoch:  300 | TA: 119.90 | TL: 3.168e-01 | VA: 114.28 | VL: 3.511e-01 | Norm: 9.18e-05 | time: 1.88e+01 |
+| epoch:  400 | TA: 120.72 | TL: 3.106e-01 | VA: 113.24 | VL: 3.500e-01 | Norm: 7.51e-05 | time: 1.89e+01 |
+| epoch:  500 | TA: 121.12 | TL: 2.861e-01 | VA: 114.21 | VL: 3.525e-01 | Norm: 8.93e-05 | time: 1.90e+01 |
+| epoch:  600 | TA: 121.98 | TL: 2.910e-01 | VA: 114.60 | VL: 3.583e-01 | Norm: 1.07e-04 | time: 1.90e+01 |
+| epoch:  700 | TA: 122.91 | TL: 2.826e-01 | VA: 115.16 | VL: 3.595e-01 | Norm: 9.85e-05 | time: 1.91e+01 |
+| epoch:  800 | TA: 124.15 | TL: 2.751e-01 | VA: 116.40 | VL: 3.445e-01 | Norm: 5.44e-05 | time: 1.91e+01 |
+| epoch:  900 | TA: 123.89 | TL: 2.764e-01 | VA: 115.86 | VL: 3.677e-01 | Norm: 1.31e-04 | time: 1.91e+01 |
+| epoch: 1000 | TA: 124.42 | TL: 2.878e-01 | VA: 115.68 | VL: 3.509e-01 | Norm: 7.89e-05 | time: 1.92e+01 |
+| epoch: 1100 | TA: 121.71 | TL: 2.756e-01 | VA: 114.37 | VL: 3.464e-01 | Norm: 6.22e-05 | time: 1.92e+01 |
+| epoch: 1200 | TA: 123.07 | TL: 2.714e-01 | VA: 113.81 | VL: 3.528e-01 | Norm: 8.25e-05 | time: 1.92e+01 |
+| epoch: 1300 | TA: 124.11 | TL: 2.908e-01 | VA: 115.59 | VL: 3.520e-01 | Norm: 8.72e-05 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:457.08819 seed:8.
+The ID for this training is 1658680174.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 3.726e+00 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 112.50 | TL: 3.406e-01 | VA: 108.91 | VL: 3.581e-01 | Norm: 0.00e+00 | time: 1.86e+01 |
+| epoch:  200 | TA: 117.24 | TL: 3.070e-01 | VA: 112.62 | VL: 3.457e-01 | Norm: 1.60e-05 | time: 1.88e+01 |
+| epoch:  300 | TA: 119.08 | TL: 2.923e-01 | VA: 113.87 | VL: 3.412e-01 | Norm: 3.01e-05 | time: 1.89e+01 |
+| epoch:  400 | TA: 121.82 | TL: 2.872e-01 | VA: 114.18 | VL: 3.405e-01 | Norm: 3.77e-05 | time: 1.90e+01 |
+| epoch:  500 | TA: 120.62 | TL: 2.856e-01 | VA: 114.47 | VL: 3.320e-01 | Norm: 2.64e-05 | time: 1.90e+01 |
+| epoch:  600 | TA: 122.53 | TL: 2.783e-01 | VA: 116.40 | VL: 3.486e-01 | Norm: 6.77e-05 | time: 1.91e+01 |
+| epoch:  700 | TA: 122.65 | TL: 2.779e-01 | VA: 114.33 | VL: 3.336e-01 | Norm: 3.64e-05 | time: 1.92e+01 |
+| epoch:  800 | TA: 122.17 | TL: 2.855e-01 | VA: 116.00 | VL: 3.384e-01 | Norm: 4.67e-05 | time: 1.92e+01 |
+| epoch:  900 | TA: 122.40 | TL: 2.779e-01 | VA: 114.66 | VL: 3.268e-01 | Norm: 1.87e-05 | time: 1.93e+01 |
+| epoch: 1000 | TA: 124.80 | TL: 2.595e-01 | VA: 116.28 | VL: 3.348e-01 | Norm: 4.21e-05 | time: 1.93e+01 |
+| epoch: 1100 | TA: 122.47 | TL: 2.795e-01 | VA: 115.99 | VL: 3.429e-01 | Norm: 6.22e-05 | time: 1.94e+01 |
+| epoch: 1200 | TA: 123.09 | TL: 2.664e-01 | VA: 114.53 | VL: 3.382e-01 | Norm: 4.95e-05 | time: 1.94e+01 |
+| epoch: 1300 | TA: 123.64 | TL: 2.738e-01 | VA: 116.38 | VL: 3.345e-01 | Norm: 4.44e-05 | time: 1.94e+01 |
+| epoch: 1400 | TA: 123.56 | TL: 2.812e-01 | VA: 117.43 | VL: 3.534e-01 | Norm: 8.86e-05 | time: 1.94e+01 |
+| epoch: 1500 | TA: 124.33 | TL: 2.688e-01 | VA: 117.89 | VL: 3.218e-01 | Norm: 1.36e-05 | time: 1.94e+01 |
+| epoch: 1600 | TA: 124.59 | TL: 2.668e-01 | VA: 117.27 | VL: 3.871e-01 | Norm: 1.56e-04 | time: 1.94e+01 |
+| epoch: 1700 | TA: 125.66 | TL: 2.558e-01 | VA: 117.31 | VL: 3.424e-01 | Norm: 6.22e-05 | time: 1.94e+01 |
+| epoch: 1800 | TA: 125.02 | TL: 2.629e-01 | VA: 116.88 | VL: 3.283e-01 | Norm: 3.30e-05 | time: 1.94e+01 |
+| epoch: 1900 | TA: 125.48 | TL: 2.518e-01 | VA: 116.75 | VL: 3.148e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2000 | TA: 126.22 | TL: 2.719e-01 | VA: 114.36 | VL: 3.538e-01 | Norm: 9.31e-05 | time: 1.94e+01 |
+| epoch: 2100 | TA: 125.62 | TL: 2.534e-01 | VA: 117.39 | VL: 3.212e-01 | Norm: 2.75e-05 | time: 1.94e+01 |
+| epoch: 2200 | TA: 125.48 | TL: 2.785e-01 | VA: 118.47 | VL: 3.549e-01 | Norm: 9.79e-05 | time: 1.94e+01 |
+| epoch: 2300 | TA: 125.09 | TL: 2.584e-01 | VA: 116.04 | VL: 3.507e-01 | Norm: 9.22e-05 | time: 1.94e+01 |
+| epoch: 2400 | TA: 125.75 | TL: 2.580e-01 | VA: 118.08 | VL: 3.460e-01 | Norm: 8.45e-05 | time: 1.94e+01 |
+| epoch: 2500 | TA: 125.38 | TL: 2.655e-01 | VA: 119.38 | VL: 3.617e-01 | Norm: 1.16e-04 | time: 1.94e+01 |
+| epoch: 2600 | TA: 126.39 | TL: 2.567e-01 | VA: 119.02 | VL: 3.453e-01 | Norm: 8.16e-05 | time: 1.94e+01 |
+| epoch: 2700 | TA: 124.31 | TL: 2.739e-01 | VA: 116.65 | VL: 3.264e-01 | Norm: 3.89e-05 | time: 1.94e+01 |
+| epoch: 2800 | TA: 126.79 | TL: 2.626e-01 | VA: 118.99 | VL: 3.274e-01 | Norm: 4.24e-05 | time: 1.94e+01 |
+| epoch: 2900 | TA: 125.41 | TL: 2.631e-01 | VA: 118.46 | VL: 3.328e-01 | Norm: 5.56e-05 | time: 1.95e+01 |
+| epoch: 3000 | TA: 125.54 | TL: 2.593e-01 | VA: 119.52 | VL: 3.208e-01 | Norm: 2.63e-05 | time: 1.95e+01 |
+| epoch: 3100 | TA: 125.75 | TL: 2.475e-01 | VA: 119.38 | VL: 3.273e-01 | Norm: 4.57e-05 | time: 1.95e+01 |
+| epoch: 3200 | TA: 123.97 | TL: 2.512e-01 | VA: 117.85 | VL: 3.369e-01 | Norm: 6.00e-05 | time: 1.95e+01 |
+| epoch: 3300 | TA: 126.28 | TL: 2.473e-01 | VA: 120.03 | VL: 3.292e-01 | Norm: 4.63e-05 | time: 1.95e+01 |
+| epoch: 3400 | TA: 126.44 | TL: 2.621e-01 | VA: 119.12 | VL: 3.156e-01 | Norm: 1.43e-05 | time: 1.95e+01 |
+| epoch: 3500 | TA: 125.37 | TL: 2.602e-01 | VA: 119.36 | VL: 3.363e-01 | Norm: 5.69e-05 | time: 1.95e+01 |
+| epoch: 3600 | TA: 125.96 | TL: 2.533e-01 | VA: 116.73 | VL: 3.238e-01 | Norm: 2.86e-05 | time: 1.95e+01 |
+| epoch: 3700 | TA: 125.14 | TL: 2.662e-01 | VA: 119.11 | VL: 3.366e-01 | Norm: 6.21e-05 | time: 1.95e+01 |
+| epoch: 3800 | TA: 125.41 | TL: 2.725e-01 | VA: 118.86 | VL: 3.466e-01 | Norm: 7.94e-05 | time: 1.95e+01 |
+| epoch: 3900 | TA: 123.84 | TL: 2.643e-01 | VA: 117.11 | VL: 3.247e-01 | Norm: 2.67e-05 | time: 1.95e+01 |
+| epoch: 4000 | TA: 125.63 | TL: 2.810e-01 | VA: 118.64 | VL: 3.283e-01 | Norm: 4.06e-05 | time: 1.95e+01 |
+| epoch: 4100 | TA: 126.24 | TL: 2.594e-01 | VA: 116.41 | VL: 3.235e-01 | Norm: 2.74e-05 | time: 1.95e+01 |
+Early stop.
+Finished.
+Training with penalty:691.83097 seed:8.
+The ID for this training is 1658680996.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 5.282e+00 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 110.83 | TL: 3.421e-01 | VA: 110.27 | VL: 3.602e-01 | Norm: 0.00e+00 | time: 1.86e+01 |
+| epoch:  200 | TA: 116.74 | TL: 3.168e-01 | VA: 109.66 | VL: 3.397e-01 | Norm: 0.00e+00 | time: 1.88e+01 |
+| epoch:  300 | TA: 117.99 | TL: 3.065e-01 | VA: 109.70 | VL: 3.567e-01 | Norm: 2.79e-05 | time: 1.89e+01 |
+| epoch:  400 | TA: 119.38 | TL: 2.871e-01 | VA: 110.73 | VL: 3.339e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  500 | TA: 119.30 | TL: 2.818e-01 | VA: 110.74 | VL: 3.645e-01 | Norm: 4.61e-05 | time: 1.91e+01 |
+| epoch:  600 | TA: 120.30 | TL: 2.654e-01 | VA: 112.01 | VL: 3.701e-01 | Norm: 5.76e-05 | time: 1.91e+01 |
+| epoch:  700 | TA: 119.13 | TL: 2.639e-01 | VA: 113.49 | VL: 3.287e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  800 | TA: 120.29 | TL: 3.059e-01 | VA: 113.77 | VL: 3.543e-01 | Norm: 3.10e-05 | time: 1.92e+01 |
+| epoch:  900 | TA: 119.66 | TL: 2.592e-01 | VA: 112.98 | VL: 3.691e-01 | Norm: 5.94e-05 | time: 1.93e+01 |
+| epoch: 1000 | TA: 119.45 | TL: 2.674e-01 | VA: 113.19 | VL: 3.301e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1100 | TA: 122.11 | TL: 2.645e-01 | VA: 113.85 | VL: 3.292e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1200 | TA: 123.66 | TL: 3.015e-01 | VA: 113.88 | VL: 3.484e-01 | Norm: 2.55e-05 | time: 1.93e+01 |
+| epoch: 1300 | TA: 121.35 | TL: 2.626e-01 | VA: 110.63 | VL: 3.301e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1400 | TA: 121.23 | TL: 2.836e-01 | VA: 114.09 | VL: 3.508e-01 | Norm: 2.89e-05 | time: 1.93e+01 |
+| epoch: 1500 | TA: 121.91 | TL: 2.690e-01 | VA: 112.61 | VL: 3.509e-01 | Norm: 2.77e-05 | time: 1.93e+01 |
+| epoch: 1600 | TA: 121.60 | TL: 2.625e-01 | VA: 111.73 | VL: 3.695e-01 | Norm: 5.42e-05 | time: 1.94e+01 |
+| epoch: 1700 | TA: 122.31 | TL: 3.060e-01 | VA: 110.83 | VL: 3.636e-01 | Norm: 4.50e-05 | time: 1.94e+01 |
+| epoch: 1800 | TA: 120.89 | TL: 2.647e-01 | VA: 113.91 | VL: 3.759e-01 | Norm: 6.24e-05 | time: 1.94e+01 |
+| epoch: 1900 | TA: 123.43 | TL: 2.688e-01 | VA: 113.14 | VL: 3.639e-01 | Norm: 4.47e-05 | time: 1.94e+01 |
+| epoch: 2000 | TA: 122.70 | TL: 2.749e-01 | VA: 110.90 | VL: 3.622e-01 | Norm: 4.30e-05 | time: 1.94e+01 |
+| epoch: 2100 | TA: 123.18 | TL: 2.993e-01 | VA: 113.53 | VL: 3.864e-01 | Norm: 8.21e-05 | time: 1.94e+01 |
+| epoch: 2200 | TA: 120.84 | TL: 2.688e-01 | VA: 112.01 | VL: 3.496e-01 | Norm: 2.78e-05 | time: 1.94e+01 |
+| epoch: 2300 | TA: 121.23 | TL: 2.561e-01 | VA: 114.74 | VL: 3.517e-01 | Norm: 2.60e-05 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:1047.12855 seed:8.
+The ID for this training is 1658681452.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 7.637e+00 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 112.74 | TL: 3.460e-01 | VA: 108.72 | VL: 3.769e-01 | Norm: 1.31e-05 | time: 1.87e+01 |
+| epoch:  200 | TA: 116.85 | TL: 2.991e-01 | VA: 109.40 | VL: 3.433e-01 | Norm: 0.00e+00 | time: 1.89e+01 |
+| epoch:  300 | TA: 118.56 | TL: 2.847e-01 | VA: 107.81 | VL: 3.384e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  400 | TA: 119.34 | TL: 2.897e-01 | VA: 110.63 | VL: 3.331e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  500 | TA: 118.92 | TL: 3.581e-01 | VA: 110.66 | VL: 3.873e-01 | Norm: 5.40e-05 | time: 1.91e+01 |
+| epoch:  600 | TA: 118.94 | TL: 2.770e-01 | VA: 111.37 | VL: 3.496e-01 | Norm: 1.58e-05 | time: 1.92e+01 |
+| epoch:  700 | TA: 121.75 | TL: 3.005e-01 | VA: 109.53 | VL: 3.775e-01 | Norm: 4.46e-05 | time: 1.92e+01 |
+| epoch:  800 | TA: 121.56 | TL: 2.862e-01 | VA: 111.51 | VL: 3.729e-01 | Norm: 3.94e-05 | time: 1.93e+01 |
+| epoch:  900 | TA: 121.56 | TL: 2.696e-01 | VA: 112.94 | VL: 3.283e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1000 | TA: 123.02 | TL: 3.294e-01 | VA: 114.22 | VL: 3.899e-01 | Norm: 5.87e-05 | time: 1.93e+01 |
+| epoch: 1100 | TA: 120.19 | TL: 2.827e-01 | VA: 110.47 | VL: 3.708e-01 | Norm: 4.02e-05 | time: 1.93e+01 |
+| epoch: 1200 | TA: 124.12 | TL: 3.046e-01 | VA: 114.87 | VL: 3.403e-01 | Norm: 1.30e-05 | time: 1.94e+01 |
+| epoch: 1300 | TA: 121.23 | TL: 2.780e-01 | VA: 114.51 | VL: 3.423e-01 | Norm: 1.43e-05 | time: 1.94e+01 |
+| epoch: 1400 | TA: 121.10 | TL: 3.213e-01 | VA: 111.14 | VL: 3.931e-01 | Norm: 6.51e-05 | time: 1.94e+01 |
+| epoch: 1500 | TA: 124.04 | TL: 2.628e-01 | VA: 113.18 | VL: 3.557e-01 | Norm: 2.88e-05 | time: 1.94e+01 |
+| epoch: 1600 | TA: 121.43 | TL: 2.888e-01 | VA: 113.23 | VL: 4.142e-01 | Norm: 8.58e-05 | time: 1.94e+01 |
+| epoch: 1700 | TA: 123.71 | TL: 2.904e-01 | VA: 115.01 | VL: 3.257e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1800 | TA: 121.31 | TL: 2.833e-01 | VA: 113.81 | VL: 3.826e-01 | Norm: 5.58e-05 | time: 1.94e+01 |
+| epoch: 1900 | TA: 123.82 | TL: 3.120e-01 | VA: 114.55 | VL: 3.598e-01 | Norm: 3.35e-05 | time: 1.94e+01 |
+| epoch: 2000 | TA: 121.69 | TL: 3.163e-01 | VA: 113.70 | VL: 4.057e-01 | Norm: 7.67e-05 | time: 1.94e+01 |
+| epoch: 2100 | TA: 123.34 | TL: 3.693e-01 | VA: 113.66 | VL: 3.426e-01 | Norm: 1.77e-05 | time: 1.94e+01 |
+| epoch: 2200 | TA: 121.20 | TL: 2.584e-01 | VA: 115.71 | VL: 3.552e-01 | Norm: 3.05e-05 | time: 1.94e+01 |
+| epoch: 2300 | TA: 123.68 | TL: 2.899e-01 | VA: 113.93 | VL: 3.485e-01 | Norm: 2.41e-05 | time: 1.94e+01 |
+| epoch: 2400 | TA: 125.78 | TL: 3.173e-01 | VA: 112.03 | VL: 4.152e-01 | Norm: 8.57e-05 | time: 1.94e+01 |
+| epoch: 2500 | TA: 120.70 | TL: 2.685e-01 | VA: 114.44 | VL: 3.367e-01 | Norm: 1.31e-05 | time: 1.94e+01 |
+| epoch: 2600 | TA: 120.27 | TL: 2.931e-01 | VA: 114.63 | VL: 3.528e-01 | Norm: 2.75e-05 | time: 1.94e+01 |
+| epoch: 2700 | TA: 120.26 | TL: 2.901e-01 | VA: 115.33 | VL: 3.515e-01 | Norm: 2.70e-05 | time: 1.94e+01 |
+| epoch: 2800 | TA: 124.11 | TL: 3.074e-01 | VA: 113.80 | VL: 3.455e-01 | Norm: 2.13e-05 | time: 1.94e+01 |
+| epoch: 2900 | TA: 122.04 | TL: 2.567e-01 | VA: 110.59 | VL: 3.248e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 3000 | TA: 123.61 | TL: 3.001e-01 | VA: 112.74 | VL: 3.380e-01 | Norm: 1.40e-05 | time: 1.94e+01 |
+| epoch: 3100 | TA: 125.05 | TL: 2.432e-01 | VA: 113.75 | VL: 3.240e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 3200 | TA: 123.93 | TL: 2.574e-01 | VA: 112.92 | VL: 3.382e-01 | Norm: 1.42e-05 | time: 1.94e+01 |
+| epoch: 3300 | TA: 123.53 | TL: 2.423e-01 | VA: 112.44 | VL: 3.462e-01 | Norm: 2.07e-05 | time: 1.95e+01 |
+| epoch: 3400 | TA: 124.83 | TL: 2.572e-01 | VA: 114.24 | VL: 3.365e-01 | Norm: 1.31e-05 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:1584.89319 seed:8.
+The ID for this training is 1658682143.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 1.120e+01 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 112.30 | TL: 3.680e-01 | VA: 109.20 | VL: 3.625e-01 | Norm: 0.00e+00 | time: 1.87e+01 |
+| epoch:  200 | TA: 115.93 | TL: 3.070e-01 | VA: 110.98 | VL: 3.742e-01 | Norm: 1.59e-05 | time: 1.88e+01 |
+| epoch:  300 | TA: 118.45 | TL: 3.341e-01 | VA: 112.30 | VL: 3.623e-01 | Norm: 1.31e-05 | time: 1.89e+01 |
+| epoch:  400 | TA: 118.29 | TL: 2.826e-01 | VA: 111.00 | VL: 3.381e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  500 | TA: 117.93 | TL: 2.747e-01 | VA: 109.57 | VL: 3.599e-01 | Norm: 1.37e-05 | time: 1.90e+01 |
+| epoch:  600 | TA: 118.96 | TL: 2.903e-01 | VA: 111.41 | VL: 3.758e-01 | Norm: 2.34e-05 | time: 1.91e+01 |
+| epoch:  700 | TA: 118.33 | TL: 2.859e-01 | VA: 112.92 | VL: 3.670e-01 | Norm: 1.95e-05 | time: 1.92e+01 |
+| epoch:  800 | TA: 122.41 | TL: 3.381e-01 | VA: 112.82 | VL: 3.652e-01 | Norm: 1.82e-05 | time: 1.92e+01 |
+| epoch:  900 | TA: 121.99 | TL: 3.500e-01 | VA: 114.28 | VL: 3.787e-01 | Norm: 2.81e-05 | time: 1.93e+01 |
+| epoch: 1000 | TA: 120.17 | TL: 3.196e-01 | VA: 110.12 | VL: 3.590e-01 | Norm: 1.63e-05 | time: 1.93e+01 |
+| epoch: 1100 | TA: 120.97 | TL: 3.382e-01 | VA: 112.86 | VL: 3.346e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1200 | TA: 122.46 | TL: 3.209e-01 | VA: 114.14 | VL: 3.689e-01 | Norm: 2.24e-05 | time: 1.93e+01 |
+| epoch: 1300 | TA: 121.04 | TL: 2.884e-01 | VA: 112.73 | VL: 3.851e-01 | Norm: 3.17e-05 | time: 1.93e+01 |
+| epoch: 1400 | TA: 121.20 | TL: 2.901e-01 | VA: 113.86 | VL: 3.617e-01 | Norm: 1.92e-05 | time: 1.93e+01 |
+| epoch: 1500 | TA: 120.85 | TL: 2.924e-01 | VA: 111.86 | VL: 3.618e-01 | Norm: 1.81e-05 | time: 1.93e+01 |
+| epoch: 1600 | TA: 120.78 | TL: 2.771e-01 | VA: 113.04 | VL: 3.649e-01 | Norm: 2.15e-05 | time: 1.93e+01 |
+| epoch: 1700 | TA: 122.58 | TL: 2.538e-01 | VA: 112.65 | VL: 3.590e-01 | Norm: 1.82e-05 | time: 1.93e+01 |
+| epoch: 1800 | TA: 121.22 | TL: 3.211e-01 | VA: 113.28 | VL: 3.526e-01 | Norm: 1.32e-05 | time: 1.94e+01 |
+| epoch: 1900 | TA: 123.05 | TL: 2.874e-01 | VA: 114.76 | VL: 3.831e-01 | Norm: 3.45e-05 | time: 1.94e+01 |
+| epoch: 2000 | TA: 122.35 | TL: 3.152e-01 | VA: 115.23 | VL: 3.569e-01 | Norm: 1.82e-05 | time: 1.94e+01 |
+| epoch: 2100 | TA: 121.77 | TL: 2.770e-01 | VA: 113.35 | VL: 3.751e-01 | Norm: 2.84e-05 | time: 1.94e+01 |
+| epoch: 2200 | TA: 123.33 | TL: 2.507e-01 | VA: 114.15 | VL: 3.697e-01 | Norm: 2.54e-05 | time: 1.94e+01 |
+| epoch: 2300 | TA: 122.99 | TL: 2.497e-01 | VA: 115.31 | VL: 3.270e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2400 | TA: 122.88 | TL: 3.663e-01 | VA: 114.06 | VL: 3.943e-01 | Norm: 4.15e-05 | time: 1.94e+01 |
+| epoch: 2500 | TA: 122.00 | TL: 2.702e-01 | VA: 114.76 | VL: 3.284e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2600 | TA: 121.94 | TL: 3.257e-01 | VA: 112.84 | VL: 3.893e-01 | Norm: 2.81e-05 | time: 1.94e+01 |
+| epoch: 2700 | TA: 121.23 | TL: 3.011e-01 | VA: 114.12 | VL: 3.751e-01 | Norm: 1.84e-05 | time: 1.94e+01 |
+| epoch: 2800 | TA: 123.51 | TL: 3.104e-01 | VA: 114.27 | VL: 4.203e-01 | Norm: 4.86e-05 | time: 1.94e+01 |
+| epoch: 2900 | TA: 121.09 | TL: 3.041e-01 | VA: 113.67 | VL: 3.769e-01 | Norm: 2.12e-05 | time: 1.94e+01 |
+| epoch: 3000 | TA: 122.84 | TL: 3.238e-01 | VA: 109.92 | VL: 3.653e-01 | Norm: 1.31e-05 | time: 1.94e+01 |
+| epoch: 3100 | TA: 121.16 | TL: 3.570e-01 | VA: 113.69 | VL: 4.261e-01 | Norm: 5.09e-05 | time: 1.94e+01 |
+| epoch: 3200 | TA: 122.10 | TL: 2.680e-01 | VA: 113.72 | VL: 3.541e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 3300 | TA: 122.79 | TL: 2.674e-01 | VA: 113.87 | VL: 3.651e-01 | Norm: 1.30e-05 | time: 1.94e+01 |
+| epoch: 3400 | TA: 123.54 | TL: 2.915e-01 | VA: 112.51 | VL: 3.681e-01 | Norm: 1.46e-05 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:2398.83292 seed:8.
+The ID for this training is 1658682821.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 1.660e+01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 112.88 | TL: 3.427e-01 | VA: 110.63 | VL: 3.594e-01 | Norm: 0.00e+00 | time: 1.86e+01 |
+| epoch:  200 | TA: 117.03 | TL: 3.055e-01 | VA: 111.54 | VL: 3.396e-01 | Norm: 0.00e+00 | time: 1.88e+01 |
+| epoch:  300 | TA: 118.64 | TL: 2.872e-01 | VA: 111.93 | VL: 3.282e-01 | Norm: 0.00e+00 | time: 1.89e+01 |
+| epoch:  400 | TA: 120.94 | TL: 3.034e-01 | VA: 114.04 | VL: 3.520e-01 | Norm: 1.32e-05 | time: 1.90e+01 |
+| epoch:  500 | TA: 121.65 | TL: 2.601e-01 | VA: 113.61 | VL: 3.203e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  600 | TA: 122.75 | TL: 2.895e-01 | VA: 114.96 | VL: 3.234e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  700 | TA: 121.39 | TL: 2.530e-01 | VA: 112.02 | VL: 3.250e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  800 | TA: 122.26 | TL: 3.925e-01 | VA: 111.44 | VL: 3.610e-01 | Norm: 1.44e-05 | time: 1.92e+01 |
+| epoch:  900 | TA: 123.44 | TL: 2.494e-01 | VA: 113.97 | VL: 3.323e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch: 1000 | TA: 122.28 | TL: 2.471e-01 | VA: 114.17 | VL: 3.344e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1100 | TA: 122.35 | TL: 2.925e-01 | VA: 114.47 | VL: 3.737e-01 | Norm: 1.65e-05 | time: 1.93e+01 |
+| epoch: 1200 | TA: 122.30 | TL: 2.769e-01 | VA: 114.83 | VL: 3.690e-01 | Norm: 1.41e-05 | time: 1.93e+01 |
+| epoch: 1300 | TA: 124.08 | TL: 3.206e-01 | VA: 112.40 | VL: 4.066e-01 | Norm: 3.03e-05 | time: 1.93e+01 |
+| epoch: 1400 | TA: 122.60 | TL: 2.811e-01 | VA: 113.83 | VL: 4.131e-01 | Norm: 3.10e-05 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:3630.78055 seed:8.
+The ID for this training is 1658683106.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 2.476e+01 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 112.69 | TL: 3.419e-01 | VA: 108.04 | VL: 3.605e-01 | Norm: 0.00e+00 | time: 1.86e+01 |
+| epoch:  200 | TA: 116.25 | TL: 3.029e-01 | VA: 111.48 | VL: 3.404e-01 | Norm: 0.00e+00 | time: 1.89e+01 |
+| epoch:  300 | TA: 118.63 | TL: 2.879e-01 | VA: 113.29 | VL: 3.349e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  400 | TA: 119.66 | TL: 2.758e-01 | VA: 112.89 | VL: 3.294e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  500 | TA: 118.57 | TL: 2.689e-01 | VA: 112.53 | VL: 3.226e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  600 | TA: 121.02 | TL: 2.612e-01 | VA: 113.69 | VL: 3.218e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  700 | TA: 120.40 | TL: 2.589e-01 | VA: 113.47 | VL: 3.232e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  800 | TA: 121.52 | TL: 2.595e-01 | VA: 114.75 | VL: 3.231e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  900 | TA: 120.76 | TL: 3.368e-01 | VA: 113.97 | VL: 3.200e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1000 | TA: 121.50 | TL: 3.420e-01 | VA: 114.59 | VL: 3.890e-01 | Norm: 1.85e-05 | time: 1.93e+01 |
+| epoch: 1100 | TA: 121.78 | TL: 2.525e-01 | VA: 114.96 | VL: 3.670e-01 | Norm: 1.30e-05 | time: 1.93e+01 |
+| epoch: 1200 | TA: 120.99 | TL: 2.519e-01 | VA: 112.20 | VL: 3.208e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1300 | TA: 120.40 | TL: 2.529e-01 | VA: 112.41 | VL: 3.228e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1400 | TA: 121.13 | TL: 2.501e-01 | VA: 114.89 | VL: 3.194e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1500 | TA: 123.30 | TL: 2.486e-01 | VA: 113.80 | VL: 3.184e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1600 | TA: 121.86 | TL: 2.500e-01 | VA: 112.34 | VL: 3.194e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1700 | TA: 121.23 | TL: 2.475e-01 | VA: 113.74 | VL: 3.866e-01 | Norm: 1.89e-05 | time: 1.94e+01 |
+| epoch: 1800 | TA: 123.88 | TL: 2.470e-01 | VA: 114.94 | VL: 3.167e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1900 | TA: 123.37 | TL: 3.027e-01 | VA: 115.27 | VL: 3.658e-01 | Norm: 1.34e-05 | time: 1.94e+01 |
+| epoch: 2000 | TA: 123.73 | TL: 3.012e-01 | VA: 114.67 | VL: 4.292e-01 | Norm: 3.08e-05 | time: 1.94e+01 |
+| epoch: 2100 | TA: 123.38 | TL: 3.049e-01 | VA: 114.74 | VL: 3.177e-01 | Norm: 0.00e+00 | time: 1.95e+01 |
+| epoch: 2200 | TA: 123.35 | TL: 2.454e-01 | VA: 112.68 | VL: 3.183e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2300 | TA: 123.06 | TL: 3.454e-01 | VA: 112.34 | VL: 4.093e-01 | Norm: 2.58e-05 | time: 1.94e+01 |
+| epoch: 2400 | TA: 122.41 | TL: 2.632e-01 | VA: 116.04 | VL: 3.303e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2500 | TA: 122.35 | TL: 3.070e-01 | VA: 114.76 | VL: 3.173e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2600 | TA: 121.93 | TL: 2.986e-01 | VA: 115.35 | VL: 3.713e-01 | Norm: 1.45e-05 | time: 1.94e+01 |
+| epoch: 2700 | TA: 121.41 | TL: 2.428e-01 | VA: 115.34 | VL: 3.910e-01 | Norm: 2.08e-05 | time: 1.95e+01 |
+| epoch: 2800 | TA: 122.19 | TL: 2.428e-01 | VA: 116.66 | VL: 3.184e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2900 | TA: 122.38 | TL: 2.438e-01 | VA: 111.77 | VL: 3.178e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 3000 | TA: 123.29 | TL: 2.894e-01 | VA: 114.64 | VL: 4.024e-01 | Norm: 2.36e-05 | time: 1.95e+01 |
+| epoch: 3100 | TA: 121.71 | TL: 2.996e-01 | VA: 116.04 | VL: 4.770e-01 | Norm: 4.39e-05 | time: 1.95e+01 |
+| epoch: 3200 | TA: 124.21 | TL: 3.204e-01 | VA: 116.99 | VL: 3.154e-01 | Norm: 0.00e+00 | time: 1.95e+01 |
+| epoch: 3300 | TA: 123.79 | TL: 4.147e-01 | VA: 115.16 | VL: 3.164e-01 | Norm: 0.00e+00 | time: 1.95e+01 |
+| epoch: 3400 | TA: 123.54 | TL: 3.036e-01 | VA: 116.70 | VL: 3.176e-01 | Norm: 0.00e+00 | time: 1.95e+01 |
+| epoch: 3500 | TA: 123.72 | TL: 2.420e-01 | VA: 114.12 | VL: 3.664e-01 | Norm: 1.39e-05 | time: 1.95e+01 |
+| epoch: 3600 | TA: 124.06 | TL: 2.418e-01 | VA: 113.73 | VL: 3.185e-01 | Norm: 0.00e+00 | time: 1.95e+01 |
+Early stop.
+Finished.
+Training with penalty:5495.40874 seed:8.
+The ID for this training is 1658683827.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 3.712e+01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 112.62 | TL: 3.418e-01 | VA: 107.72 | VL: 3.600e-01 | Norm: 0.00e+00 | time: 1.86e+01 |
+| epoch:  200 | TA: 116.38 | TL: 3.022e-01 | VA: 109.92 | VL: 3.388e-01 | Norm: 0.00e+00 | time: 1.89e+01 |
+| epoch:  300 | TA: 117.93 | TL: 2.864e-01 | VA: 113.20 | VL: 3.328e-01 | Norm: 0.00e+00 | time: 1.89e+01 |
+| epoch:  400 | TA: 118.95 | TL: 2.765e-01 | VA: 111.12 | VL: 3.255e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  500 | TA: 119.21 | TL: 2.695e-01 | VA: 112.55 | VL: 3.235e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  600 | TA: 122.18 | TL: 2.603e-01 | VA: 114.71 | VL: 3.189e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  700 | TA: 122.71 | TL: 2.565e-01 | VA: 115.40 | VL: 3.204e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  800 | TA: 122.20 | TL: 3.400e-01 | VA: 113.84 | VL: 4.845e-01 | Norm: 3.03e-05 | time: 1.92e+01 |
+| epoch:  900 | TA: 123.55 | TL: 2.517e-01 | VA: 115.25 | VL: 4.223e-01 | Norm: 1.90e-05 | time: 1.92e+01 |
+| epoch: 1000 | TA: 123.96 | TL: 2.495e-01 | VA: 116.79 | VL: 3.162e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1100 | TA: 123.91 | TL: 2.490e-01 | VA: 114.89 | VL: 3.171e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1200 | TA: 123.31 | TL: 2.475e-01 | VA: 115.64 | VL: 3.178e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1300 | TA: 122.73 | TL: 2.460e-01 | VA: 115.01 | VL: 3.155e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1400 | TA: 123.70 | TL: 2.451e-01 | VA: 115.72 | VL: 4.390e-01 | Norm: 2.19e-05 | time: 1.93e+01 |
+| epoch: 1500 | TA: 123.87 | TL: 2.436e-01 | VA: 116.52 | VL: 3.157e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1600 | TA: 123.58 | TL: 2.432e-01 | VA: 115.51 | VL: 4.661e-01 | Norm: 2.74e-05 | time: 1.94e+01 |
+| epoch: 1700 | TA: 123.59 | TL: 2.489e-01 | VA: 115.77 | VL: 3.883e-01 | Norm: 1.30e-05 | time: 1.94e+01 |
+| epoch: 1800 | TA: 123.73 | TL: 2.429e-01 | VA: 113.45 | VL: 3.162e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1900 | TA: 122.97 | TL: 2.429e-01 | VA: 114.84 | VL: 3.150e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2000 | TA: 123.81 | TL: 3.499e-01 | VA: 114.82 | VL: 3.148e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2100 | TA: 123.93 | TL: 2.406e-01 | VA: 116.21 | VL: 4.698e-01 | Norm: 2.86e-05 | time: 1.94e+01 |
+| epoch: 2200 | TA: 124.25 | TL: 2.398e-01 | VA: 116.05 | VL: 4.167e-01 | Norm: 1.89e-05 | time: 1.94e+01 |
+| epoch: 2300 | TA: 122.91 | TL: 3.128e-01 | VA: 114.34 | VL: 3.149e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2400 | TA: 122.47 | TL: 2.600e-01 | VA: 112.98 | VL: 3.308e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2500 | TA: 121.69 | TL: 2.597e-01 | VA: 111.84 | VL: 3.302e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2600 | TA: 122.27 | TL: 2.593e-01 | VA: 114.28 | VL: 3.287e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2700 | TA: 123.41 | TL: 3.452e-01 | VA: 115.71 | VL: 3.283e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2800 | TA: 123.18 | TL: 2.589e-01 | VA: 113.33 | VL: 3.305e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2900 | TA: 122.68 | TL: 2.400e-01 | VA: 114.36 | VL: 4.687e-01 | Norm: 2.79e-05 | time: 1.94e+01 |
+| epoch: 3000 | TA: 122.14 | TL: 4.821e-01 | VA: 114.03 | VL: 4.558e-01 | Norm: 2.25e-05 | time: 1.94e+01 |
+| epoch: 3100 | TA: 121.60 | TL: 2.584e-01 | VA: 114.18 | VL: 4.214e-01 | Norm: 1.65e-05 | time: 1.94e+01 |
+| epoch: 3200 | TA: 121.60 | TL: 2.579e-01 | VA: 114.06 | VL: 3.313e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 3300 | TA: 122.25 | TL: 3.846e-01 | VA: 113.98 | VL: 4.443e-01 | Norm: 2.08e-05 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:8317.63771 seed:8.
+The ID for this training is 1658684487.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 5.583e+01 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 111.61 | TL: 3.440e-01 | VA: 108.59 | VL: 3.602e-01 | Norm: 0.00e+00 | time: 1.85e+01 |
+| epoch:  200 | TA: 116.85 | TL: 3.008e-01 | VA: 112.28 | VL: 3.385e-01 | Norm: 0.00e+00 | time: 1.88e+01 |
+| epoch:  300 | TA: 119.05 | TL: 2.897e-01 | VA: 111.42 | VL: 3.350e-01 | Norm: 0.00e+00 | time: 1.88e+01 |
+| epoch:  400 | TA: 119.65 | TL: 2.810e-01 | VA: 113.36 | VL: 3.291e-01 | Norm: 0.00e+00 | time: 1.89e+01 |
+| epoch:  500 | TA: 120.66 | TL: 2.774e-01 | VA: 110.98 | VL: 3.259e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  600 | TA: 119.26 | TL: 2.756e-01 | VA: 112.00 | VL: 3.255e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  700 | TA: 121.60 | TL: 2.689e-01 | VA: 113.17 | VL: 3.249e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  800 | TA: 122.35 | TL: 2.639e-01 | VA: 113.90 | VL: 3.250e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  900 | TA: 120.61 | TL: 2.599e-01 | VA: 114.37 | VL: 3.251e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch: 1000 | TA: 122.04 | TL: 2.595e-01 | VA: 114.05 | VL: 4.797e-01 | Norm: 1.86e-05 | time: 1.92e+01 |
+| epoch: 1100 | TA: 121.63 | TL: 2.555e-01 | VA: 111.44 | VL: 3.257e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1200 | TA: 122.71 | TL: 2.542e-01 | VA: 111.27 | VL: 3.252e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1300 | TA: 123.58 | TL: 2.533e-01 | VA: 114.09 | VL: 3.221e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1400 | TA: 122.29 | TL: 2.518e-01 | VA: 111.00 | VL: 3.217e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1500 | TA: 121.29 | TL: 2.632e-01 | VA: 114.55 | VL: 3.230e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1600 | TA: 121.66 | TL: 4.017e-01 | VA: 113.26 | VL: 3.203e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1700 | TA: 122.14 | TL: 2.475e-01 | VA: 115.16 | VL: 3.193e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1800 | TA: 122.08 | TL: 2.472e-01 | VA: 113.08 | VL: 3.221e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1900 | TA: 122.11 | TL: 2.457e-01 | VA: 115.55 | VL: 3.197e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2000 | TA: 122.75 | TL: 3.994e-01 | VA: 114.66 | VL: 4.516e-01 | Norm: 1.59e-05 | time: 1.94e+01 |
+| epoch: 2100 | TA: 123.81 | TL: 4.762e-01 | VA: 115.51 | VL: 5.309e-01 | Norm: 2.52e-05 | time: 1.94e+01 |
+| epoch: 2200 | TA: 122.55 | TL: 2.506e-01 | VA: 111.97 | VL: 3.183e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2300 | TA: 121.36 | TL: 4.203e-01 | VA: 115.60 | VL: 4.790e-01 | Norm: 1.92e-05 | time: 1.94e+01 |
+| epoch: 2400 | TA: 124.24 | TL: 2.435e-01 | VA: 116.25 | VL: 3.184e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2500 | TA: 124.73 | TL: 4.673e-01 | VA: 113.57 | VL: 5.216e-01 | Norm: 2.49e-05 | time: 1.94e+01 |
+| epoch: 2600 | TA: 122.82 | TL: 2.475e-01 | VA: 113.35 | VL: 4.713e-01 | Norm: 1.84e-05 | time: 1.94e+01 |
+| epoch: 2700 | TA: 122.49 | TL: 2.422e-01 | VA: 116.24 | VL: 3.184e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2800 | TA: 122.69 | TL: 2.435e-01 | VA: 112.63 | VL: 3.214e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2900 | TA: 122.80 | TL: 2.423e-01 | VA: 112.29 | VL: 3.211e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 3000 | TA: 122.21 | TL: 2.413e-01 | VA: 111.91 | VL: 3.193e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 3100 | TA: 122.56 | TL: 2.627e-01 | VA: 114.49 | VL: 3.342e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 3200 | TA: 122.52 | TL: 2.588e-01 | VA: 114.03 | VL: 3.299e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 3300 | TA: 122.12 | TL: 3.818e-01 | VA: 111.83 | VL: 3.320e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 3400 | TA: 122.61 | TL: 2.583e-01 | VA: 114.37 | VL: 3.311e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 3500 | TA: 123.40 | TL: 4.526e-01 | VA: 115.69 | VL: 5.041e-01 | Norm: 2.09e-05 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:12589.25412 seed:8.
+The ID for this training is 1658685192.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 8.415e+01 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 112.35 | TL: 3.437e-01 | VA: 108.71 | VL: 3.606e-01 | Norm: 0.00e+00 | time: 1.86e+01 |
+| epoch:  200 | TA: 114.29 | TL: 3.078e-01 | VA: 107.75 | VL: 3.422e-01 | Norm: 0.00e+00 | time: 1.88e+01 |
+| epoch:  300 | TA: 117.90 | TL: 2.937e-01 | VA: 110.74 | VL: 3.360e-01 | Norm: 0.00e+00 | time: 1.89e+01 |
+| epoch:  400 | TA: 119.06 | TL: 2.826e-01 | VA: 111.87 | VL: 3.304e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  500 | TA: 120.49 | TL: 2.769e-01 | VA: 111.31 | VL: 3.356e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  600 | TA: 119.86 | TL: 2.688e-01 | VA: 110.07 | VL: 3.337e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  700 | TA: 120.54 | TL: 2.637e-01 | VA: 110.97 | VL: 3.306e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  800 | TA: 121.15 | TL: 2.624e-01 | VA: 114.76 | VL: 3.285e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  900 | TA: 119.97 | TL: 2.616e-01 | VA: 111.94 | VL: 3.285e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch: 1000 | TA: 119.93 | TL: 2.600e-01 | VA: 111.13 | VL: 3.310e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1100 | TA: 123.83 | TL: 2.583e-01 | VA: 114.88 | VL: 3.312e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1200 | TA: 121.76 | TL: 2.580e-01 | VA: 114.38 | VL: 3.324e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1300 | TA: 123.88 | TL: 2.566e-01 | VA: 113.26 | VL: 3.341e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1400 | TA: 121.28 | TL: 2.550e-01 | VA: 112.21 | VL: 3.331e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1500 | TA: 123.50 | TL: 2.541e-01 | VA: 109.87 | VL: 3.331e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1600 | TA: 123.54 | TL: 2.532e-01 | VA: 110.02 | VL: 3.332e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:19054.60718 seed:8.
+The ID for this training is 1658685521.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 1.270e+02 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 112.43 | TL: 3.441e-01 | VA: 108.77 | VL: 3.610e-01 | Norm: 0.00e+00 | time: 1.86e+01 |
+| epoch:  200 | TA: 116.14 | TL: 3.059e-01 | VA: 108.79 | VL: 3.415e-01 | Norm: 0.00e+00 | time: 1.89e+01 |
+| epoch:  300 | TA: 118.88 | TL: 2.912e-01 | VA: 112.17 | VL: 3.397e-01 | Norm: 0.00e+00 | time: 1.89e+01 |
+| epoch:  400 | TA: 118.43 | TL: 2.792e-01 | VA: 109.51 | VL: 3.359e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  500 | TA: 119.19 | TL: 2.694e-01 | VA: 111.02 | VL: 3.373e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  600 | TA: 119.61 | TL: 2.615e-01 | VA: 109.68 | VL: 3.330e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  700 | TA: 120.90 | TL: 2.564e-01 | VA: 113.25 | VL: 3.304e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  800 | TA: 121.22 | TL: 2.545e-01 | VA: 110.53 | VL: 3.329e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  900 | TA: 121.59 | TL: 2.524e-01 | VA: 111.35 | VL: 3.320e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1000 | TA: 122.32 | TL: 2.511e-01 | VA: 112.96 | VL: 3.336e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1100 | TA: 121.59 | TL: 2.497e-01 | VA: 114.13 | VL: 3.314e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1200 | TA: 121.96 | TL: 2.489e-01 | VA: 111.51 | VL: 3.266e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1300 | TA: 121.68 | TL: 2.475e-01 | VA: 113.80 | VL: 3.267e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1400 | TA: 121.73 | TL: 2.460e-01 | VA: 112.84 | VL: 3.243e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1500 | TA: 122.27 | TL: 2.457e-01 | VA: 114.58 | VL: 3.244e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1600 | TA: 121.33 | TL: 2.693e-01 | VA: 112.52 | VL: 3.475e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1700 | TA: 121.32 | TL: 2.641e-01 | VA: 113.79 | VL: 3.414e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1800 | TA: 121.59 | TL: 7.067e-01 | VA: 113.62 | VL: 7.524e-01 | Norm: 2.13e-05 | time: 1.94e+01 |
+| epoch: 1900 | TA: 121.67 | TL: 2.632e-01 | VA: 112.73 | VL: 3.369e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2000 | TA: 122.07 | TL: 2.631e-01 | VA: 114.26 | VL: 3.368e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2100 | TA: 122.22 | TL: 2.627e-01 | VA: 113.75 | VL: 3.401e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2200 | TA: 121.00 | TL: 2.628e-01 | VA: 114.13 | VL: 3.419e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 2300 | TA: 121.64 | TL: 6.556e-01 | VA: 112.99 | VL: 7.034e-01 | Norm: 1.89e-05 | time: 1.94e+01 |
+| epoch: 2400 | TA: 122.84 | TL: 2.617e-01 | VA: 113.94 | VL: 5.892e-01 | Norm: 1.30e-05 | time: 1.95e+01 |
+Early stop.
+Finished.
+Training with penalty:28840.31503 seed:8.
+The ID for this training is 1658686014.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 1.919e+02 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 111.38 | TL: 3.439e-01 | VA: 109.39 | VL: 3.604e-01 | Norm: 0.00e+00 | time: 1.86e+01 |
+| epoch:  200 | TA: 113.62 | TL: 3.074e-01 | VA: 110.03 | VL: 3.386e-01 | Norm: 0.00e+00 | time: 1.89e+01 |
+| epoch:  300 | TA: 117.86 | TL: 2.934e-01 | VA: 112.70 | VL: 3.326e-01 | Norm: 0.00e+00 | time: 1.89e+01 |
+| epoch:  400 | TA: 118.53 | TL: 2.825e-01 | VA: 111.80 | VL: 3.221e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  500 | TA: 119.89 | TL: 2.738e-01 | VA: 114.13 | VL: 3.165e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  600 | TA: 121.61 | TL: 2.665e-01 | VA: 113.29 | VL: 3.195e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  700 | TA: 123.48 | TL: 2.637e-01 | VA: 116.11 | VL: 3.202e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  800 | TA: 122.85 | TL: 2.632e-01 | VA: 116.86 | VL: 3.208e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  900 | TA: 123.01 | TL: 2.562e-01 | VA: 113.30 | VL: 3.195e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch: 1000 | TA: 122.76 | TL: 2.545e-01 | VA: 113.71 | VL: 3.222e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1100 | TA: 124.77 | TL: 2.533e-01 | VA: 115.53 | VL: 3.199e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1200 | TA: 122.44 | TL: 2.550e-01 | VA: 115.71 | VL: 3.201e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1300 | TA: 124.88 | TL: 2.509e-01 | VA: 115.75 | VL: 3.204e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1400 | TA: 123.45 | TL: 2.499e-01 | VA: 116.86 | VL: 3.183e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:43651.58322 seed:8.
+The ID for this training is 1658686308.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 2.901e+02 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 111.83 | TL: 3.433e-01 | VA: 109.17 | VL: 3.598e-01 | Norm: 0.00e+00 | time: 1.86e+01 |
+| epoch:  200 | TA: 114.63 | TL: 3.068e-01 | VA: 108.91 | VL: 3.412e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  300 | TA: 118.13 | TL: 2.904e-01 | VA: 112.91 | VL: 3.305e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  400 | TA: 118.97 | TL: 2.801e-01 | VA: 114.43 | VL: 3.250e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  500 | TA: 118.84 | TL: 2.758e-01 | VA: 109.49 | VL: 3.232e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  600 | TA: 118.31 | TL: 2.722e-01 | VA: 112.58 | VL: 3.253e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  700 | TA: 120.34 | TL: 2.686e-01 | VA: 114.38 | VL: 3.282e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  800 | TA: 120.61 | TL: 2.588e-01 | VA: 111.88 | VL: 3.295e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  900 | TA: 121.16 | TL: 2.558e-01 | VA: 115.30 | VL: 3.321e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1000 | TA: 121.69 | TL: 2.544e-01 | VA: 112.12 | VL: 3.263e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1100 | TA: 121.70 | TL: 2.520e-01 | VA: 113.62 | VL: 3.280e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1200 | TA: 121.49 | TL: 2.686e-01 | VA: 112.17 | VL: 3.384e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1300 | TA: 121.77 | TL: 2.514e-01 | VA: 115.72 | VL: 3.252e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1400 | TA: 121.09 | TL: 2.496e-01 | VA: 113.45 | VL: 3.265e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1500 | TA: 120.06 | TL: 2.687e-01 | VA: 115.04 | VL: 3.422e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+Early stop.
+Finished.
+Training with penalty:66069.3448 seed:8.
+The ID for this training is 1658686610.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 4.387e+02 | Norm: 6.63e-03 | time: 1.87e-01 |
+| epoch:  100 | TA: 113.18 | TL: 3.435e-01 | VA: 107.83 | VL: 3.601e-01 | Norm: 0.00e+00 | time: 1.86e+01 |
+| epoch:  200 | TA: 115.72 | TL: 3.068e-01 | VA: 109.89 | VL: 3.382e-01 | Norm: 0.00e+00 | time: 1.88e+01 |
+| epoch:  300 | TA: 119.16 | TL: 2.919e-01 | VA: 112.52 | VL: 3.336e-01 | Norm: 0.00e+00 | time: 1.88e+01 |
+| epoch:  400 | TA: 119.56 | TL: 2.817e-01 | VA: 115.26 | VL: 3.215e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  500 | TA: 119.28 | TL: 2.713e-01 | VA: 115.12 | VL: 3.190e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  600 | TA: 120.40 | TL: 2.654e-01 | VA: 114.86 | VL: 3.198e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  700 | TA: 122.54 | TL: 2.593e-01 | VA: 114.69 | VL: 3.191e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  800 | TA: 122.14 | TL: 2.560e-01 | VA: 115.58 | VL: 3.170e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch:  900 | TA: 123.76 | TL: 2.525e-01 | VA: 116.23 | VL: 3.115e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1000 | TA: 121.97 | TL: 2.532e-01 | VA: 113.15 | VL: 3.125e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1100 | TA: 125.27 | TL: 2.506e-01 | VA: 116.24 | VL: 3.123e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1200 | TA: 122.91 | TL: 2.496e-01 | VA: 116.35 | VL: 3.136e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1300 | TA: 122.76 | TL: 2.479e-01 | VA: 116.13 | VL: 3.136e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1400 | TA: 122.53 | TL: 2.486e-01 | VA: 113.39 | VL: 3.153e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1500 | TA: 125.65 | TL: 2.462e-01 | VA: 116.27 | VL: 3.133e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1600 | TA: 125.10 | TL: 2.490e-01 | VA: 114.93 | VL: 3.137e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1700 | TA: 123.74 | TL: 2.455e-01 | VA: 114.07 | VL: 3.167e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1800 | TA: 124.39 | TL: 2.444e-01 | VA: 114.88 | VL: 3.137e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1900 | TA: 123.85 | TL: 2.434e-01 | VA: 114.92 | VL: 3.140e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+Early stop.
+Finished.
+Training with penalty:100000.0 seed:8.
+The ID for this training is 1658687000.
+| epoch:    0 | TA: 56.50 | TL: 7.008e-01 | VA: 76.41 | VL: 6.636e+02 | Norm: 6.63e-03 | time: 1.86e-01 |
+| epoch:  100 | TA: 113.31 | TL: 3.438e-01 | VA: 106.28 | VL: 3.600e-01 | Norm: 0.00e+00 | time: 1.86e+01 |
+| epoch:  200 | TA: 116.54 | TL: 3.065e-01 | VA: 110.54 | VL: 3.423e-01 | Norm: 0.00e+00 | time: 1.89e+01 |
+| epoch:  300 | TA: 117.23 | TL: 2.913e-01 | VA: 113.86 | VL: 3.311e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  400 | TA: 120.86 | TL: 2.767e-01 | VA: 114.36 | VL: 3.255e-01 | Norm: 0.00e+00 | time: 1.90e+01 |
+| epoch:  500 | TA: 120.40 | TL: 2.708e-01 | VA: 114.88 | VL: 3.218e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  600 | TA: 121.32 | TL: 2.606e-01 | VA: 114.51 | VL: 3.223e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  700 | TA: 122.42 | TL: 2.567e-01 | VA: 115.52 | VL: 3.265e-01 | Norm: 0.00e+00 | time: 1.91e+01 |
+| epoch:  800 | TA: 122.55 | TL: 2.556e-01 | VA: 114.95 | VL: 3.265e-01 | Norm: 0.00e+00 | time: 1.92e+01 |
+| epoch:  900 | TA: 123.26 | TL: 2.531e-01 | VA: 114.54 | VL: 3.266e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1000 | TA: 124.57 | TL: 2.530e-01 | VA: 114.05 | VL: 3.304e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1100 | TA: 121.34 | TL: 2.522e-01 | VA: 114.69 | VL: 3.271e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1200 | TA: 122.70 | TL: 2.475e-01 | VA: 115.28 | VL: 3.316e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1300 | TA: 122.61 | TL: 2.475e-01 | VA: 112.12 | VL: 3.346e-01 | Norm: 0.00e+00 | time: 1.94e+01 |
+| epoch: 1400 | TA: 124.74 | TL: 2.470e-01 | VA: 114.27 | VL: 3.331e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+| epoch: 1500 | TA: 125.14 | TL: 2.458e-01 | VA: 114.90 | VL: 3.344e-01 | Norm: 0.00e+00 | time: 1.93e+01 |
+Early stop.
+Finished.
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc2n572
+Job ID: 20929393
+Cluster: uc2
+User/Group: px3192/tm
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 6
+CPU Utilized: 07:23:05
+CPU Efficiency: 16.48% of 1-20:48:42 core-walltime
+Job Wall-clock time: 07:28:07
+Memory Utilized: 23.44 GB
+Memory Efficiency: 6.21% of 377.57 GB
