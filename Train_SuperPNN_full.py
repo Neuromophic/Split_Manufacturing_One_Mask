@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#SBATCH --job-name=SuperPnnFull
+#SBATCH --job-name=SpNNFull
 
 #SBATCH --error=%x.%j.err
 #SBATCH --output=%x.%j.out
@@ -38,7 +38,7 @@ seed = int(sys.argv[1])
 topology_name = ''
 for t in config.full_topology:
     topology_name += str(t)
-whole_file_path = f'./result/super pNN {topology_name} full'
+whole_file_path = f'./result/super pNN full {topology_name}'
 if not os.path.exists(whole_file_path):
     os.mkdir(whole_file_path)
 if not os.path.exists(whole_file_path + '/model'):
@@ -99,9 +99,9 @@ X_trains = config.DataReshape(X_trains, config.MAX_IN)
 X_valids = config.DataReshape(X_valids, config.MAX_IN)
 
 # load normalization factors
-acc_reference = np.loadtxt(f'./result/seperate pNN {topology_name} full/acc_factor.txt').flatten()
-train_reference = np.loadtxt(f'./result/seperate pNN {topology_name} full/train_factor.txt').flatten()
-valid_reference = np.loadtxt(f'./result/seperate pNN {topology_name} full/valid_factor.txt').flatten()
+acc_reference = np.loadtxt(f'./result/seperate pNN full {topology_name}/acc_factor.txt').flatten()
+train_reference = np.loadtxt(f'./result/seperate pNN full {topology_name}/train_factor.txt').flatten()
+valid_reference = np.loadtxt(f'./result/seperate pNN full {topology_name}/valid_factor.txt').flatten()
 
 if not config.normalization:
     train_reference = np.ones(len(datasets))
@@ -116,7 +116,9 @@ train_factor = (train_factor / np.sum(train_factor)).tolist()
 valid_factor = (valid_factor / np.sum(valid_factor)).tolist()
 
 # hyper parameter for penalty
-alphas = np.logspace(np.log(1e-4), np.log(1e5), 51, base=np.e)
+alphas = np.zeros([102])
+alphas[1:-1] = np.logspace(np.log(1e-4), np.log(1e5), 100, base=np.e)
+alphas[-1] = 1e6
 alphas = np.round(alphas, 5)
 
 for alpha in alphas:

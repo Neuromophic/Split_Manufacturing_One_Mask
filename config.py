@@ -19,7 +19,7 @@ normalization = False
 # architecture for pNN
 MAX_IN = 9
 MAX_out = 8
-hidden = 2
+hidden = 3
 hidden_topology = [hidden, hidden]
 full_topology = [MAX_IN, hidden, MAX_out]
 semi_topology = [hidden, MAX_out]
@@ -77,3 +77,13 @@ def DataReshape(Xs, num_in):
             return torch.hstack([Xs, torch.zeros([Xs.shape[0], diff])])
         else:
             return Xs
+        
+hidden_topology_str = ''
+for t in hidden_topology:
+    hidden_topology_str += str(t)
+full_topology_str = ''
+for t in full_topology:
+    full_topology_str += str(t)
+semi_topology_str = ''
+for t in semi_topology:
+    semi_topology_str += str(t)

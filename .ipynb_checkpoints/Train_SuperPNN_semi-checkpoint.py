@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#SBATCH --job-name=SuperPnnSemi
+#SBATCH --job-name=SpNNSemi
 
 #SBATCH --error=%x.%j.err
 #SBATCH --output=%x.%j.out
@@ -38,7 +38,7 @@ seed = int(sys.argv[1])
 topology_name = ''
 for t in config.semi_topology:
     topology_name += str(t)
-whole_file_path = f'./result/super pNN {topology_name} semi'
+whole_file_path = f'./result/super pNN semi {topology_name}'
 if not os.path.exists(whole_file_path):
     os.mkdir(whole_file_path)
 if not os.path.exists(whole_file_path + '/model'):
@@ -96,9 +96,9 @@ print('Finish data loading.')
 
 
 # load normalization factors
-acc_reference = np.loadtxt(f'./result/seperate pNN {topology_name} semi/acc_factor.txt').flatten()
-train_reference = np.loadtxt(f'./result/seperate pNN {topology_name} semi/train_factor.txt').flatten()
-valid_reference = np.loadtxt(f'./result/seperate pNN {topology_name} semi/valid_factor.txt').flatten()
+acc_reference = np.loadtxt(f'./result/seperate pNN semi {topology_name}/acc_factor.txt').flatten()
+train_reference = np.loadtxt(f'./result/seperate pNN semi {topology_name}/train_factor.txt').flatten()
+valid_reference = np.loadtxt(f'./result/seperate pNN semi {topology_name}/valid_factor.txt').flatten()
 
 if not config.normalization:
     train_reference = np.ones(len(datasets))

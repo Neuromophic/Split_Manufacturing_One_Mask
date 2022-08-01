@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#SBATCH --job-name=SeperatePnnFull
+#SBATCH --job-name=SeperateFull
 
 #SBATCH --error=%x.%j.err
 #SBATCH --output=%x.%j.out
@@ -36,7 +36,7 @@ from torch.utils.data import DataLoader
 topology_name = ''
 for t in config.full_topology:
     topology_name += str(t)
-whole_file_path = f'./result/seperate pNN {topology_name} full'
+whole_file_path = f'./result/seperate pNN full {topology_name}'
 if not os.path.exists(whole_file_path):
     os.mkdir(whole_file_path)
 if not os.path.exists(whole_file_path + '/model'):

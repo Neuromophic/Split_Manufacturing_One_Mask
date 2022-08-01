@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/var/spool/slurmd/job20930316/slurm_script", line 43, in <module>
-    os.mkdir(whole_file_path)
-FileExistsError: [Errno 17] File exists: './result/super pNN 938 full'
