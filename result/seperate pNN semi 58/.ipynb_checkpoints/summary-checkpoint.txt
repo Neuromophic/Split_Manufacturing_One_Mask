@@ -1,3 +1,0 @@
-acuteinflammation        :		test acc: 1.0000 ± 0.0000		test maa: 1.0000 ± 0.0000		train loss: 0.0000 ± 0.0000		valid loss: 0.0000 ± 0.0000
-acutenephritis           :		test acc: 1.0000 ± 0.0000		test maa: 1.0000 ± 0.0000		train loss: 0.0000 ± 0.0000		valid loss: 0.0000 ± 0.0000
-balancescale             :		test acc: 0.8976 ± 0.0322		test maa: 0.8619 ± 0.0208		train loss: 0.0818 ± 0.0252		valid loss: 0.0663 ± 0.0347

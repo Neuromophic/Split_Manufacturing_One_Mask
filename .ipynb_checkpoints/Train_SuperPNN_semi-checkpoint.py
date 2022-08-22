@@ -10,10 +10,10 @@
 
 #SBATCH --export=ALL
 
-#SBATCH --time=24:00:00
+#SBATCH --time=48:00:00
 
 #SBATCH --partition=sdil
-#SBATCH --cpus-per-task=5
+#SBATCH --gres=gpu:1
 
 # Import library
 import importlib
@@ -113,7 +113,9 @@ train_factor = (train_factor / np.sum(train_factor)).tolist()
 valid_factor = (valid_factor / np.sum(valid_factor)).tolist()
 
 # hyper parameter for penalty
-alphas = np.logspace(np.log(1e-4), np.log(1e5), 51, base=np.e)
+alphas = np.zeros([102])
+alphas[1:-1] = np.logspace(np.log(1e-5), np.log(1e5), 100, base=np.e)
+alphas[-1] = 1e6
 alphas = np.round(alphas, 5)
 
 for alpha in alphas:

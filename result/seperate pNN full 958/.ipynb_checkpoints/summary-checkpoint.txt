@@ -1,6 +1,0 @@
-acuteinflammation        :		test acc: 1.0000 ± 0.0000		test maa: 1.0000 ± 0.0000		train loss: 0.0000 ± 0.0000		valid loss: 0.0000 ± 0.0000
-acutenephritis           :		test acc: 1.0000 ± 0.0000		test maa: 1.0000 ± 0.0000		train loss: 0.0000 ± 0.0000		valid loss: 0.0000 ± 0.0000
-balancescale             :		test acc: 0.9040 ± 0.0274		test maa: 0.8722 ± 0.0161		train loss: 0.0804 ± 0.0408		valid loss: 0.0555 ± 0.0367
-blood                    :		test acc: 0.7640 ± 0.0131		test maa: 0.7413 ± 0.0305		train loss: 0.2898 ± 0.0144		valid loss: 0.3387 ± 0.0064
-breastcancer             :		test acc: 0.7241 ± 0.0204		test maa: 0.7017 ± 0.0244		train loss: 0.2641 ± 0.0297		valid loss: 0.4581 ± 0.0397
-breastcancerwisc         :		test acc: 0.9650 ± 0.0050		test maa: 0.9629 ± 0.0053		train loss: 0.0246 ± 0.0065		valid loss: 0.0684 ± 0.0043
