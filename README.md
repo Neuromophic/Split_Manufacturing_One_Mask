@@ -8,3 +8,8 @@ Split Additive Manufacturing for Printed Neurmorphic Circuits
 Zhao, H.; Hefenbrock, M.; Beigl, M.; Tahoori, M.
 2023 Design, Automation & Test in Europe Conference & Exhibition (DATE), April 17-19, 2023, IEEE.
 ```
+
+# Usage of the code
+~~~
+$ sh traincommand.sh
+~~~
